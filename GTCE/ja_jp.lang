@@ -1881,24 +1881,24 @@ gregtech.machine.steam_alloy_smelter_bronze.name=Steam Alloy Smelter
 gregtech.machine.steam_alloy_smelter_steel.name=High Pressure Steam Alloy Smelter
 
 ## Generators
-gregtech.machine.diesel_generator.tooltip=Requires flammable Liquids
+gregtech.machine.diesel_generator.tooltip=可燃性液体が必要です
 
-gregtech.machine.diesel_generator.lv.name=Basic Diesel Generator
-gregtech.machine.diesel_generator.mv.name=Advanced Diesel Generator
-gregtech.machine.diesel_generator.hv.name=Turbo Diesel Generator
-gregtech.machine.diesel_generator.ev.name=Turbo Diesel Generator II
+gregtech.machine.diesel_generator.lv.name=基本型ディーゼル発電機
+gregtech.machine.diesel_generator.mv.name=発展型ディーゼル発電機
+gregtech.machine.diesel_generator.hv.name=ターボディーゼル発電機
+gregtech.machine.diesel_generator.ev.name=ターボディーゼル発電機 II
 
-gregtech.machine.steam_turbine.lv.name=Basic Steam Turbine
-gregtech.machine.steam_turbine.mv.name=Advanced Steam Turbine
-gregtech.machine.steam_turbine.hv.name=Turbo Steam Turbine
-gregtech.machine.steam_turbine.ev.name=Turbo Steam Turbine II
+gregtech.machine.steam_turbine.lv.name=基本型スチームタービン
+gregtech.machine.steam_turbine.mv.name=発展型スチームタービン
+gregtech.machine.steam_turbine.hv.name=ターボスチームタービン
+gregtech.machine.steam_turbine.ev.name=ターボスチームタービン II
 
-gregtech.machine.gas_turbine.tooltip=Requires flammable Gasses
+gregtech.machine.gas_turbine.tooltip=可燃性ガスが必要です
 
-gregtech.machine.gas_turbine.lv.name=Basic Gas Turbine
-gregtech.machine.gas_turbine.mv.name=Advanced Gas Turbine
-gregtech.machine.gas_turbine.hv.name=Turbo Gas Turbine
-gregtech.machine.gas_turbine.ev.name=Turbo Gas Turbine II
+gregtech.machine.gas_turbine.lv.name=基本型ガスタービン
+gregtech.machine.gas_turbine.mv.name=発展型ガスタービン
+gregtech.machine.gas_turbine.hv.name=ターボガスタービン
+gregtech.machine.gas_turbine.ev.name=ターボガスタービン II
 
 gregtech.machine.magic_energy_absorber.name=Magic Energy Absorber
 gregtech.machine.magic_energy_absorber.tooltip=Max Voltage OUT: §a2048 §7(§aEV§7)/nCollects energy from ender crystals in 64 blocks/nEach ender crystal adds 32 EU/t to output/nPlace Dragon Egg on top to amplify output/n/nWhen amplified:/nEach ender crystal adds 128 EU/t
@@ -1984,7 +1984,7 @@ gregtech.machine.chemical_bath.mv.name=発展型ケミカルバス
 gregtech.machine.chemical_bath.hv.name=発展型ケミカルバス II
 gregtech.machine.chemical_bath.ev.name=発展型ケミカルバス III
 
-gregtech.machine.chemical_reactor.tooltip=Letting Chemicals react with each other
+gregtech.machine.chemical_reactor.tooltip=化学物質を互いに反応させる 
 
 gregtech.machine.chemical_reactor.lv.name=基本型化学反応器
 gregtech.machine.chemical_reactor.mv.name=発展型化学反応器
@@ -2039,7 +2039,7 @@ gregtech.machine.fermenter.mv.name=発展型醗酵槽
 gregtech.machine.fermenter.hv.name=発展型醗酵槽 II
 gregtech.machine.fermenter.ev.name=発展型醗酵槽 III
 
-gregtech.machine.fluid_canner.tooltip=Puts fluids into and out of fluid containers
+gregtech.machine.fluid_canner.tooltip=液体を容器に出し入れします 
 gregtech.machine.fluid_canner.jei_description=You can fill and empty any fluid containers with the Fluid Canner (e.g. Buckets or Fluid Cells)
 
 gregtech.machine.fluid_canner.lv.name=基本型液体缶詰め機
@@ -2059,7 +2059,7 @@ gregtech.machine.fluid_heater.mv.name=発展型液体ヒーター
 gregtech.machine.fluid_heater.hv.name=発展型液体ヒーター II
 gregtech.machine.fluid_heater.ev.name=発展型液体ヒーター III
 
-gregtech.machine.fluid_solidifier.tooltip=Cools Fluids down to form Solids
+gregtech.machine.fluid_solidifier.tooltip=流体を冷却して固体に形成します 
 
 gregtech.machine.fluid_solidifier.lv.name=基本型液体成型機
 gregtech.machine.fluid_solidifier.mv.name=発展型液体成型機
@@ -2164,142 +2164,142 @@ gregtech.machine.hull.uv.name=UV マシン筐体
 gregtech.machine.hull.max.name=Max マシン筐体
 
 ## Battery buffers
-gregtech.machine.battery_buffer.ulv.1.name=Ultra Low Voltage Battery Buffer
-gregtech.machine.battery_buffer.ulv.4.name=Ultra Low Voltage Battery Buffer
-gregtech.machine.battery_buffer.ulv.9.name=Ultra Low Voltage Battery Buffer
-gregtech.machine.battery_buffer.ulv.16.name=Ultra Low Voltage Battery Buffer
+gregtech.machine.battery_buffer.ulv.1.name=ULV バッテリーバッファー (x1)
+gregtech.machine.battery_buffer.ulv.4.name=ULV バッテリーバッファー (x4)
+gregtech.machine.battery_buffer.ulv.9.name=ULV バッテリーバッファー (x9)
+gregtech.machine.battery_buffer.ulv.16.name=ULV バッテリーバッファー (x16)
 
-gregtech.machine.battery_buffer.lv.1.name=Low Voltage Battery Buffer
-gregtech.machine.battery_buffer.lv.4.name=Low Voltage Battery Buffer
-gregtech.machine.battery_buffer.lv.9.name=Low Voltage Battery Buffer
-gregtech.machine.battery_buffer.lv.16.name=Low Voltage Battery Buffer
+gregtech.machine.battery_buffer.lv.1.name=LV バッテリーバッファー (x1)
+gregtech.machine.battery_buffer.lv.4.name=LV バッテリーバッファー (x4)
+gregtech.machine.battery_buffer.lv.9.name=LV バッテリーバッファー (x9)
+gregtech.machine.battery_buffer.lv.16.name=LV バッテリーバッファー (x16)
 
-gregtech.machine.battery_buffer.mv.1.name=Medium Voltage Battery Buffer
-gregtech.machine.battery_buffer.mv.4.name=Medium Voltage Battery Buffer
-gregtech.machine.battery_buffer.mv.9.name=Medium Voltage Battery Buffer
-gregtech.machine.battery_buffer.mv.16.name=Medium Voltage Battery Buffer
+gregtech.machine.battery_buffer.mv.1.name=MV バッテリーバッファー (x1)
+gregtech.machine.battery_buffer.mv.4.name=MV バッテリーバッファー (x4)
+gregtech.machine.battery_buffer.mv.9.name=MV バッテリーバッファー (x9)
+gregtech.machine.battery_buffer.mv.16.name=MV バッテリーバッファー (x16)
 
-gregtech.machine.battery_buffer.hv.1.name=High Voltage Battery Buffer
-gregtech.machine.battery_buffer.hv.4.name=High Voltage Battery Buffer
-gregtech.machine.battery_buffer.hv.9.name=High Voltage Battery Buffer
-gregtech.machine.battery_buffer.hv.16.name=High Voltage Battery Buffer
+gregtech.machine.battery_buffer.hv.1.name=HV バッテリーバッファー (x1)
+gregtech.machine.battery_buffer.hv.4.name=HV バッテリーバッファー (x4)
+gregtech.machine.battery_buffer.hv.9.name=HV バッテリーバッファー (x9)
+gregtech.machine.battery_buffer.hv.16.name=HV バッテリーバッファー (x16)
 
-gregtech.machine.battery_buffer.ev.1.name=Extreme Voltage Battery Buffer
-gregtech.machine.battery_buffer.ev.4.name=Extreme Voltage Battery Buffer
-gregtech.machine.battery_buffer.ev.9.name=Extreme Voltage Battery Buffer
-gregtech.machine.battery_buffer.ev.16.name=Extreme Voltage Battery Buffer
+gregtech.machine.battery_buffer.ev.1.name=EV バッテリーバッファー (x1)
+gregtech.machine.battery_buffer.ev.4.name=EV バッテリーバッファー (x4)
+gregtech.machine.battery_buffer.ev.9.name=EV バッテリーバッファー (x9)
+gregtech.machine.battery_buffer.ev.16.name=EV バッテリーバッファー (x16)
 
-gregtech.machine.battery_buffer.iv.1.name=Insane Voltage Battery Buffer
-gregtech.machine.battery_buffer.iv.4.name=Insane Voltage Battery Buffer
-gregtech.machine.battery_buffer.iv.9.name=Insane Voltage Battery Buffer
-gregtech.machine.battery_buffer.iv.16.name=Insane Voltage Battery Buffer
+gregtech.machine.battery_buffer.iv.1.name=IV バッテリーバッファー (x1)
+gregtech.machine.battery_buffer.iv.4.name=IV バッテリーバッファー (x4)
+gregtech.machine.battery_buffer.iv.9.name=IV バッテリーバッファー (x9)
+gregtech.machine.battery_buffer.iv.16.name=IV バッテリーバッファー (x16)
 
-gregtech.machine.battery_buffer.luv.1.name=Ludicrous Voltage Battery Buffer
-gregtech.machine.battery_buffer.luv.4.name=Ludicrous Voltage Battery Buffer
-gregtech.machine.battery_buffer.luv.9.name=Ludicrous Voltage Battery Buffer
-gregtech.machine.battery_buffer.luv.16.name=Ludicrous Voltage Battery Buffer
+gregtech.machine.battery_buffer.luv.1.name=LuV バッテリーバッファー (x1)
+gregtech.machine.battery_buffer.luv.4.name=LuV バッテリーバッファー (x4)
+gregtech.machine.battery_buffer.luv.9.name=LuV バッテリーバッファー (x9)
+gregtech.machine.battery_buffer.luv.16.name=LuV バッテリーバッファー (x16)
 
-gregtech.machine.battery_buffer.zpm.1.name=ZPM Voltage Battery Buffer
-gregtech.machine.battery_buffer.zpm.4.name=ZPM Voltage Battery Buffer
-gregtech.machine.battery_buffer.zpm.9.name=ZPM Voltage Battery Buffer
-gregtech.machine.battery_buffer.zpm.16.name=ZPM Voltage Battery Buffer
+gregtech.machine.battery_buffer.zpm.1.name=ZPN バッテリーバッファー (x1)
+gregtech.machine.battery_buffer.zpm.4.name=ZPN バッテリーバッファー (x4)
+gregtech.machine.battery_buffer.zpm.9.name=ZPN バッテリーバッファー (x9)
+gregtech.machine.battery_buffer.zpm.16.name=ZPN バッテリーバッファー (x16)
 
-gregtech.machine.battery_buffer.uv.1.name=Ultimate Voltage Battery Buffer
-gregtech.machine.battery_buffer.uv.4.name=Ultimate Voltage Battery Buffer
-gregtech.machine.battery_buffer.uv.9.name=Ultimate Voltage Battery Buffer
-gregtech.machine.battery_buffer.uv.16.name=Ultimate Voltage Battery Buffer
+gregtech.machine.battery_buffer.uv.1.name=UV バッテリーバッファー (x1)
+gregtech.machine.battery_buffer.uv.4.name=UV バッテリーバッファー (x4)
+gregtech.machine.battery_buffer.uv.9.name=UV バッテリーバッファー (x9)
+gregtech.machine.battery_buffer.uv.16.name=UV バッテリーバッファー (x16)
 
-gregtech.machine.battery_buffer.max.1.name=MAX Voltage Battery Buffer
-gregtech.machine.battery_buffer.max.4.name=MAX Voltage Battery Buffer
-gregtech.machine.battery_buffer.max.9.name=MAX Voltage Battery Buffer
-gregtech.machine.battery_buffer.max.16.name=MAX Voltage Battery Buffer
+gregtech.machine.battery_buffer.max.1.name=MAX バッテリーバッファー (x1)
+gregtech.machine.battery_buffer.max.4.name=MAX バッテリーバッファー (x4)
+gregtech.machine.battery_buffer.max.9.name=MAX バッテリーバッファー (x9)
+gregtech.machine.battery_buffer.max.16.name=MAX バッテリーバッファー (x16)
 
 ## Transformers
-gregtech.machine.transformer.tooltip_tool_usage=Use Soft Hammer to invert (Starts as Transform Down)
+gregtech.machine.transformer.tooltip_tool_usage=ソフトハンマーで設定を反転できます（初期設定は降圧）
 gregtech.machine.transformer.tooltip_transform_down=Transform Down:
-gregtech.machine.transformer.message_transform_down=Transforming Down, In: %,dV %,d Amp, Out: %,dV %,d Amp
+gregtech.machine.transformer.message_transform_down=降圧、 In: %,dV %,d Amp, Out: %,dV %,d Amp
 gregtech.machine.transformer.tooltip_transform_up=Transform Up:
-gregtech.machine.transformer.message_transform_up=Transforming Up, In: %,dV %,d Amp, Out: %,dV %,d Amp
+gregtech.machine.transformer.message_transform_up=昇圧、 In: %,dV %,d Amp, Out: %,dV %,d Amp
 
-gregtech.machine.transformer.lv.name=Low Voltage Transformer
-gregtech.machine.transformer.mv.name=Medium Voltage Transformer
-gregtech.machine.transformer.hv.name=High Voltage Transformer
-gregtech.machine.transformer.ev.name=Extreme Voltage Transformer
-gregtech.machine.transformer.iv.name=Insane Voltage Transformer
-gregtech.machine.transformer.luv.name=Ludicrous Voltage Transformer
-gregtech.machine.transformer.zpm.name=ZPM Voltage Transformer
-gregtech.machine.transformer.uv.name=Ultimate Voltage Transformer
-gregtech.machine.transformer.max.name=MAX Voltage Transformer
+gregtech.machine.transformer.lv.name=LV 変換器
+gregtech.machine.transformer.mv.name=MV 変換器
+gregtech.machine.transformer.hv.name=HV 変換器
+gregtech.machine.transformer.ev.name=EV 変換器
+gregtech.machine.transformer.iv.name=IV 変換器
+gregtech.machine.transformer.luv.name=LuV 変換器
+gregtech.machine.transformer.zpm.name=ZPM 変換器
+gregtech.machine.transformer.uv.name=UV 変換器
+gregtech.machine.transformer.max.name=MAX 変換器
 
 ## Chargers
-gregtech.machine.charger.ulv.name=Ultra Low Voltage Battery Charger
-gregtech.machine.charger.lv.name=Low Voltage Battery Charger
-gregtech.machine.charger.mv.name=Medium Voltage Battery Charger
-gregtech.machine.charger.hv.name=High Voltage Battery Charger
-gregtech.machine.charger.ev.name=Extreme Voltage Battery Charger
-gregtech.machine.charger.iv.name=Insane Voltage Battery Charger
-gregtech.machine.charger.luv.name=Ludicrous Voltage Battery Charger
-gregtech.machine.charger.zpm.name=ZPM Voltage Battery Charger
-gregtech.machine.charger.uv.name=Ultimate Voltage Battery Charger
-gregtech.machine.charger.max.name=MAX Voltage Battery Charger
+gregtech.machine.charger.ulv.name=ULV 充電器
+gregtech.machine.charger.lv.name=LV 充電器
+gregtech.machine.charger.mv.name=MV 充電器
+gregtech.machine.charger.hv.name=HV 充電器
+gregtech.machine.charger.ev.name=EV 充電器
+gregtech.machine.charger.iv.name=IV 充電器
+gregtech.machine.charger.luv.name=LuV 充電器
+gregtech.machine.charger.zpm.name=ZPM 充電器
+gregtech.machine.charger.uv.name=UV 充電器
+gregtech.machine.charger.max.name=MAX 充電器
 
 ## Pumps
-gregtech.machine.pump.tooltip_range=Pumping Area: %,dx%,d
+gregtech.machine.pump.tooltip_range=揚水領域: %,dx%,d
 gregtech.machine.pump.tooltip_speed=Pumps Fluid every %,d ticks
 
-gregtech.machine.pump.lv.name=Basic Pump
-gregtech.machine.pump.mv.name=発展型 Pump
-gregtech.machine.pump.hv.name=発展型 Pump II
-gregtech.machine.pump.ev.name=発展型 Pump III
+gregtech.machine.pump.lv.name=基本型ポンプ
+gregtech.machine.pump.mv.name=発展型ポンプ
+gregtech.machine.pump.hv.name=発展型ポンプ II
+gregtech.machine.pump.ev.name=発展型ポンプ III
 
-gregtech.machine.item_collector.lv.name=Basic Item Collector
-gregtech.machine.item_collector.mv.name=Advanced Item Collector
-gregtech.machine.item_collector.hv.name=Advanced Item Collector II
-gregtech.machine.item_collector.ev.name=Advanced Item Collector III
+gregtech.machine.item_collector.lv.name=基本型アイテムコレクター
+gregtech.machine.item_collector.mv.name=発展型アイテムコレクター
+gregtech.machine.item_collector.hv.name=発展型アイテムコレクター II
+gregtech.machine.item_collector.ev.name=発展型アイテムコレクター III
 
-gregtech.machine.item_collector.collect_range=Collection Area: %,dx%,d
-gregtech.machine.item_collector.gui.collect_range=Collect in %s blocks
+gregtech.machine.item_collector.collect_range=コレクション領域: %,dx%,d
+gregtech.machine.item_collector.gui.collect_range=%sブロックで収集
 
 ## Quantum chests
-gregtech.machine.quantum_chest.tooltip=Better than JABBA.
-gregtech.machine.quantum_chest.capacity=Item Capacity: %,d items
-gregtech.machine.quantum_chest.items_stored=Item Amount:
+gregtech.machine.quantum_chest.tooltip=1種類のアイテムをとてつもない数を保存できる
+gregtech.machine.quantum_chest.capacity=アイテム容量 : %,d 個
+gregtech.machine.quantum_chest.items_stored=アイテム量 :
 
-gregtech.machine.quantum_chest.mv.name=Basic Quantum Chest
-gregtech.machine.quantum_chest.hv.name=Advanced Quantum Chest
-gregtech.machine.quantum_chest.ev.name=Advanced Quantum Chest II
-gregtech.machine.quantum_chest.iv.name=Black Hole-Quantum Chest III
+gregtech.machine.quantum_chest.mv.name=基本型クアンタムチェスト
+gregtech.machine.quantum_chest.hv.name=発展型クアンタムチェスト
+gregtech.machine.quantum_chest.ev.name=発展型クアンタムチェスト II
+gregtech.machine.quantum_chest.iv.name=ブラックホールクアンタムチェスト III
 
 ## Quantum tanks
-gregtech.machine.quantum_tank.tooltip=Compact place to store all your fluids.
-gregtech.machine.quantum_tank.capacity=Fluid Capacity: %,d mb
+gregtech.machine.quantum_tank.tooltip=1ブロックでとてつもない液体を保存できる。
+gregtech.machine.quantum_tank.capacity=液体容量 : %,d mb
 
-gregtech.machine.quantum_tank.mv.name=Basic Quantum Tank
-gregtech.machine.quantum_tank.hv.name=Advanced Quantum Tank
-gregtech.machine.quantum_tank.ev.name=Advanced Quantum Tank II
-gregtech.machine.quantum_tank.iv.name=Black Hole-Quantum Tank III
+gregtech.machine.quantum_tank.mv.name=基本型クアンタムタンク
+gregtech.machine.quantum_tank.hv.name=発展型クアンタムタンク
+gregtech.machine.quantum_tank.ev.name=発展型クアンタムタンク II
+gregtech.machine.quantum_tank.iv.name=ブラックホールクアンタムタンク III
 
 ## Air Collectors
-gregtech.machine.air_collector.lv.name=Basic Air Collector
-gregtech.machine.air_collector.mv.name=Advanced Air Collector
-gregtech.machine.air_collector.hv.name=Advanced Air Collector II
-gregtech.machine.air_collector.ev.name=Atmosphere Collector III
-gregtech.machine.air_collector.tooltip=Collects air from adjacent blocks at the expense of energy
+gregtech.machine.air_collector.lv.name=基本型エアコレクター
+gregtech.machine.air_collector.mv.name=発展型エアコレクター
+gregtech.machine.air_collector.hv.name=発展型エアコレクター II
+gregtech.machine.air_collector.ev.name=アトモスフィアエアコレクター III
+gregtech.machine.air_collector.tooltip=隣接するブロックから空気を収集します
 gregtech.machine.air_collector.collection_speed=Produces %,d mb of Air every %,d ticks
-gregtech.machine.air_collector.jei_description=The Air Collector collects air from adjacent blocks for a little bit of EU
+gregtech.machine.air_collector.jei_description=エアコレクターは少しEUで空気を収集します
 
 ## Tesla Coil
-gregtech.machine.tesla_coil.name=Tesla Coil
-gregtech.machine.tesla_coil.description=Damages all living entities within 7 blocks range/nConsumes 2500 EU for 1 damage point/nInternal buffer Capacity: §e256k EU
+gregtech.machine.tesla_coil.name=テスラコイル
+gregtech.machine.tesla_coil.description=7ブロックの範囲内のすべての生き物にダメージを与えます/n2500EUを消費します /n内部バッファー容量： §e256k EU
 
 ## Fisher
-gregtech.machine.fisher.lv.name=Basic Fisher
-gregtech.machine.fisher.mv.name=Advanced Fisher
-gregtech.machine.fisher.hv.name=Advanced Fisher II
-gregtech.machine.fisher.ev.name=Advanced Fisher III
-gregtech.machine.fisher.tooltip=Costs string to fish. Consumes one string each time.
+gregtech.machine.fisher.lv.name=基本型フィッシャー
+gregtech.machine.fisher.mv.name=発展型フィッシャー
+gregtech.machine.fisher.hv.name=発展型フィッシャー II
+gregtech.machine.fisher.ev.name=発展型フィッシャー III
+gregtech.machine.fisher.tooltip=釣りに糸を要します。1アイテム1つの糸を消費します。 
 gregtech.machine.fisher.speed=Catches something every %,d ticks
-gregtech.machine.fisher.requirement=Requires a square of water with size of %,d blocks directly below.
+gregtech.machine.fisher.requirement=真下に%,dロックのサイズの正方形の水が必要です。
 
 ## General machinery
 gregtech.machine.basic.input_from_output_side.allow=Allow Input from Output Side
@@ -2688,39 +2688,39 @@ achievement.denseaspossible.desc=Produce Neutronium
 achievement.whatnow=What now?
 achievement.whatnow.desc=Craft a Ultimate Battery
 
-for.bees.species.clay=Clay
-for.bees.species.slimeball=Slimeball
-for.bees.species.peat=Peat
-for.bees.species.stickyresin=Stickyresin
-for.bees.species.coal=Coal
-for.bees.species.oil=Oil
-for.bees.species.redstone=Redstone
-for.bees.species.lapis=Lapis
-for.bees.species.certus=Certus
-for.bees.species.ruby=Ruby
-for.bees.species.sapphire=Sapphire
-for.bees.species.diamond=Diamond
-for.bees.species.olivine=Olivine
-for.bees.species.emerald=Emerald
-for.bees.species.copper=Copper
-for.bees.species.tin=Tin
-for.bees.species.lead=Lead
-for.bees.species.iron=Iron
-for.bees.species.steel=Steel
-for.bees.species.nickel=Nickel
-for.bees.species.zinc=Zinc
-for.bees.species.silver=Silver
-for.bees.species.gold=Gold
-for.bees.species.aluminium=Aluminium
-for.bees.species.titanium=Titanium
-for.bees.species.chrome=Chrome
-for.bees.species.manganese=Manganese
-for.bees.species.tungsten=Tungsten
-for.bees.species.platinum=Platinum
-for.bees.species.iridium=Iridium
-for.bees.species.uranium=Uranium
-for.bees.species.plutonium=Plutonium
-for.bees.species.naquadah=Naquadah
+for.bees.species.clay=粘土
+for.bees.species.slimeball=スライムボール
+for.bees.species.peat=泥炭
+for.bees.species.stickyresin=樹液
+for.bees.species.coal=石炭
+for.bees.species.oil=油
+for.bees.species.redstone=レッドストーン
+for.bees.species.lapis=ラピス
+for.bees.species.certus=ケルタス
+for.bees.species.ruby=ルビー
+for.bees.species.sapphire=サファイア
+for.bees.species.diamond=ダイヤモンド
+for.bees.species.olivine=オリビン
+for.bees.species.emerald=エメラルド
+for.bees.species.copper=銅
+for.bees.species.tin=錫
+for.bees.species.lead=鉛
+for.bees.species.iron=鉄
+for.bees.species.steel=スチール
+for.bees.species.nickel=ニッケル
+for.bees.species.zinc=亜鉛
+for.bees.species.silver=銀
+for.bees.species.gold=ゴールド
+for.bees.species.aluminium=アルミニウム
+for.bees.species.titanium=チタン
+for.bees.species.chrome=クロム
+for.bees.species.manganese=マンガン
+for.bees.species.tungsten=タングステン
+for.bees.species.platinum=プラチナ
+for.bees.species.iridium=イリジウム
+for.bees.species.uranium=ウラン
+for.bees.species.plutonium=プルトニウム
+for.bees.species.naquadah=ナクアダ
 
 behaviour.scoop=Catches Butterflies on Leftclick
 behaviour.softhammer=Activates and Deactivates Machines
@@ -2898,39 +2898,39 @@ gregtech.fluid.click_to_empty.shift=§7(Shift-clicking will empty all containers
 gregtech.fluid.plasma=%s プラズマ
 gregtech.fluid.empty=空の
 gregtech.fluid.amount=§7%,d/%,d
-gregtech.fluid.temperature=§7Temperature: %,dK
-gregtech.fluid.state_gas=§7State: Gaseous
-gregtech.fluid.state_liquid=§7State: Liquid
+gregtech.fluid.temperature=§7温度 :  %,dK
+gregtech.fluid.state_gas=§7状態 : 気体
+gregtech.fluid.state_liquid=§7状態 : 液体
 gregtech.gui.fuel_amount=燃料量:
 gregtech.gui.fluid_amount=液体量:
-gregtech.gui.toggle_view.disabled=Toggle View (Fluids)
-gregtech.gui.toggle_view.enabled=Toggle View (Items)
+gregtech.gui.toggle_view.disabled=ビューの切り替え(液体)
+gregtech.gui.toggle_view.enabled=ビューの切り替え(アイテム)
 gregtech.gui.overclock.enabled=Overclocking Enabled./nClick to Disable
 gregtech.gui.overclock.disabled=Overclocking Disabled./nClick to Enable
 gregtech.gui.overclock.description=Recipes can overclock to this tier./nOFF means no overclocking is performed.
 gregtech.gui.overclock.off=OFF
-gregtech.gui.sort=Sort
-gregtech.gui.fluid_auto_output.tooltip.enabled=Fluid Auto-Output Enabled
-gregtech.gui.fluid_auto_output.tooltip.disabled=Fluid Auto-Output Disabled
-gregtech.gui.item_auto_output.tooltip.enabled=Item Auto-Output Enabled
-gregtech.gui.item_auto_output.tooltip.disabled=Item Auto-Output Disabled
+gregtech.gui.sort=ソート
+gregtech.gui.fluid_auto_output.tooltip.enabled=液体の自動出力が有効
+gregtech.gui.fluid_auto_output.tooltip.disabled=液体の自動出力が無効
+gregtech.gui.item_auto_output.tooltip.enabled=アイテムの自動出力が有効
+gregtech.gui.item_auto_output.tooltip.disabled=アイテムの自動出力が無効
 
-gregtech.jei.ore_by_product_from_ore=Use %s for %s
-gregtech.jei.ore_by_product_from_machine=Produce by processing %s with %s
-gregtech.jei.ore_by_product_not_obtainable=Byproduct not obtainable
+gregtech.jei.ore_by_product_from_ore=%sに%sを使用
+gregtech.jei.ore_by_product_from_machine=%sを%sで処理して生成
+gregtech.jei.ore_by_product_not_obtainable=手できない副産物
 
-ore.spawnlocation.name=Ore Spawn Information
-gregtech.jei.ore.surface_rock_1=Surface Rocks with this material denote vein spawn locations.
+ore.spawnlocation.name=鉱石埋蔵情報 
+gregtech.jei.ore.surface_rock_1=この物質の岩の近くに鉱脈があります。
 gregtech.jei.ore.surface_rock_2=They can be broken for 3 Tiny Piles of the dust, with Fortune giving a bonus.
-gregtech.jei.ore.biome_weighting=%s Weight: %d
-gregtech.jei.ore.biome_weighting_no_spawn=%s Weight: Cannot Spawn
+gregtech.jei.ore.biome_weighting=%s ウエイト: %d
+gregtech.jei.ore.biome_weighting_no_spawn=%s ウエイト: 見つかりません
 
-gregtech.item_filter.empty_item=Empty (No Item)
+gregtech.item_filter.empty_item=空 (アイテムなし)
 gregtech.item_filter.footer=§eClick with item to override
 
-gregtech.cable.voltage=Voltage: §a%,d §7(§a%s§7)
-gregtech.cable.amperage=Amperage: §e%,d
-gregtech.cable.loss_per_block=Loss per block: §c%,d
+gregtech.cable.voltage=電圧: §a%,d §7(§a%s§7)
+gregtech.cable.amperage=アンペア: §e%,d
+gregtech.cable.loss_per_block=ブロックあたりの損失: §c%,d
 
 gregtech.fluid_pipe.throughput=Transfer: §e%,d mb/t
 gregtech.fluid_pipe.max_temperature=Max Temperature: §c%,dK
@@ -2938,9 +2938,9 @@ gregtech.fluid_pipe.non_gas_proof=Can't transfer gases.
 
 gregtech.multiblock.work_paused=Work Paused.
 gregtech.multiblock.running=Running perfectly.
-gregtech.multiblock.idling=Idling.
+gregtech.multiblock.idling=アイドル状態
 gregtech.multiblock.not_enough_energy=WARNING: Machine needs more energy.
-gregtech.multiblock.progress=Progress: %s%%
+gregtech.multiblock.progress=進行状況： %s%%
 gregtech.multiblock.invalid_structure=Invalid structure.
 gregtech.multiblock.invalid_structure.tooltip=This block is a controller of the multiblock structure. For building help, see structure template in JEI
 gregtech.multiblock.validation_failed=Invalid amount of inputs/outputs.
@@ -2965,8 +2965,8 @@ gregtech.multiblock.turbine.rotor_efficiency=Rotor Efficiency: %s%%
 gregtech.multiblock.turbine.rotor_durability=Rotor Durability: %s%%
 gregtech.multiblock.turbine.low_rotor_durability=WARNING: Rotor Durability below %s%% (%s%%)
 
-gregtech.multiblock.large_boiler.temperature=Temperature: %s / %s C
-gregtech.multiblock.large_boiler.steam_output=Steam Output: %s mb/t
+gregtech.multiblock.large_boiler.temperature=温度： %s / %s C
+gregtech.multiblock.large_boiler.steam_output=スチーム出力： %s mb/t
 gregtech.multiblock.large_boiler.throttle=Throttle: %d %% (%d %% eff.)
 gregtech.multiblock.large_boiler.message_throttle_change=Throttle changed to: %d %%
 gregtech.multiblock.large_boiler.message_throttle_too_hot=Boiler is running too hot to throttle!
