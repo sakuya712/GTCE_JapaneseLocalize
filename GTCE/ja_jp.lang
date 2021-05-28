@@ -1558,103 +1558,103 @@ item.wheat.dustTiny=Tiny Pile of Flour
 item.wheat.dustSmall=Small Pile of Flour
 item.wheat.dust=Flour
 
-recipemap.orewasher.name=鉱石洗浄
+recipemap.orewasher.name=鉱石洗浄機
 recipemap.thermal_centrifuge.name=熱遠心分離機
-recipemap.extractor.name=抽出器
+recipemap.extractor.name=抽出機
 recipemap.recycler.name=リサイクラー
 recipemap.furnace.name=かまど
 recipemap.microwave.name=電子レンジ
-recipemap.scanner.name=スキャナー
+recipemap.scanner.name=スキャナー機
 recipemap.rockbreaker.name=ロックブレイカー
 recipemap.byproductlist.name=鉱石副産物リスト
-recipemap.replicator.name=レプリケーター
-recipemap.assemblyline.name=組み立てライン
-recipemap.assembler.name=組立
+recipemap.replicator.name=複製機
+recipemap.assemblyline.name=アセンブリライン
+recipemap.assembler.name=組立機
 recipemap.press.name=成形機
-recipemap.macerator.name=粉砕
-recipemap.unpackager.name=アンパッケージャー
+recipemap.macerator.name=粉砕機
+recipemap.unpackager.name=開梱機
 recipemap.fluid_canner.name=液体缶詰機
 recipemap.plasma_arc_furnace.name=プラズマアーク炉
 recipemap.arc_furnace.name=アーク炉
-recipemap.sifter.name=ふるい
+recipemap.sifter.name=ふるい機
 recipemap.laser_engraver.name=精密レーザー彫刻
 recipemap.mixer.name=ミキサー
-recipemap.autoclave.name=Autoclave
-recipemap.electromagnetic_separator.name=Electromagnetic Separator
-recipemap.polarizer.name=Electromagnetic Polarizer
-recipemap.chemical_bath.name=Chemical Bath
-recipemap.brewer.name=Brewing Machine
-recipemap.fluid_heater.name=Fluid Heater
-recipemap.distillery.name=Distillery
-recipemap.fermenter.name=Fermenter
-recipemap.fluid_solidifier.name=Fluid Solidifier
-recipemap.fluid_extractor.name=Fluid Extractor
-recipemap.packager.name=Packager
-recipemap.fusion_reactor.name=Fusion Reactor
-recipemap.fusion_reactor.value=Start: %s EU
-recipemap.centrifuge.name=Centrifuge
-recipemap.electrolyzer.name=Electrolyzer
-recipemap.blast_furnace.name=Blast Furnace
-recipemap.blast_furnace.value=Heat Capacity: %s K
-recipemap.implosion_compressor.name=Implosion Compressor
-recipemap.vacuum_freezer.name=Vacuum Freezer
-recipemap.chemical_reactor.name=Chemical Reactor
-recipemap.distillation_tower.name=Distillation Tower
-recipemap.cracker.name=Cracking Unit
-recipemap.pyro.name=Pyrolyse Oven
-recipemap.wiremill.name=Wiremill
-recipemap.metal_bender.name=Metal Bender
-recipemap.alloy_smelter.name=Alloy Smelter
-recipemap.canner.name=Canning Machine
-recipemap.lathe.name=Lathe
-recipemap.cutting_saw.name=Cutting Saw
-recipemap.slicer.name=Slicer
-recipemap.extruder.name=Extruder
-recipemap.hammer.name=Hammer
+recipemap.autoclave.name=オートクレーブ
+recipemap.electromagnetic_separator.name=電磁分離機
+recipemap.polarizer.name=偏光機
+recipemap.chemical_bath.name=化学槽
+recipemap.brewer.name=醸造機
+recipemap.fluid_heater.name=液体ヒーター
+recipemap.distillery.name=蒸留機
+recipemap.fermenter.name=醗酵槽
+recipemap.fluid_solidifier.name=液体成形機
+recipemap.fluid_extractor.name=融解機
+recipemap.packager.name=包装機
+recipemap.fusion_reactor.name=核融合炉 
+recipemap.fusion_reactor.value=スタート: %s EU
+recipemap.centrifuge.name=遠心分離機
+recipemap.electrolyzer.name=電解槽
+recipemap.blast_furnace.name=高炉
+recipemap.blast_furnace.value=必要な加熱能力: %s K
+recipemap.implosion_compressor.name=爆縮圧縮機
+recipemap.vacuum_freezer.name=バキュームフリーザー
+recipemap.chemical_reactor.name=化学反応機
+recipemap.distillation_tower.name=蒸留塔
+recipemap.cracker.name=クラッカーユニット
+recipemap.pyro.name=熱分解オーブン
+recipemap.wiremill.name=ワイヤー作製機
+recipemap.metal_bender.name=曲げ機
+recipemap.alloy_smelter.name=合金かまど
+recipemap.canner.name=缶詰め機
+recipemap.lathe.name=旋盤
+recipemap.cutting_saw.name=切削加工機
+recipemap.slicer.name=スライサー
+recipemap.extruder.name=押出機
+recipemap.hammer.name=ハンマー
 recipemap.uuamplifier.name=UU Amplifier
-recipemap.forming_press.name=Forming Press
-recipemap.forge_hammer.name=Forge Hammer
-recipemap.compressor.name=Compressor
-recipemap.packer.name=Packer
-recipemap.unpacker.name=Unpacker
-recipemap.diesel_generator.name=Diesel Generator
-recipemap.gas_turbine.name=Gas Turbine
-recipemap.steam_turbine.name=Steam Turbine
-recipemap.semi_fluid_generator.name=Semi Fluid Fuels
-recipemap.plasma_generator.name=Plasma Generator
+recipemap.forming_press.name=成形機
+recipemap.forge_hammer.name=鍛造機
+recipemap.compressor.name=圧縮機
+recipemap.packer.name=包装機
+recipemap.unpacker.name=開梱機
+recipemap.diesel_generator.name=ディーゼル発電機
+recipemap.gas_turbine.name=ガスタービン
+recipemap.steam_turbine.name=スチームタービン
+recipemap.semi_fluid_generator.name=半流体の燃料
+recipemap.plasma_generator.name=プラズマ発電機
 
-behaviour.hoe=Can till dirt
-behaviour.soft_hammer=Use on machine to allow/disallow it to work
-behaviour.lighter.tooltip=Can light things on fire
-behaviour.lighter.uses=Remaining uses: %,d
+behaviour.hoe=土を耕すことができる
+behaviour.soft_hammer=機械の動作の許可/禁止を切り替える
+behaviour.lighter.tooltip=火を確実につけることができる
+behaviour.lighter.uses=使用回数残り: %,d
 behavior.plunger.description=Use to clear 1000 mb out of a machine's output tank./nUse while sneaking to clear 1000 mb out of a machine's input tank./nInput tank clearing works only on GTCE machines!
 behavior.toggle_energy_consumer.tooltip=Use to toggle mode
 
 enchantment.damage.endermen=Disjunction
 enchantment.damage.radioactivity=Radioactivity
 
-tile.gt.seal.name=Sealed Block
+tile.gt.seal.name=シールドブロック
 tile.gt.foam.name=フォーム
 tile.gt.reinforced_foam.name=強化フォーム
-tile.gt.petrified_foam.name=Petrified Foam
-tile.gt.reinforced_stone.name=Reinforced Stone
-tile.gt.crusher_blade.name=Crusher Blade
+tile.gt.petrified_foam.name=石化したフォーム
+tile.gt.reinforced_stone.name=強化された石
+tile.gt.crusher_blade.name=クラッシャーブレード
 tile.gt.log.rubber_wood.name=ラバーウッド
 tile.gt.leaves.rubber_wood.name=ラバーウッドの葉
 tile.gt.sapling.rubber_wood.name=ラバーウッドの苗木
 
-tile.surface_rock.name=Surface Rock
+tile.surface_rock.name=地表の岩
 
-tile.surface_rock_new.name=Surface Rock
-gregtech.block.surface_rock.material=Rock Material: %s
-gregtech.block.surface_rock.underground_materials=Underground Materials: %s
+tile.surface_rock_new.name=地表の岩
+gregtech.block.surface_rock.material=岩の物質: %s
+gregtech.block.surface_rock.underground_materials=地下の資源: %s
 
-metaitem.scanner.name=Scanner
-metaitem.scanner.tooltip=Hold right mouse button on surface rocks/nto discover underground materials
-behavior.scanner.analyzing=Analyzing...
-behavior.scanner.analyzing_failed=Analyzing failed!
-behavior.scanner.analyzing_complete=Analyzing complete!
-behavior.scanner.not_enough_energy=Analyzing failed: Not Enough Energy!
+metaitem.scanner.name=スキャナー
+metaitem.scanner.tooltip=地表の岩を右クリック長押しすると地下の鉱脈がわかります
+behavior.scanner.analyzing=分析しています...
+behavior.scanner.analyzing_failed=分析に失敗しました！
+behavior.scanner.analyzing_complete=分析完了！
+behavior.scanner.not_enough_energy=分析に失敗しました：エネルギーが足りません！
 
 tile.casing.ulv=ULV マシン外装
 tile.casing.lv=LV マシン外装
@@ -1663,36 +1663,36 @@ tile.casing.hv=HV マシン外装
 tile.casing.ev=EV マシン外装
 tile.casing.iv=IV マシン外装
 
-fluid.distilled_water=Distilled Water
+fluid.distilled_water=蒸留水
 
 ## Wire coil blocks
-tile.wire_coil.tooltip_ebf=When used in §aElectric Blast Furnace§7:
-tile.wire_coil.tooltip_heat=  Base Heating Capacity: §e%,dK
-tile.wire_coil.tooltip_smelter=When used in §aMulti Smelter§7:
-tile.wire_coil.tooltip_level=  Level: §e%,d
-tile.wire_coil.tooltip_discount=  Energy Discount: §a%,dx
+tile.wire_coil.tooltip_ebf=§a電気高炉§7で使用する場合：
+tile.wire_coil.tooltip_heat= 加熱能力 : §e%,dK
+tile.wire_coil.tooltip_smelter=§aMulti Smelter§7 で使用する場合
+tile.wire_coil.tooltip_level=  レベル: §e%,d
+tile.wire_coil.tooltip_discount=  エネルギーを §a%,dx 削減する
 
-tile.wire_coil.cupronickel.name=Cupronickel Coil Block
-tile.wire_coil.kanthal.name=Kanthal Coil Block
-tile.wire_coil.nichrome.name=Nichrome Coil Block
-tile.wire_coil.tungstensteel.name=Tungstensteel Coil Block
-tile.wire_coil.hss_g.name=HSS-G Coil Block
-tile.wire_coil.naquadah.name=Naquadah Coil Block
-tile.wire_coil.naquadah_alloy.name=Naquadah Alloy Coil Block
-tile.wire_coil.superconductor.name=Superconducting Coil Block
-tile.wire_coil.fusion_coil.name=Fusion Coil Block
+tile.wire_coil.cupronickel.name=白銅コイルブロック
+tile.wire_coil.kanthal.name=カンタルコイルブロック
+tile.wire_coil.nichrome.name=ニクロムコイルブロック
+tile.wire_coil.tungstensteel.name=タングステンスチールコイルブロック
+tile.wire_coil.hss_g.name=HSS-Gコイルブロック
+tile.wire_coil.naquadah.name=ナクアダコイルブロック
+tile.wire_coil.naquadah_alloy.name=ナクアダ合金コイルブロック
+tile.wire_coil.superconductor.name=超電導コイルブロック
+tile.wire_coil.fusion_coil.name=フュージョンコイルブロック
 
 ## Warning sign blocks
-tile.warning_sign.yellow_stripes.name=Yellow Stripes Block
-tile.warning_sign.small_yellow_stripes.name=Yellow Stripes Block
-tile.warning_sign.radioactive_hazard.name=Radioactive Hazard Sign Block
-tile.warning_sign.bio_hazard.name=Bio Hazard Sign Block
-tile.warning_sign.explosion_hazard.name=Explosion Hazard Sign Block
-tile.warning_sign.fire_hazard.name=Fire Hazard Sign Block
-tile.warning_sign.acid_hazard.name=Acid Hazard Sign Block
-tile.warning_sign.magic_hazard.name=Magic Hazard Sign Block
-tile.warning_sign.frost_hazard.name=Frost Hazard Sign Block
-tile.warning_sign.noise_hazard.name=Noise Hazard Sign Block
+tile.warning_sign.yellow_stripes.name=イエローストライプブロック
+tile.warning_sign.small_yellow_stripes.name=スモールイエローストライプブロック
+tile.warning_sign.radioactive_hazard.name=放射能ハザードブロック
+tile.warning_sign.bio_hazard.name=バイオハザードブロック
+tile.warning_sign.explosion_hazard.name=爆破ハザードブロック
+tile.warning_sign.fire_hazard.name=可燃ハザードブロック
+tile.warning_sign.acid_hazard.name=強酸ハザードブロック
+tile.warning_sign.magic_hazard.name=マジックハザードブロック
+tile.warning_sign.frost_hazard.name=霜ハザードブロック
+tile.warning_sign.noise_hazard.name=騒音ハザードブロック
 
 ## Boiler casing blocks
 tile.boiler_casing.bronze_pipe.name=Bronze Pipe Casing
@@ -1701,10 +1701,10 @@ tile.boiler_casing.titanium_pipe.name=Titanium Pipe Casing
 tile.boiler_casing.tungstensteel_pipe.name=Tungstensteel Pipe Casing
 
 ## Firebox casing blocks
-tile.boiler_casing.bronze_firebox.name=Bronze Firebox Casing
-tile.boiler_casing.steel_firebox.name=Steel Firebox Casing
-tile.boiler_casing.titanium_firebox.name=Titanium Firebox Casing
-tile.boiler_casing.tungstensteel_firebox.name=Tungstensteel Firebox Casing
+tile.boiler_casing.bronze_firebox.name=ブロンズの火室覆鉄板
+tile.boiler_casing.steel_firebox.name=スチールの火室覆鉄板
+tile.boiler_casing.titanium_firebox.name=チタンの火室覆鉄板
+tile.boiler_casing.tungstensteel_firebox.name=タングステンスチールの火室覆鉄板
 
 ## Metal casing blocks
 tile.metal_casing.primitive_bricks.name=Primitive Bricks
@@ -1739,13 +1739,13 @@ tile.machine_casing.steel_bricks_hull.name=Bricked Steel Hull
 tile.machine_casing.steel_bricks_hull.tooltip=For improved Steam Machines
 
 ## Turbine casing blocks
-tile.turbine_casing.bronze_gearbox.name=Bronze Gear Box Casing
-tile.turbine_casing.steel_gearbox.name=Steel Gear Box Casing
-tile.turbine_casing.titanium_gearbox.name=Titanium Gear Box Casing
-tile.turbine_casing.steel_turbine_casing.name=Steel Turbine Casing
-tile.turbine_casing.titanium_turbine_casing.name=Titanium Turbine Casing
-tile.turbine_casing.stainless_turbine_casing.name=Stainless Turbine Casing
-tile.turbine_casing.tungstensteel_turbine_casing.name=Tungstensteel Turbine Casing
+tile.turbine_casing.bronze_gearbox.name=ブロンズギアボックス外装
+tile.turbine_casing.steel_gearbox.name=スチールギアボックス外装
+tile.turbine_casing.titanium_gearbox.name=チタンギアボックス外装
+tile.turbine_casing.steel_turbine_casing.name=スチールタービン外装
+tile.turbine_casing.titanium_turbine_casing.name=チタンタービン外装
+tile.turbine_casing.stainless_turbine_casing.name=ステンレスタービン外装
+tile.turbine_casing.tungstensteel_turbine_casing.name=タングステンスチールタービン外装
 
 ## Multiblock casing blocks
 tile.multiblock_casing.engine_intake.name=Engine Intake Casing
@@ -1929,10 +1929,10 @@ gregtech.machine.alloy_smelter.mv.name=発展型合金かまど
 gregtech.machine.alloy_smelter.hv.name=発展型合金かまど II
 gregtech.machine.alloy_smelter.ev.name=発展型合金かまど III
 
-gregtech.machine.amplifab.lv.name=基本型 Amplifabricator
-gregtech.machine.amplifab.mv.name=発展型 Amplifabricator
-gregtech.machine.amplifab.hv.name=発展型 Amplifabricator II
-gregtech.machine.amplifab.ev.name=発展型 Amplifabricator III
+gregtech.machine.amplifab.lv.name=基本型マター増幅装置
+gregtech.machine.amplifab.mv.name=発展型マター増幅装置
+gregtech.machine.amplifab.hv.name=発展型マター増幅装置 II
+gregtech.machine.amplifab.ev.name=発展型マター増幅装置 III
 
 gregtech.machine.arc_furnace.lv.name=基本型アーク炉
 gregtech.machine.arc_furnace.mv.name=発展型アーク炉
@@ -1979,17 +1979,17 @@ gregtech.machine.centrifuge.ev.name=ターボ遠心分離機 II
 
 gregtech.machine.chemical_bath.tooltip=鉱石を化学薬品に漬けて分離する
 
-gregtech.machine.chemical_bath.lv.name=基本型ケミカルバス
-gregtech.machine.chemical_bath.mv.name=発展型ケミカルバス
-gregtech.machine.chemical_bath.hv.name=発展型ケミカルバス II
-gregtech.machine.chemical_bath.ev.name=発展型ケミカルバス III
+gregtech.machine.chemical_bath.lv.name=基本型化学槽
+gregtech.machine.chemical_bath.mv.name=発展型化学槽
+gregtech.machine.chemical_bath.hv.name=発展型化学槽 II
+gregtech.machine.chemical_bath.ev.name=発展型化学槽 III
 
 gregtech.machine.chemical_reactor.tooltip=化学物質を互いに反応させる 
 
-gregtech.machine.chemical_reactor.lv.name=基本型化学反応器
-gregtech.machine.chemical_reactor.mv.name=発展型化学反応器
-gregtech.machine.chemical_reactor.hv.name=発展型化学反応器 II
-gregtech.machine.chemical_reactor.ev.name=発展型化学反応器 III
+gregtech.machine.chemical_reactor.lv.name=基本型化学反応機
+gregtech.machine.chemical_reactor.mv.name=発展型化学反応機
+gregtech.machine.chemical_reactor.hv.name=発展型化学反応機 II
+gregtech.machine.chemical_reactor.ev.name=発展型化学反応機 III
 
 gregtech.machine.compressor.lv.name=基本型圧縮機
 gregtech.machine.compressor.mv.name=発展型圧縮機
@@ -2032,7 +2032,7 @@ gregtech.machine.extruder.mv.name=発展型押出機
 gregtech.machine.extruder.hv.name=発展型押出機 II
 gregtech.machine.extruder.ev.name=発展型押出機 III
 
-gregtech.machine.fermenter.tooltip=Fermenting Fluids
+gregtech.machine.fermenter.tooltip=液体を発酵させる
 
 gregtech.machine.fermenter.lv.name=基本型醗酵槽
 gregtech.machine.fermenter.mv.name=発展型醗酵槽
@@ -2047,12 +2047,12 @@ gregtech.machine.fluid_canner.mv.name=発展型液体缶詰め機
 gregtech.machine.fluid_canner.hv.name=Quick液体缶詰め機
 gregtech.machine.fluid_canner.ev.name=Turbo液体缶詰め機
 
-gregtech.machine.fluid_extractor.tooltip=Extracting Fluids from Items
+gregtech.machine.fluid_extractor.tooltip=金属などを溶かします
 
-gregtech.machine.fluid_extractor.lv.name=基本型液体抽出器
-gregtech.machine.fluid_extractor.mv.name=発展型液体抽出器
-gregtech.machine.fluid_extractor.hv.name=発展型液体抽出器 II
-gregtech.machine.fluid_extractor.ev.name=発展型液体抽出器 III
+gregtech.machine.fluid_extractor.lv.name=基本型融解機
+gregtech.machine.fluid_extractor.mv.name=発展型融解機
+gregtech.machine.fluid_extractor.hv.name=発展型融解機 II
+gregtech.machine.fluid_extractor.ev.name=発展型融解機 III
 
 gregtech.machine.fluid_heater.lv.name=基本型液体ヒーター
 gregtech.machine.fluid_heater.mv.name=発展型液体ヒーター
@@ -2061,10 +2061,10 @@ gregtech.machine.fluid_heater.ev.name=発展型液体ヒーター III
 
 gregtech.machine.fluid_solidifier.tooltip=流体を冷却して固体に形成します 
 
-gregtech.machine.fluid_solidifier.lv.name=基本型液体成型機
-gregtech.machine.fluid_solidifier.mv.name=発展型液体成型機
-gregtech.machine.fluid_solidifier.hv.name=発展型液体成型機 II
-gregtech.machine.fluid_solidifier.ev.name=発展型液体成型機 III
+gregtech.machine.fluid_solidifier.lv.name=基本型液体成形機
+gregtech.machine.fluid_solidifier.mv.name=発展型液体成形機
+gregtech.machine.fluid_solidifier.hv.name=発展型液体成形機 II
+gregtech.machine.fluid_solidifier.ev.name=発展型液体成形機 III
 
 gregtech.machine.forge_hammer.lv.name=基本型鍛造機
 gregtech.machine.forge_hammer.mv.name=発展型鍛造機
@@ -2095,10 +2095,10 @@ gregtech.machine.mixer.ev.name=発展型ミキサー III
 
 gregtech.machine.ore_washer.tooltip=鉱石を洗浄して副産物を取得する
 
-gregtech.machine.ore_washer.lv.name=基本型鉱石洗浄プラント
-gregtech.machine.ore_washer.mv.name=発展型鉱石洗浄プラント
-gregtech.machine.ore_washer.hv.name=発展型鉱石洗浄プラント II
-gregtech.machine.ore_washer.ev.name=発展型鉱石洗浄プラント III
+gregtech.machine.ore_washer.lv.name=基本型鉱石洗浄機
+gregtech.machine.ore_washer.mv.name=発展型鉱石洗浄機
+gregtech.machine.ore_washer.hv.name=発展型鉱石洗浄機 II
+gregtech.machine.ore_washer.ev.name=発展型鉱石洗浄機 III
 
 gregtech.machine.packer.lv.name=基本型包装機
 gregtech.machine.packer.mv.name=発展型包装機
@@ -2115,12 +2115,12 @@ gregtech.machine.plasma_arc_furnace.mv.name=発展型プラズマアーク炉
 gregtech.machine.plasma_arc_furnace.hv.name=発展型プラズマアーク炉 II
 gregtech.machine.plasma_arc_furnace.ev.name=発展型プラズマアーク炉 III
 
-gregtech.machine.polarizer.tooltip=Bipolarising your Magnets
+gregtech.machine.polarizer.tooltip=強力な電磁石を用いて磁性体を磁石にする機械
 
-gregtech.machine.polarizer.lv.name=基本型ポラライザー
-gregtech.machine.polarizer.mv.name=発展型ポラライザー
-gregtech.machine.polarizer.hv.name=発展型ポラライザー II
-gregtech.machine.polarizer.ev.name=発展型ポラライザー III
+gregtech.machine.polarizer.lv.name=基本型偏光機
+gregtech.machine.polarizer.mv.name=発展型偏光機
+gregtech.machine.polarizer.hv.name=発展型偏光機 II
+gregtech.machine.polarizer.ev.name=発展型偏光機 III
 
 gregtech.machine.laser_engraver.lv.name=基本型精密レーザー彫刻機
 gregtech.machine.laser_engraver.mv.name=発展型精密レーザー彫刻機
@@ -2722,27 +2722,27 @@ for.bees.species.uranium=ウラン
 for.bees.species.plutonium=プルトニウム
 for.bees.species.naquadah=ナクアダ
 
-behaviour.scoop=Catches Butterflies on Leftclick
-behaviour.softhammer=Activates and Deactivates Machines
-behaviour.wrench=Rotates Blocks on Rightclick
+behaviour.scoop=左クリックで蝶を捕まえることができる(Forestry)
+behaviour.softhammer=機械をアクテイブ/非アクティブの切り替え、昇圧/降圧の切り替えに使う
+behaviour.wrench=右クリックでブロック回転できる 
 behaviour.boor.by=by %s
-behaviour.paintspray.white.tooltip=Can paint things in White
-behaviour.paintspray.orange.tooltip=Can paint things in Orange
-behaviour.paintspray.magenta.tooltip=Can paint things in Magenta
-behaviour.paintspray.lightBlue.tooltip=Can paint things in Light Blue
-behaviour.paintspray.yellow.tooltip=Can paint things in Yellow
-behaviour.paintspray.lime.tooltip=Can paint things in Lime
-behaviour.paintspray.pink.tooltip=Can paint things in Pink
-behaviour.paintspray.gray.tooltip=Can paint things in Gray
-behaviour.paintspray.silver.tooltip=Can paint things in Light Gray
-behaviour.paintspray.cyan.tooltip=Can paint things in Cyan
-behaviour.paintspray.purple.tooltip=Can paint things in Purple
-behaviour.paintspray.blue.tooltip=Can paint things in Blue
-behaviour.paintspray.brown.tooltip=Can paint things in Brown
-behaviour.paintspray.green.tooltip=Can paint things in Green
-behaviour.paintspray.red.tooltip=Can paint things in Red
-behaviour.paintspray.black.tooltip=Can paint things in Black
-behaviour.paintspray.uses=Remaining Uses: %,d
+behaviour.paintspray.white.tooltip=白で塗装できる
+behaviour.paintspray.orange.tooltip=オレンジで塗装できる
+behaviour.paintspray.magenta.tooltip=マゼンタで塗装できる
+behaviour.paintspray.lightBlue.tooltip=ライトブルーで塗装できる
+behaviour.paintspray.yellow.tooltip=黄色で塗装できる
+behaviour.paintspray.lime.tooltip=ライムで塗装できる
+behaviour.paintspray.pink.tooltip=ピンクで塗装できる
+behaviour.paintspray.gray.tooltip=グレーで塗装できる
+behaviour.paintspray.silver.tooltip=ライトグレーで塗装できる
+behaviour.paintspray.cyan.tooltip=シアンで塗装できる
+behaviour.paintspray.purple.tooltip=パープルで塗装できる
+behaviour.paintspray.blue.tooltip=青で塗装できる
+behaviour.paintspray.brown.tooltip=ブラウンで塗装できる
+behaviour.paintspray.green.tooltip=緑で塗装できる
+behaviour.paintspray.red.tooltip=赤で塗装できる
+behaviour.paintspray.black.tooltip=黒で塗装できる
+behaviour.paintspray.uses=使用回数残り: %,d
 behaviour.prospecting=Usable for Prospecting
 
 ## Multiblock machine controllers
@@ -2936,34 +2936,34 @@ gregtech.fluid_pipe.throughput=Transfer: §e%,d mb/t
 gregtech.fluid_pipe.max_temperature=Max Temperature: §c%,dK
 gregtech.fluid_pipe.non_gas_proof=Can't transfer gases.
 
-gregtech.multiblock.work_paused=Work Paused.
-gregtech.multiblock.running=Running perfectly.
+gregtech.multiblock.work_paused=作業が一時停止中
+gregtech.multiblock.running=正常に動作中
 gregtech.multiblock.idling=アイドル状態
-gregtech.multiblock.not_enough_energy=WARNING: Machine needs more energy.
+gregtech.multiblock.not_enough_energy=警告 : より多くのエネルギーが必要です
 gregtech.multiblock.progress=進行状況： %s%%
-gregtech.multiblock.invalid_structure=Invalid structure.
-gregtech.multiblock.invalid_structure.tooltip=This block is a controller of the multiblock structure. For building help, see structure template in JEI
+gregtech.multiblock.invalid_structure=マルチブロックの構成が無効です(間違っている)
+gregtech.multiblock.invalid_structure.tooltip=マルチブロックの構成はJEIを参照してください
 gregtech.multiblock.validation_failed=Invalid amount of inputs/outputs.
-gregtech.multiblock.max_energy_per_tick=Max EU/t: %s (%s)
-gregtech.multiblock.generation_eu=Outputting: %s EU/t
+gregtech.multiblock.max_energy_per_tick=最大 EU/t: %s (%s)
+gregtech.multiblock.generation_eu=出力: %s EU/t
 
-gregtech.multiblock.blast_furnace.max_temperature=Max Temperature: %sK
-gregtech.multiblock.multi_furnace.heating_coil_level=Heating Coil Level: %s
-gregtech.multiblock.multi_furnace.heating_coil_discount=Heating Coil EU Boost: %sx
-gregtech.multiblock.distillation_tower.distilling_fluid=Distilling %s
-gregtech.multiblock.cracker.cracking_fluid=Cracking %s
+gregtech.multiblock.blast_furnace.max_temperature=最高温度: %sK
+gregtech.multiblock.multi_furnace.heating_coil_level=コイルレベル: %s
+gregtech.multiblock.multi_furnace.heating_coil_discount=コイルのブーストEU: %sx
+gregtech.multiblock.distillation_tower.distilling_fluid=%sを蒸留しています
+gregtech.multiblock.cracker.cracking_fluid=%sをクラッキングしています
 
-gregtech.multiblock.diesel_engine.lubricant_amount=Lubricant Amount: %sL
-gregtech.multiblock.diesel_engine.fuel_amount=Fuel Amount: %sL (%s)
-gregtech.multiblock.diesel_engine.oxygen_amount=Oxygen Amount: %sL
-gregtech.multiblock.diesel_engine.oxygen_boosted=Oxygen boosted.
-gregtech.multiblock.diesel_engine.supply_oxygen_to_boost=Supply oxygen to boost.
+gregtech.multiblock.diesel_engine.lubricant_amount=潤滑剤量: %sL
+gregtech.multiblock.diesel_engine.fuel_amount=燃料量: %sL (%s)
+gregtech.multiblock.diesel_engine.oxygen_amount=酸素量: %sL
+gregtech.multiblock.diesel_engine.oxygen_boosted=酸素でブーストされています
+gregtech.multiblock.diesel_engine.supply_oxygen_to_boost=酸素を供給するとブーストできます
 
-gregtech.multiblock.turbine.fuel_amount=Fuel Amount: %sL (%s)
-gregtech.multiblock.turbine.rotor_speed=Rotor Speed: %s / %s RPM
-gregtech.multiblock.turbine.rotor_efficiency=Rotor Efficiency: %s%%
-gregtech.multiblock.turbine.rotor_durability=Rotor Durability: %s%%
-gregtech.multiblock.turbine.low_rotor_durability=WARNING: Rotor Durability below %s%% (%s%%)
+gregtech.multiblock.turbine.fuel_amount=燃料量: %sL (%s)
+gregtech.multiblock.turbine.rotor_speed=ローター速度: %s / %s RPM
+gregtech.multiblock.turbine.rotor_efficiency=ローター効率: %s%%
+gregtech.multiblock.turbine.rotor_durability=ローターの耐久性: %s%%
+gregtech.multiblock.turbine.low_rotor_durability=警告 : ローターの耐久性が %s%% (%s%%) 未満です
 
 gregtech.multiblock.large_boiler.temperature=温度： %s / %s C
 gregtech.multiblock.large_boiler.steam_output=スチーム出力： %s mb/t
