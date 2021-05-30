@@ -738,8 +738,8 @@ cover.robotic_arm.transfer_mode.description=§e通常搬送§r - このモード
 
 cover.pump.title=ポンプの設定 (%s)
 cover.pump.transfer_rate=%s
-cover.pump.mode.export=モード：エクスポート
-cover.pump.mode.import=モード：インポート
+cover.pump.mode.export=搬出モード
+cover.pump.mode.import=搬入モード
 cover.pump.fluid_filter.title=液体フィルター
 cover.bucket.mode.bucket=B/s
 cover.bucket.mode.milli_bucket=mB/s
@@ -1199,7 +1199,7 @@ material.indium_gallium_phosphide=リン化インジウムガリウム
 material.platinum_group_sludge=プラチナグループスラッジ
 material.ferrite_mixture=フェライト混合物
 material.nickel_zinc_ferrite=ニッケル亜鉛フェライト
-material.indium_concentrate=Indium Concentrate
+material.indium_concentrate=濃縮インジウム
 material.lead_zinc_solution=Lead-Zinc Solution
 material.tetrafluoroethylene=テトラフルオロエチレン
 material.salt_water=塩水
@@ -1748,11 +1748,11 @@ tile.turbine_casing.stainless_turbine_casing.name=ステンレスタービン外
 tile.turbine_casing.tungstensteel_turbine_casing.name=タングステンスチールタービン外装
 
 ## Multiblock casing blocks
-tile.multiblock_casing.engine_intake.name=Engine Intake Casing
-tile.multiblock_casing.grate.name=Grate Machine Casing
-tile.multiblock_casing.assembler.name=Assembler Machine Casing
-tile.multiblock_casing.fusion.name=Fusion Machine Casing
-tile.multiblock_casing.fusion_mk2.name=Fusion Machine Casing MK II
+tile.multiblock_casing.engine_intake.name=エンジン吸気外装
+tile.multiblock_casing.grate.name=Grateマシン外装
+tile.multiblock_casing.assembler.name=アセンブラーマシン外装
+tile.multiblock_casing.fusion.name=フージョンマシン外装
+tile.multiblock_casing.fusion_mk2.name=フージョンマシン外装 MK II
 
 ## Creative tabs
 itemGroup.gregtech.main=GregTech CE
@@ -1900,9 +1900,9 @@ gregtech.machine.gas_turbine.mv.name=発展型ガスタービン
 gregtech.machine.gas_turbine.hv.name=ターボガスタービン
 gregtech.machine.gas_turbine.ev.name=ターボガスタービン II
 
-gregtech.machine.magic_energy_absorber.name=Magic Energy Absorber
+gregtech.machine.magic_energy_absorber.name=マジックエネルギーアブソーバー
 gregtech.machine.magic_energy_absorber.tooltip=Max Voltage OUT: §a2048 §7(§aEV§7)/nCollects energy from ender crystals in 64 blocks/nEach ender crystal adds 32 EU/t to output/nPlace Dragon Egg on top to amplify output/n/nWhen amplified:/nEach ender crystal adds 128 EU/t
-gregtech.machine.magic_energy_converter.name=Magic Energy Converter
+gregtech.machine.magic_energy_converter.name=マジックエネルギーコンバーター
 gregtech.machine.magic_energy_converter.tooltip=Voltage OUT: §a128 §7(§aMV§7)/nCollects essentia from containers within 16 blocks/nConsumes 20 Potentia per second
 
 ## Machines
@@ -2001,7 +2001,7 @@ gregtech.machine.cutter.mv.name=発展型切削加工機
 gregtech.machine.cutter.hv.name=発展型切削加工機 II
 gregtech.machine.cutter.ev.name=発展型切削加工機 III
 
-gregtech.machine.distillery.tooltip=Distilling most relevant parts of Fluids
+gregtech.machine.distillery.tooltip=液体の重要な成分を抽出する
 
 gregtech.machine.distillery.lv.name=基本型蒸留機
 gregtech.machine.distillery.mv.name=発展型蒸留機
@@ -2217,9 +2217,9 @@ gregtech.machine.battery_buffer.max.16.name=MAX バッテリーバッファー (
 ## Transformers
 gregtech.machine.transformer.tooltip_tool_usage=ソフトハンマーで設定を反転できます（初期設定は降圧）
 gregtech.machine.transformer.tooltip_transform_down=降圧:
-gregtech.machine.transformer.message_transform_down=降圧、 In: %,dV %,d Amp, Out: %,dV %,d Amp
+gregtech.machine.transformer.message_transform_down=降圧 入力: %,dV %,d Amp, 出力: %,dV %,d Amp
 gregtech.machine.transformer.tooltip_transform_up=昇圧:
-gregtech.machine.transformer.message_transform_up=昇圧、 In: %,dV %,d Amp, Out: %,dV %,d Amp
+gregtech.machine.transformer.message_transform_up=昇圧 入力: %,dV %,d Amp, 出力: %,dV %,d Amp
 
 gregtech.machine.transformer.lv.name=LV 変換器
 gregtech.machine.transformer.mv.name=MV 変換器
@@ -2285,7 +2285,7 @@ gregtech.machine.air_collector.mv.name=発展型エアコレクター
 gregtech.machine.air_collector.hv.name=発展型エアコレクター II
 gregtech.machine.air_collector.ev.name=アトモスフィアエアコレクター III
 gregtech.machine.air_collector.tooltip=隣接するブロックから空気を収集します
-gregtech.machine.air_collector.collection_speed=Produces %,d mb of Air every %,d ticks
+gregtech.machine.air_collector.collection_speed=空気を%,d mb収集(%,dティックごとに)
 gregtech.machine.air_collector.jei_description=エアコレクターは少しEUで空気を収集します
 
 ## Tesla Coil
@@ -2298,12 +2298,12 @@ gregtech.machine.fisher.mv.name=発展型フィッシャー
 gregtech.machine.fisher.hv.name=発展型フィッシャー II
 gregtech.machine.fisher.ev.name=発展型フィッシャー III
 gregtech.machine.fisher.tooltip=釣りに糸を要します。1アイテム1つの糸を消費します。 
-gregtech.machine.fisher.speed=Catches something every %,d ticks
+gregtech.machine.fisher.speed=%,d ティックごとに何かを捕らえる
 gregtech.machine.fisher.requirement=真下に%,dロックのサイズの正方形の水が必要です。
 
 ## General machinery
-gregtech.machine.basic.input_from_output_side.allow=Allow Input from Output Side
-gregtech.machine.basic.input_from_output_side.disallow=Disallow Input from Output Side
+gregtech.machine.basic.input_from_output_side.allow=出力側からの入力を許可する
+gregtech.machine.basic.input_from_output_side.disallow=出力側からの入力を許可しない
 
 ## Achievement ores (GTCEではまだ実績は実装されていません1.7時代の残骸)
 achievement.Naquadah=Find Naquadah Ore
@@ -2769,7 +2769,7 @@ gregtech.machine.large_boiler.titanium.name=大型チタンボイラー
 gregtech.machine.large_boiler.tungstensteel.name=大型タングステンスチールボイラー
 
 ## Multiblock Tooltips
-gregtech.machine.primitive_blast_furnace.bronze.tooltip=Structure: 3x3x4 (WxLxH) The entire structure is made out of Primitive Bricks (32 in total)./nFirst Layer is a 3x3 square./nSecond, third, and fourth layers are hollow, without the middle block./nThis block goes on the middle of any side in the second layer./nThe sides of Blast Furnaces can be shared, if the side does not have a controller./n
+gregtech.machine.primitive_blast_furnace.bronze.tooltip=マルチブロックの構成はJEIで確認してください。/nマルチブロックは本体以外(外側の面)は共有して使うことができます。
 
 ## Multiblock machine parts
 gregtech.machine.item_bus.import.tooltip=マルチブロックのアイテム搬入口
