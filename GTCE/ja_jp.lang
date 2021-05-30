@@ -2299,7 +2299,7 @@ gregtech.machine.fisher.hv.name=発展型フィッシャー II
 gregtech.machine.fisher.ev.name=発展型フィッシャー III
 gregtech.machine.fisher.tooltip=釣りに糸を要します。1アイテム1つの糸を消費します。 
 gregtech.machine.fisher.speed=%,d ティックごとに何かを捕らえる
-gregtech.machine.fisher.requirement=真下に%,dロックのサイズの正方形の水が必要です。
+gregtech.machine.fisher.requirement=真下に%,dブロックのサイズの正方形の水が必要です。
 
 ## General machinery
 gregtech.machine.basic.input_from_output_side.allow=出力側からの入力を許可する
