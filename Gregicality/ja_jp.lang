@@ -10,7 +10,7 @@ metaitem.board.phenolic.name=Phenolic Circuit Board
 metaitem.board.phenolic.tooltip=A Good Board
 metaitem.board.plastic.name=Plastic Circuit Board
 metaitem.board.plastic.tooltip=A Good Board
-metaitem.board.wetware.name=Wetware Lifesupport Circuit Board
+metaitem.board.wetware.name=ウェットウェア Lifesupport Circuit Board
 metaitem.board.wetware.tooltip=The Board That Keeps Life
 metaitem.board.basic.name=Basic Circuit Board
 metaitem.board.good.phenolic.name=Good Phenolic Circuit Board
@@ -48,7 +48,7 @@ metaitem.component.glass.fiber.tooltip=B(SiO2)7
 metaitem.component.glass.tube.name=Glass Tube
 metaitem.component.petri.dish.name=Petri Dish
 metaitem.component.petri.dish.tooltip=For Cultivating Cells
-metaitem.component.resistor.name=Resistor
+metaitem.component.resistor.name=レジスター
 metaitem.component.resistor.tooltip=Basic Electronic Component
 metaitem.component.small.coil.name=Small Coil
 metaitem.component.small.coil.tooltip=Basic Electronic Component
@@ -78,7 +78,7 @@ metaitem.plate.nor.tooltip=Integrated Circuit
 metaitem.plate.pic.name=Power IC
 metaitem.plate.pic.tooltip=Power Circuit
 metaitem.plate.qbit.name=QBit Processing Unit
-metaitem.plate.qbit.tooltip=Quantum CPU
+metaitem.plate.qbit.tooltip=クアンタム CPU
 metaitem.plate.ram.name=Random Access Memory Chip
 metaitem.plate.ram.tooltip=Integrated Circuit
 metaitem.plate.soc.name=SoC
@@ -124,11 +124,11 @@ metaitem.carbon.fibers.name=Raw Carbon Fibers
 metaitem.plate.mixed.metal.name=Mixed Metal plate
 metaitem.plate.advanced.alloy.name=Advanced Alloy Plate
 metaitem.crystal.raw.name=Raw Crystal Chip
-metaitem.crystal.raw.tooltip=Raw Crystal Processor
-metaitem.crystal.cpu.name=Crystal Processing Unit
-metaitem.crystal.cpu.tooltip=Crystal CPU
-metaitem.crystal.soc.name=Crystal SoC
-metaitem.crystal.soc.tooltip=Crystal System on a Chip
+metaitem.crystal.raw.tooltip=Raw Crystalプロセッサ
+metaitem.crystal.cpu.name=クリスタル Processing Unit
+metaitem.crystal.cpu.tooltip=クリスタル CPU
+metaitem.crystal.soc.name=クリスタル SoC
+metaitem.crystal.soc.tooltip=クリスタル System on a Chip
 metaitem.stemcells.name=Stem Cells
 metaitem.stemcells.tooltip=Raw Intelligence
 metaitem.crystal.lapotron.name=Lapotron Crystal
@@ -359,76 +359,76 @@ metaitem.qts.boots.name=§bQuarkTech™ Suite Boots
 metaitem.qts.helmet.name=§bQuarkTech™ Suite Helmet
 metaitem.qts.advanced_chestplate.name=§5Advanced QuarkTech™ Suite Chestplate
 
-metaitem.impeller.mv.name=§ePower Thruster
-metaitem.impeller.hv.name=§bAdvanced Power Thruster
+metaitem.impeller.mv.name=§eパワースラスター
+metaitem.impeller.hv.name=§b発展型パワースラスター
 metaitem.gravitation_engine.name=§5Gravitation Engine Unit
 
-metaitem.component.smd.capacitor.nano.name=Nano SMD Capacitor
-metaitem.component.smd.capacitor.wetware.name=Wetware SMD Capacitor
-metaitem.component.smd.capacitor.quantum.name=Quantum SMD Capacitor
-metaitem.component.smd.capacitor.crystal.name=Crystal SMD Capacitor
-metaitem.component.smd.capacitor.refined.name=Refined SMD Capacitor
-metaitem.component.smd.capacitor.bioware.name=Bioware SMD Capacitor
-metaitem.smd_capacitor_optical.name=Optical SMD Capacitor
-metaitem.smd_capacitor_cosmic.name=Cosmic SMD Capacitor
-metaitem.component.smd.resistor.nano.name=Nano SMD Resistor
-metaitem.component.smd.resistor.wetware.name=Wetware SMD Resistor
-metaitem.component.smd.resistor.quantum.name=Quantum SMD Resistor
-metaitem.component.smd.resistor.crystal.name=Crystal SMD Resistor
-metaitem.component.smd.resistor.refined.name=Refined SMD Resistor
-metaitem.component.smd.resistor.bioware.name=Bioware SMD Resistor
-metaitem.smd_resistor_optical.name=Optical SMD Resistor
-metaitem.smd_resistor_cosmic.name=Cosmic SMD Resistor
-metaitem.component.smd.diode.nano.name=Nano SMD Diode
-metaitem.component.smd.diode.wetware.name=Wetware SMD Diode
-metaitem.component.smd.diode.quantum.name=Quantum SMD Diode
-metaitem.component.smd.diode.crystal.name=Crystal SMD Diode
-metaitem.component.smd.diode.refined.name=Refined SMD Diode
-metaitem.component.smd.diode.bioware.name=Bioware SMD Diode
-metaitem.smd_diode_optical.name=Optical SMD Diode
-metaitem.smd_diode_cosmic.name=Cosmic SMD Diode
-metaitem.component.smd.transistor.nano.name=Nano SMD Transistor
-metaitem.component.smd.transistor.wetware.name=Wetware SMD Transistor
-metaitem.component.smd.transistor.quantum.name=Quantum SMD Transistor
-metaitem.component.smd.transistor.crystal.name=Crystal SMD Transistor
-metaitem.component.smd.transistor.refined.name=Refined SMD Transistor
-metaitem.component.smd.transistor.bioware.name=Bioware SMD Transistor
-metaitem.smd_transistor_optical.name=Optical SMD Transistor
-metaitem.smd_transistor_cosmic.name=Cosmic SMD Transistor
+metaitem.component.smd.capacitor.nano.name=ナノSMDコンデンサ
+metaitem.component.smd.capacitor.wetware.name=ウェットウェアSMDコンデンサ
+metaitem.component.smd.capacitor.quantum.name=クアンタムSMDコンデンサ
+metaitem.component.smd.capacitor.crystal.name=クリスタルSMDコンデンサ
+metaitem.component.smd.capacitor.refined.name=リファインドSMDコンデンサ
+metaitem.component.smd.capacitor.bioware.name=バイオウェアSMDコンデンサ
+metaitem.smd_capacitor_optical.name=オプティカルSMDコンデンサ
+metaitem.smd_capacitor_cosmic.name=コスミックSMDコンデンサ
+metaitem.component.smd.resistor.nano.name=ナノSMDレジスター
+metaitem.component.smd.resistor.wetware.name=ウェットウェアSMDレジスター
+metaitem.component.smd.resistor.quantum.name=クアンタムSMDレジスター
+metaitem.component.smd.resistor.crystal.name=クリスタルSMDレジスター
+metaitem.component.smd.resistor.refined.name=リファインドSMDレジスター
+metaitem.component.smd.resistor.bioware.name=バイオウェアSMDレジスター
+metaitem.smd_resistor_optical.name=オプティカルSMDレジスター
+metaitem.smd_resistor_cosmic.name=コスミックSMDレジスター
+metaitem.component.smd.diode.nano.name=ナノSMDダイオード
+metaitem.component.smd.diode.wetware.name=ウェットウェアSMDダイオード
+metaitem.component.smd.diode.quantum.name=クアンタムSMDダイオード
+metaitem.component.smd.diode.crystal.name=クリスタルSMDダイオード
+metaitem.component.smd.diode.refined.name=リファインドSMDダイオード
+metaitem.component.smd.diode.bioware.name=バイオウェアSMDダイオード
+metaitem.smd_diode_optical.name=オプティカルSMDダイオード
+metaitem.smd_diode_cosmic.name=コスミックSMDダイオード
+metaitem.component.smd.transistor.nano.name=ナノSMDトランジスター
+metaitem.component.smd.transistor.wetware.name=ウェットウェアSMDトランジスター
+metaitem.component.smd.transistor.quantum.name=クアンタムSMDトランジスター
+metaitem.component.smd.transistor.crystal.name=クリスタルSMDトランジスター
+metaitem.component.smd.transistor.refined.name=リファインドSMDトランジスター
+metaitem.component.smd.transistor.bioware.name=バイオウェアSMDトランジスター
+metaitem.smd_transistor_optical.name=オプティカルSMDトランジスター
+metaitem.smd_transistor_cosmic.name=コスミックSMDトランジスター
 
-metaitem.component.smd.diode.name=Micro SMD Diode
-metaitem.component.smd.capacitor.name=Micro SMD Capacitor
-metaitem.component.smd.transistor.name=Micro SMD Transistor
-metaitem.component.smd.resistor.name=Micro SMD Resistor
+metaitem.component.smd.diode.name=マイクロSMDダイオード
+metaitem.component.smd.capacitor.name=マイクロSMDコンデンサ
+metaitem.component.smd.transistor.name=マイクロSMDトランジスター
+metaitem.component.smd.resistor.name=マイクロSMDレジスター
 
 
-metaitem.hand_pump.name=Hand Pump
-metaitem.freedom_wrench.name=Freedom Wrench
-metaitem.freedom_wrench.mode.0=Mode: Preview
-metaitem.freedom_wrench.mode.1=Mode: Perspective
-metaitem.freedom_wrench.mode.2=Mode: Debug
-metaitem.freedom_wrench.mode.3=Mode: Building
-metaitem.freedom_wrench.clear=Remove the projection
-metaitem.freedom_wrench.info.0=Right-click the Air Block: Remove the projection
-metaitem.freedom_wrench.info.1=Sneaking Right-click the Air Block: Switch mode
-metaitem.freedom_wrench.info.2=Right-click the controller Block: Build the projection
-metaitem.freedom_wrench.info.3=Sneaking Right-click the controller Block: Adjust the spin or the front-facing of the controller
-metaitem.freedom_wrench.spin=Spin: %s
-metaitem.freedom_wrench.facing=Facing: %s
-metaitem.freedom_wrench.jei_missing=You need to have JEI installed to support the use of other features.
-metaitem.freedom_wrench.mbt_installed=Consider using the Freedom Wrench to build the preview.
+metaitem.hand_pump.name=ハンドポンプ
+metaitem.freedom_wrench.name=フリーダムレンチ
+metaitem.freedom_wrench.mode.0=モード: プレビュー(ブロックのテクスチャで表示)
+metaitem.freedom_wrench.mode.1=モード: 全体像(線だけで必要なブロックを表示)
+metaitem.freedom_wrench.mode.2=モード: デバッグ(足りないブロックを表示)
+metaitem.freedom_wrench.mode.3=モード: ビルド(対象ブロックを配置)
+metaitem.freedom_wrench.clear=プレビューを削除
+metaitem.freedom_wrench.info.0=何もない場所で右クリック : プレビューを削除
+metaitem.freedom_wrench.info.1=何もない場所でスニーク右クリック : モード切り替え
+metaitem.freedom_wrench.info.2=マルチブロックのコントローラーを右クリック : プレビューの作成
+metaitem.freedom_wrench.info.3=マルチブロックのコントローラーをスニーク右クリック : 向きの調整
+metaitem.freedom_wrench.spin=回転: %s
+metaitem.freedom_wrench.facing=面: %s
+metaitem.freedom_wrench.jei_missing=他の機能の使用をサポートするには、JEIが必要があります。
+metaitem.freedom_wrench.mbt_installed=フリーダムレンチを使用してプレビューを作成することを検討してください。
 
 metaitem.waste.nuclear.name=%s Waste
-waste.nuclear.global=Nuclear
-waste.nuclear.lanthanide.a=Lanthanide Group A
-waste.nuclear.lanthanide.b=Lanthanide Group B
-waste.nuclear.alkaline=Alkaline
-waste.nuclear.metal.a=Metal Group A
-waste.nuclear.metal.b=Metal Group B
-waste.nuclear.metal.c=Metal Group C
-waste.nuclear.heavy_metal=Heavy Metal
-waste.nuclear.metaloid=Metaloid
-waste.nuclear.nonmetal=Nonmetal
+waste.nuclear.global=原子力
+waste.nuclear.lanthanide.a=ランタノイドグループA
+waste.nuclear.lanthanide.b=ランタノイドグループB
+waste.nuclear.alkaline=アルカリ金属
+waste.nuclear.metal.a=金属グループA
+waste.nuclear.metal.b=金属グループB
+waste.nuclear.metal.c=金属グループC
+waste.nuclear.heavy_metal=重金属
+waste.nuclear.metaloid=半金属
+waste.nuclear.nonmetal=非金属
 
 metaitem.nuclear.dust.dioxide.name=%s Dioxide Dust
 metaitem.nuclear.dust.nitrate.name=%s Nitrate Dust
@@ -561,7 +561,7 @@ metaitem.zblan_ingot.name=ZBLAN Ingot
 metaitem.hot_annealed_zblan_ingot.name=Hot Annealed ZBLAN Ingot
 metaitem.zblan_fiber.name=ZBLAN Fiber
 metaitem.erbium_doped_zblan.name=Erbium Doped ZBLAN
-metaitem.cladded_optical_fiber_core.name=Cladded Optical Fiber Core
+metaitem.cladded_optical_fiber_core.name=Cladded 光ファイバー Core
 metaitem.degenerate.rhenium.dust.name=Degenerate Rhenium Dust
 metaitem.degenerate.rhenium.plate.name=Degenerate Rhenium Plate
 metaitem.rhenium.plasma.containment.cell.name=Rhenium Plasma Containment Cell
@@ -910,80 +910,80 @@ monitor.gui.title.config=Config
 ##/////////////////////CIRCUIT///////////////////////////
 
 ##//LV
-metaitem.circuit.basic.name=Primitive Processor
+metaitem.circuit.basic.name=Primitiveプロセッサ
 metaitem.circuit.basic.tooltip=§b§oLV Circuit
-metaitem.circuit.processor.refined.name=Refined Processor
+metaitem.circuit.processor.refined.name=Refinedプロセッサ
 metaitem.circuit.processor.refined.tooltip=§b§oLV Circuit
-metaitem.circuit.basic_electronic.name=Electronic Processor
+metaitem.circuit.basic_electronic.name=Electronicプロセッサ
 metaitem.circuit.basic_electronic.tooltip=§b§oLV Circuit
 
 ##//MV
-metaitem.circuit.assembly.primitive.name=Primitive Assembly
+metaitem.circuit.assembly.primitive.name=Primitiveアセンブリ
 metaitem.circuit.assembly.primitive.tooltip=§b§oMV Circuit
-metaitem.circuit.assembly.electronic.name=Electronic Assembly
+metaitem.circuit.assembly.electronic.name=Electronicアセンブリ
 metaitem.circuit.assembly.electronic.tooltip=§b§oMV Circuit
-metaitem.circuit.assembly.refined.name=Refined Assembly
+metaitem.circuit.assembly.refined.name=Refinedアセンブリ
 metaitem.circuit.assembly.refined.tooltip=§b§oMV Circuit
-metaitem.circuit.processor.micro.name=Micro Processor
+metaitem.circuit.processor.micro.name=マイクロプロセッサ
 metaitem.circuit.processor.micro.tooltip=§b§oMV Circuit
 
 ##//HV
-metaitem.circuit.computer.electronic.name=Electronic Computer
+metaitem.circuit.computer.electronic.name=Electronicコンピュータ
 metaitem.circuit.computer.electronic.tooltip=§b§oHV Circuit
-metaitem.circuit.computer.refined.name=Refined Computer
+metaitem.circuit.computer.refined.name=Refinedコンピュータ
 metaitem.circuit.computer.refined.tooltip=§b§oHV Circuit
-metaitem.circuit.processor_assembly.name=Micro Assembly
+metaitem.circuit.processor_assembly.name=マイクロアセンブリ
 metaitem.circuit.processor_assembly.tooltip=§b§oHV Circuit
-metaitem.circuit.nano_processor.name=Nano Processor
+metaitem.circuit.nano_processor.name=Nanoプロセッサ
 metaitem.circuit.nano_processor.tooltip=§b§oHV Circuit
 
 
 ##//EV
-metaitem.circuit.mainframe.refined.name=Refined Mainframe
+metaitem.circuit.mainframe.refined.name=Refinedメインフレーム
 metaitem.circuit.mainframe.refined.tooltip=§b§oEV Circuit
-metaitem.circuit.computer.micro.name=Micro Computer
+metaitem.circuit.computer.micro.name=マイクロコンピュータ
 metaitem.circuit.computer.micro.tooltip=§b§oEV Circuit
-metaitem.circuit.nano_processor_assembly.name=Nano Assembly
+metaitem.circuit.nano_processor_assembly.name=Nanoアセンブリ
 metaitem.circuit.nano_processor_assembly.tooltip=§b§oEV Circuit
-metaitem.circuit.quantum_processor.name=Quantum Processor
+metaitem.circuit.quantum_processor.name=クアンタムプロセッサ
 metaitem.circuit.quantum_processor.tooltip=§b§oEV Circuit
 
 ##//IV
-metaitem.circuit.mainframe.micro.name=Micro Mainframe
+metaitem.circuit.mainframe.micro.name=マイクロメインフレーム
 metaitem.circuit.mainframe.micro.tooltip=§b§oIV Circuit
-metaitem.circuit.computer.nano.name=Nano Computer
+metaitem.circuit.computer.nano.name=Nanoコンピュータ
 metaitem.circuit.computer.nano.tooltip=§b§oIV Circuit
-metaitem.circuit.assembly.quantum.name=Quantum Assembly
+metaitem.circuit.assembly.quantum.name=クアンタムアセンブリ
 metaitem.circuit.assembly.quantum.tooltip=§b§oIV Circuit
-metaitem.circuit.processor.crystal.name=Crystal Processor
+metaitem.circuit.processor.crystal.name=クリスタルプロセッサ
 metaitem.circuit.processor.crystal.tooltip=§b§oIV Circuit
 
 ##//Luv
-metaitem.circuit.mainframe.nano.name=Nano Mainframe
+metaitem.circuit.mainframe.nano.name=Nanoメインフレーム
 metaitem.circuit.mainframe.nano.tooltip=§b§oLuV Circuit
-metaitem.circuit.computer.quantum.name=Quantum Computer
+metaitem.circuit.computer.quantum.name=クアンタムコンピュータ
 metaitem.circuit.computer.quantum.tooltip=§b§oLuV Circuit
-metaitem.circuit.energy_flow.name=Crystal Assembly
+metaitem.circuit.energy_flow.name=クリスタルアセンブリ
 metaitem.circuit.energy_flow.tooltip=§b§oLuV Circuit
-metaitem.circuit.wetware_processor.name=Wetware Processor
+metaitem.circuit.wetware_processor.name=ウェットウェアプロセッサ
 metaitem.circuit.wetware_processor.tooltip=§b§oLuV Circuit
 
 ##//ZPM
-metaitem.circuit.mainframe.quantum.name=Quantum Mainframe
+metaitem.circuit.mainframe.quantum.name=クアンタムメインフレーム
 metaitem.circuit.mainframe.quantum.tooltip=§b§oZPM Circuit
-metaitem.circuit.computer.crystal.name=Crystal Computer
+metaitem.circuit.computer.crystal.name=クリスタルコンピュータ
 metaitem.circuit.computer.crystal.tooltip=§b§oZPM Circuit
-metaitem.circuit.wetware_assembly.name=Wetware Assembly
+metaitem.circuit.wetware_assembly.name=ウェットウェアアセンブリ
 metaitem.circuit.wetware_assembly.tooltip=§b§oZPM Circuit
 
 ##//UV
-metaitem.circuit.mainframe.crystal.name=Crystal Mainframe
+metaitem.circuit.mainframe.crystal.name=クリスタルメインフレーム
 metaitem.circuit.mainframe.crystal.tooltip=§b§oUV Circuit
-metaitem.circuit.wetware_super_computer.name=Wetware Computer
+metaitem.circuit.wetware_super_computer.name=ウェットウェアコンピュータ
 metaitem.circuit.wetware_super_computer.tooltip=§b§oUV Circuit
 
 ##//MAX
-metaitem.circuit.wetware_mainframe.name=Wetware Mainframe
+metaitem.circuit.wetware_mainframe.name=ウェットウェアメインフレーム
 metaitem.circuit.wetware_mainframe.tooltip=§b§oUHV Circuit
 
 
@@ -1012,33 +1012,33 @@ metaitem.circuit.resonatic.uev.name=UEV Magneto Resonatic Circuit
 metaitem.circuit.resonatic.uev.tooltip=§b§oUEV Circuit
 
 ##bioware
-metaitem.circuit.processor.bioware.name=Bioware Processor
+metaitem.circuit.processor.bioware.name=Biowareプロセッサ
 metaitem.circuit.processor.bioware.tooltip=§b§oZPM Circuit
-metaitem.circuit.assembly.bioware.name=Bioware Assembly
+metaitem.circuit.assembly.bioware.name=Biowareアセンブリ
 metaitem.circuit.assembly.bioware.tooltip=§b§oUV Circuit
-metaitem.circuit.computer.bioware.name=Bioware Computer
+metaitem.circuit.computer.bioware.name=Biowareコンピュータ
 metaitem.circuit.computer.bioware.tooltip=§b§oUHV Circuit
-metaitem.circuit.mainframe.bioware.name=Bioware Mainframe
+metaitem.circuit.mainframe.bioware.name=Biowareメインフレーム
 metaitem.circuit.mainframe.bioware.tooltip=§b§oUEV Circuit
 
 ##optical
-metaitem.circuit.processor.optical.name=Optical Processor
+metaitem.circuit.processor.optical.name=Opticalプロセッサ
 metaitem.circuit.processor.optical.tooltip=§b§oUV Circuit
-metaitem.circuit.assembly.optical.name=Optical Assembly
+metaitem.circuit.assembly.optical.name=Opticalアセンブリ
 metaitem.circuit.assembly.optical.tooltip=§b§oUHV Circuit
-metaitem.circuit.computer.optical.name=Optical Computer
+metaitem.circuit.computer.optical.name=Opticalコンピュータ
 metaitem.circuit.computer.optical.tooltip=§b§oUEV Circuit
-metaitem.circuit.mainframe.optical.name=Optical Mainframe
+metaitem.circuit.mainframe.optical.name=Opticalメインフレーム
 metaitem.circuit.mainframe.optical.tooltip=§b§oUIV Circuit
 
 ##cosmic
-metaitem.circuit.processor.cosmic.name=Cosmic Processor
+metaitem.circuit.processor.cosmic.name=Cosmicプロセッサ
 metaitem.circuit.processor.cosmic.tooltip=§b§oUHV Circuit
 metaitem.circuit.assembly.cosmic.name=Cosmic Assembly
 metaitem.circuit.assembly.cosmic.tooltip=§b§oUEV Circuit
-metaitem.circuit.computer.cosmic.name=Cosmic Computer
+metaitem.circuit.computer.cosmic.name=Cosmicコンピュータ
 metaitem.circuit.computer.cosmic.tooltip=§b§oUIV Circuit
-metaitem.circuit.mainframe.cosmic.name=Cosmic Mainframe
+metaitem.circuit.mainframe.cosmic.name=Cosmicメインフレーム
 metaitem.circuit.mainframe.cosmic.tooltip=§b§oUMV Circuit
 
 
@@ -1562,7 +1562,7 @@ gtadditions.machine.battery_tower.name=バッテリータワー
 gtadditions.machine.large_laser_engraver.name=大型精密レーザー彫刻機
 gtadditions.machine.bio_reactor.name=Bio Reactor
 gtadditions.machine.plasma_condenser.name=Plasma Condenser
-gtadditions.machine.advanced_fusion_reactor.name=Advanced Fusion Reactor Computer
+gtadditions.machine.advanced_fusion_reactor.name=Advanced Fusion Reactorコンピュータ
 gtadditions.machine.central_monitor.name=Central Monitor
 gtadditions.machine.monitor_screen.name=Monitor Screen
 
@@ -1638,8 +1638,8 @@ gtadditions.machine.world_accelerator.uv.name=Elite ワールドアクセラレ�
 gtadditions.machine.world_accelerator.description=周囲を加速させる。2つのモードがあり、スクリュードライバーで変更できる
 gtadditions.machine.world_accelerator.area=TileEntityモードは、隣接するブロックのみが加速されます。 Random Tickモードは、半径%dx%dブロックとなる
 
-gtadditions.machine.nuclear_reactor.name=Nuclear Reactor
-gtadditions.machine.nuclear_breeder.name=Nuclear Breeder Reactor
+gtadditions.machine.nuclear_reactor.name=原子炉
+gtadditions.machine.nuclear_breeder.name=核増殖炉
 gtadditions.machine.boiling_water_reactor.uranium.name=Boiling Uranium Nuclear Reactor
 gtadditions.machine.boiling_water_reactor.plutonium.name=Boiling Plutonium Nuclear Reactor
 gtadditions.machine.simple_ore_washer.name=簡易鉱石洗浄機
@@ -1647,9 +1647,9 @@ gtadditions.machine.simple_ore_washer.tooltip=副産物は得られないが自�
 
 gtadditions.machine.replicator.tooltip=Producing The Purest Of Elements
 
-gtadditions.machine.fusion_reactor.luv.name=Fusion Reactor Computer Mark 1
-gtadditions.machine.fusion_reactor.zpm.name=Fusion Reactor Computer Mark 2
-gtadditions.machine.fusion_reactor.uv.name=Fusion Reactor Computer Mark 3
+gtadditions.machine.fusion_reactor.luv.name=Fusion Reactorコンピュータ Mark 1
+gtadditions.machine.fusion_reactor.zpm.name=Fusion Reactorコンピュータ Mark 2
+gtadditions.machine.fusion_reactor.uv.name=Fusion Reactorコンピュータ Mark 3
 gtadditions.machine.miner.lv.name=Basic チャンクマイナー
 gtadditions.machine.miner.mv.name=Advanced チャンクマイナー
 gtadditions.machine.miner.hv.name=Advanced チャンクマイナー II
@@ -1688,7 +1688,7 @@ gtadditions.machine.fluid_hatch.export_filtered.uxv.name=フィルタ付液体�
 gtadditions.machine.fluid_hatch.export_filtered.max.name=フィルタ付液体搬出口 (MAX)
 
 gtadditions.machine.gas_centrifuge.name=ガス遠心分離機
-gtadditions.machine.qubit_computer.name=Quantum Computer
+gtadditions.machine.qubit_computer.name=クアンタムコンピュータ
 gtadditions.machine.stellar_forge.name=Stellar Forge
 gtadditions.machine.void_miner.uhv.name=Void Miner MK II
 gtadditions.machine.void_miner.uev.name=Void Miner MK III
@@ -1757,7 +1757,7 @@ tile.ga_transparent_casing.chrome_reinforced_glass.name=Chrome Reinforced Glass
 tile.ga_transparent_casing.tungsten_reinforced_glass.name=Tungsten Reinforced Glass
 tile.ga_transparent_casing.iridium_reinforced_glass.name=Iridium Reinforced Glass
 tile.ga_transparent_casing.osmium_reinforced_glass.name=Osmiridium Reinforced Glass
-tile.ga_quantum_casing.computer.name=Qubit Computer Casing
+tile.ga_quantum_casing.computer.name=Qubitコンピュータ Casing
 tile.ga_quantum_casing.generator.name=Qubit generator Casing
 tile.ga_multiblock_casing2.stellar_containment.name=Stellar Containment
 tile.ga_multiblock_casing2.bio_reactor_casing.name=Bio Reactor Casing
@@ -1924,7 +1924,7 @@ tile.ga_simple_block.superheavy_block.name=Superheavy Block
 tile.ga_explosive.taranium_charge.name=Taranium Charge
 tile.ga_explosive.naquadria_charge.name=Naquadria Charge
 tile.ga_explosive.leptonic_charge.name=Leptonic Charge
-tile.ga_explosive.qcd_charge.name=Quantum Chromodynamic Charge
+tile.ga_explosive.qcd_charge.name=クアンタム Chromodynamic Charge
 tile.ga_explosive.industrial_tnt.name=Industrial TNT
 tile.ga_explosive.powder_barrel.name=Powder Barrel
 
@@ -2476,7 +2476,7 @@ material.umv_superconductor=UMV超伝導体
 material.umv_superconductor_base=UMV超伝導体の基礎
 material.uxv_superconductor=UXV超伝導体
 material.uxv_superconductor_base=UXV超伝導体の基礎
-material.quantum=Quantum
+material.quantum=クアンタム
 material.black_titanium=Black Titanium
 material.tungsten_titanium_carbide=Tungsten Titanium Carbide
 material.titan_steel=Titan Steel
@@ -2841,8 +2841,8 @@ gtadditions.multiblock.drilling_rig.chunk_capacity=Chunk Capacity: %dB
 gtadditions.multiblock.drilling_rig.chunk_remaining=Chunk Fluid Remaining: %dB
 gtadditions.multiblock.drilling_rig.fluid=Current Fluid: %s
 gtadditions.multiblock.drilling_rig.replenish=Replenish Rate: %dmB/sec
-gtadditions.multiblock.battery_tower.input=EU/t input: %s
-gtadditions.multiblock.battery_tower.output=EU/t output: %s
+gtadditions.multiblock.battery_tower.input=EU/t 入力: %s
+gtadditions.multiblock.battery_tower.output=EU/t 出力: %s
 gtadditions.multiblock.battery_tower.passive_drain=Passive EU loss per tick: %s
 
 
@@ -2870,12 +2870,12 @@ item.material.oreprefix.depletedFuelOxide=%s Depleted Fuel Oxide
 item.material.oreprefix.depletedFuelTRISO=%s Depleted Fuel TRISO
 item.material.oreprefix.depletedFuel=%s Depleted Fuel
 
-item.oreprefix.opticalFiberHex=16x Optical Fiber
-item.oreprefix.opticalFiberTwelve=12x Optical Fiber
-item.oreprefix.opticalFiberOctal=8x Optical Fiber
-item.oreprefix.opticalFiberQuadruple=4x Optical Fiber
-item.oreprefix.opticalFiberDouble=2x Optical Fiber
-item.oreprefix.opticalFiberSingle=1x Optical Fiber
+item.oreprefix.opticalFiberHex=16x 光ファイバー
+item.oreprefix.opticalFiberTwelve=12x 光ファイバー
+item.oreprefix.opticalFiberOctal=8x 光ファイバー
+item.oreprefix.opticalFiberQuadruple=4x 光ファイバー
+item.oreprefix.opticalFiberDouble=2x 光ファイバー
+item.oreprefix.opticalFiberSingle=1x 光ファイバー
 
 
 
@@ -2982,7 +2982,7 @@ for.bees.species.plutonium=Plutonium
 for.bees.species.naquadah=Naquadah
 for.bees.effects.gt_accelerate=Chrono
 for.bees.effects.gt_fix=Treasure
-for.bees.effects.gt_energy=Quantum
+for.bees.effects.gt_energy=クアンタム
 for.bees.effects.gt_fluid=Mellifluous
 for.description.uranium=Uranium bees were born with the Treasure (fix GT tools)
 for.description.plutonium=Plutonium bees were born with the Quantum (power GT machines)
@@ -3513,23 +3513,23 @@ fluid.tb_ho_oxides_solution=Tb-Ho Oxides Solution
 fluid.er_lu_oxides_solution=Er-Lu Oxides Solution
 fluid.supercooled_cryotheum=Supercooled Cryotheum
 
-fluid.turpentine=Turpentine
-fluid.acetylene=Acetylene
-fluid.formaldehyde=Formaldehyde
-fluid.propargyl_alcohol=Propargyl Alcohol
-fluid.propargyl_chloride=Propargyl Chloride
-fluid.citral=Citral
-fluid.beta_ionone=Beta Ionone
-fluid.vitamin_a=Vitamin A
-fluid.ethylene_oxide=Ethylene Oxide
-fluid.ethanolamine=Ethanolamine
-fluid.biotin=Biotin
-fluid.b27_supplement=B27 Supplement
-fluid.clear_ammonia_solution=Clean Ammonia Solution
-fluid.catalase=Catalase
-fluid.blood=Blood
-fluid.blood_cells=Blood Cells
-fluid.blood_plasma=Blood Plasma
+fluid.turpentine=テレビン
+fluid.acetylene=アセチレン
+fluid.formaldehyde=ホルムアルデヒド
+fluid.propargyl_alcohol=プロパルギルアルコール
+fluid.propargyl_chloride=塩化プロパギル
+fluid.citral=シトラール
+fluid.beta_ionone=ベータイオノン
+fluid.vitamin_a=ビタミンA
+fluid.ethylene_oxide=エチレンオキシド
+fluid.ethanolamine=エタノールアミン
+fluid.biotin=ビオチン
+fluid.b27_supplement=B27サプリメント
+fluid.clear_ammonia_solution=純粋なアンモニア溶液
+fluid.catalase=カタラーゼ
+fluid.blood=血液
+fluid.blood_cells=血液細胞
+fluid.blood_plasma=血漿(けっしょう)
 fluid.bfgf=Basic fibroblast growth factor
 fluid.egf=Epidermal growth factor
 fluid.nitro_benzene=Nitro Benzene
@@ -4101,25 +4101,25 @@ metaitem.contained.kerr.newmann.singularity.name=Contained Kerr-Newmann Singular
 metaitem.contained.kerr.singularity.name=Contained Kerr Singularity
 metaitem.contained.high.density.protonic.matter.name=Contained High Density Protonic Matter
 metaitem.time.dilation.containment.unit.name=Time Dilation Containment Unit
-metaitem.microwormhole.generator.name=Microwormhole Generator
+metaitem.microwormhole.generator.name=マイクロwormhole Generator
 metaitem.macrowormhole.generator.name=Macrowormhole Generator
 metaitem.stabilized.wormhole.generator.name=Stabilized Wormhole Generator
 metaitem.contained.exotic.matter.name=Contained Exotic Matter
 metaitem.separation.electromagnet.name=Separation Electromagnet
 metaitem.sphere.field.shape.name=Sphere Field Shape
 
-metaitem.smd.capacitor.supracausal.name=Supra-Causal SMD Capacitor
-metaitem.smd.resistor.supracausal.name=Supra-Causal SMD Resistor
-metaitem.smd.diode.supracausal.name=Supra-Causal SMD Diode
-metaitem.smd.transistor.supracausal.name=Supra-Causal SMD Transistor
+metaitem.smd.capacitor.supracausal.name=Supra-Causal SMDコンデンサ
+metaitem.smd.resistor.supracausal.name=Supra-Causal SMDレジスター
+metaitem.smd.diode.supracausal.name=Supra-Causal SMDダイオード
+metaitem.smd.transistor.supracausal.name=Supra-Causal SMDトランジスター
 
-metaitem.circuit.processor.supracausal.name=Supra-Causal Processor
+metaitem.circuit.processor.supracausal.name=Supra-Causalプロセッサ
 metaitem.circuit.processor.supracausal.tooltip=§b§oUEV Circuit
-metaitem.circuit.assembly.supracausal.name=Supra-Causal Assembly
+metaitem.circuit.assembly.supracausal.name=Supra-Causalアセンブリ
 metaitem.circuit.assembly.supracausal.tooltip=§b§oUIV Circuit
-metaitem.circuit.computer.supracausal.name=Supra-Causal Computer
+metaitem.circuit.computer.supracausal.name=Supra-Causalコンピュータ
 metaitem.circuit.computer.supracausal.tooltip=§b§oUMV Circuit
-metaitem.circuit.mainframe.supracausal.name=Supra-Causal Mainframe
+metaitem.circuit.mainframe.supracausal.name=Supra-Causalメインフレーム
 metaitem.circuit.mainframe.supracausal.tooltip=§b§oUXV Circuit
 
 metaitem.topological.manipulator.unit.name=Topological Manipulator Unit
@@ -4128,18 +4128,18 @@ metaitem.graviton.transducer.name=Graviton Transducer
 metaitem.nuclear.clock.name=Nuclear Clock
 metaitem.supracausal.processing.core.name=Supra-Causal Processing Core
 metaitem.manifold.oscillatory.power.cell.name=Manifold Oscillatory Power Cell
-metaitem.qcd.protective.plating.name=Quantumchromodynamic Protective Plating
+metaitem.qcd.protective.plating.name=クアンタムchromodynamic Protective Plating
 metaitem.ctc.guidance.unit.name=Closed Timelike Curve Guidance Unit
 metaitem.ctc.computational.unit.container.name=Closed Timelike Curve Computational Unit Container
 metaitem.eigenfolded.kerr.manifold.name=Eigenfolded Kerr Manifold
 metaitem.ctc.computational.unit.name=Closed Timelike Curve Computational Unit
 metaitem.recursively.folded.negative.space.name=Recursively Folded Negative Space
-metaitem.insulation_wire_assembly.name=Insulation Wire Assembly
+metaitem.insulation_wire_assembly.name=Insulation Wireアセンブリ
 
 metaitem.coloured.leds.name=Coloured LEDs
 metaitem.display.name=Display
 
-material.qcd_confined_matter=Quantumchromodynamically Confined Matter
+material.qcd_confined_matter=クアンタムchromodynamically Confined Matter
 
 fluid.free_electron_gas=Free Electron Gas
 fluid.free_alpha_gas=Free Alpha Gas
