@@ -299,27 +299,38 @@ metaitem.electric.motor.zpm.name=電気モーター (ZPM)
 metaitem.electric.motor.uv.name=電気モーター (UV)
 
 metaitem.electric.pump.lv.name=電動ポンプ (LV)
-metaitem.electric.pump.lv.tooltip=1280 mb /秒 (取付時)
+metaitem.electric.pump.lv.tooltip=1280 mb/秒 (取付時)
 metaitem.electric.pump.mv.name=電動ポンプ (MV)
-metaitem.electric.pump.mv.tooltip=5120 mb /秒 (取付時)
+metaitem.electric.pump.mv.tooltip=5120 mb/秒 (取付時)
 metaitem.electric.pump.hv.name=電動ポンプ (HV)
-metaitem.electric.pump.hv.tooltip=20,480 mb /秒 (取付時)
+metaitem.electric.pump.hv.tooltip=20,480 mb/秒 (取付時)
 metaitem.electric.pump.ev.name=電動ポンプ (EV)
-metaitem.electric.pump.ev.tooltip=81,920 mb /秒 (取付時)
+metaitem.electric.pump.ev.tooltip=81,920 mb/秒 (取付時)
 metaitem.electric.pump.iv.name=電動ポンプ (IV)
-metaitem.electric.pump.iv.tooltip=327,680 mb /秒 (取付時)
+metaitem.electric.pump.iv.tooltip=327,680 mb/秒 (取付時)
 metaitem.electric.pump.luv.name=電動ポンプ (LuV)
-metaitem.electric.pump.luv.tooltip=1,310,720 mb /秒 (取付時)
+metaitem.electric.pump.luv.tooltip=1,310,720 mb/秒 (取付時)
 metaitem.electric.pump.zpm.name=電動ポンプ (ZPM)
-metaitem.electric.pump.zpm.tooltip=5,242,880 mb /秒 (取付時)
+metaitem.electric.pump.zpm.tooltip=5,242,880 mb/秒 (取付時)
 metaitem.electric.pump.uv.name=電動ポンプ (UV)
-metaitem.electric.pump.uv.tooltip=20,971,520 mb /秒 (取付時)
+metaitem.electric.pump.uv.tooltip=20,971,520 mb/秒 (取付時)
 
-metaitem.fluidregulator.lv.name=流体レギュレーター (LV)
-metaitem.fluidregulator.mv.name=流体レギュレーター (MV)
-metaitem.fluidregulator.hv.name=流体レギュレーター (HV)
-metaitem.fluidregulator.ev.name=流体レギュレーター (EV)
-metaitem.fluidregulator.iv.name=流体レギュレーター (IV)
+metaitem.fluidregulator.lv.name=液体レギュレーター (LV)
+metaitem.fluidregulator.mv.name=液体レギュレーター (MV)
+metaitem.fluidregulator.hv.name=液体レギュレーター (HV)
+metaitem.fluidregulator.ev.name=液体レギュレーター (EV)
+metaitem.fluidregulator.iv.name=液体レギュレーター (IV)
+metaitem.fluid.regulator.luv.name=液体レギュレーター (LuV)
+metaitem.fluid.regulator.zpm.name=液体レギュレーター (ZPM)
+metaitem.fluid.regulator.uv.name=液体レギュレーター (UV)
+metaitem.fluid.regulator.lv.tooltip=1280 mb/秒 (取付時)
+metaitem.fluid.regulator.mv.tooltip=5120 mb/秒 (取付時)
+metaitem.fluid.regulator.hv.tooltip=20,480 mb/秒 (取付時)
+metaitem.fluid.regulator.ev.tooltip=81,920 mb/秒 (取付時)
+metaitem.fluid.regulator.iv.tooltip=327,680 mb/秒 (取付時)
+metaitem.fluid.regulator.luv.tooltip=1,310,720 mb/秒 (取付時)
+metaitem.fluid.regulator.zpm.tooltip=5,242,880 mb/秒 (取付時)
+metaitem.fluid.regulator.uv.tooltip=20,971,520 mb/秒 (取付時)
 
 metaitem.conveyor.module.lv.name=コンベヤモジュール (LV)
 metaitem.conveyor.module.lv.tooltip=毎秒8アイテム (取付時)
@@ -743,6 +754,10 @@ cover.pump.mode.import=搬入モード
 cover.pump.fluid_filter.title=液体フィルター
 cover.bucket.mode.bucket=B/s
 cover.bucket.mode.milli_bucket=mB/s
+cover.fluid_regulator.title=液体レギュレーターの設定 (%s)
+cover.fluid_regulator.transfer_mode.description=§e通常搬送§r - このモードは搬送能力の通り搬送します/n§e単位指定§r - このモードは指定の液体単位で搬送します/n§e供給指定§r - このモードは受け取る側が指定した液体量以上にならないように搬送します
+cover.fluid_regulator.supply_exact=単位指定: %s
+cover.fluid_regulator.keep_exact=供給指定: %s
 
 cover.machine_controller.name=マシンコントローラー設定
 cover.machine_controller.normal=ノーマル
@@ -1100,7 +1115,7 @@ material.niobium_titanium=ニオブチタン合金
 material.nitro_carbon=ニトロカーボン
 material.nitrogen_dioxide=二酸化窒素
 material.obsidian=黒曜石
-material.phosphate=リン酸塩
+material.phosphate=リン酸三カルシウム
 material.pig_iron=銑鉄
 material.plastic=ポリエチレン
 material.silicone=ポリシロキサン
@@ -2245,7 +2260,7 @@ gregtech.machine.charger.max.name=MAX 充電器
 
 ## Pumps
 gregtech.machine.pump.tooltip_range=揚水領域: %,dx%,d
-gregtech.machine.pump.tooltip_speed=1ティックに%,d揚水する
+gregtech.machine.pump.tooltip_speed=%,dティックごとに揚水する
 
 gregtech.machine.pump.lv.name=基本型ポンプ
 gregtech.machine.pump.mv.name=発展型ポンプ
@@ -2887,13 +2902,14 @@ gregtech.recipe.amperage=電流: %,d
 gregtech.recipe.not_consumed=クラフトしても消費されない
 gregtech.recipe.chance=チャンス: %s%% +%s%%/tier
 gregtech.recipe.blast_furnace_temperature=温度(K): %,dK (%s)
+gregtech.recipe.explosive=爆発: %s
 gregtech.recipe.eu_to_start=開始に必要なエネルギー: %,dEU
 
-gregtech.fluid.click_to_fill=§7液体が入っているセルなどで空きスロットをクリックすると機械に液体を入れることができます
-gregtech.fluid.click_to_fill.shift=§7(Shiftキーを押しながらクリックすると、全スロットを満タンにします)
+gregtech.fluid.click_to_fill=§7液体が入っていないセルなどでスロットをクリックすると液体を取り出すことができます
+gregtech.fluid.click_to_fill.shift=§7(Shiftキーを押しながらクリックすると、全スロットを空にします)
 
-gregtech.fluid.click_to_empty=§7液体が入っていないセルなどで空きスロットをクリックすると機械から液体を取り出すことができます
-gregtech.fluid.click_to_empty.shift=§7(Shiftキーを押しながらクリックすると、全スロットを空にします)
+gregtech.fluid.click_to_empty=§7液体が入っているセルなどでスロットをクリックすると液体を入れることができます
+gregtech.fluid.click_to_empty.shift=§7(Shiftキーを押しながらクリックすると、全スロットを満タンにします)
 
 gregtech.fluid.plasma=%s プラズマ
 gregtech.fluid.empty=空きスロット
@@ -2946,6 +2962,11 @@ gregtech.multiblock.invalid_structure.tooltip=マルチブロックの構成はJ
 gregtech.multiblock.validation_failed=無効な数量の入力/出力
 gregtech.multiblock.max_energy_per_tick=最大 EU/t: %s (%s)
 gregtech.multiblock.generation_eu=出力: %s EU/t
+gregtech.multiblock.preview.tilt=Shift+LMB 傾ける
+gregtech.multiblock.preview.zoom=Shift+RMB ズーム
+gregtech.multiblock.preview.pan=LMB+ドラッグ 回転
+gregtech.multiblock.preview.move=RMB+ドラッグ カメラ移動
+gregtech.multiblock.preview.reset=マウスホイールをスクロールするとリセット
 
 gregtech.multiblock.blast_furnace.max_temperature=最高温度: %sK
 gregtech.multiblock.multi_furnace.heating_coil_level=コイルレベル: %s
