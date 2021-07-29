@@ -2279,6 +2279,8 @@ gregtech.machine.item_collector.gui.collect_range=%sブロックで収集
 gregtech.machine.quantum_chest.tooltip=1種類のアイテムをとてつもない数を保存できる
 gregtech.machine.quantum_chest.capacity=アイテム容量 : %,d 個
 gregtech.machine.quantum_chest.items_stored=アイテム量 :
+gregtech.machine.quantum_chest.tooltip.item=アイテム貯蔵量 : §b%s
+gregtech.machine.quantum_chest.tooltip.count=アイテム量 : §e%,d
 
 gregtech.machine.quantum_chest.mv.name=基本型クアンタムチェスト
 gregtech.machine.quantum_chest.hv.name=発展型クアンタムチェスト
@@ -2288,6 +2290,8 @@ gregtech.machine.quantum_chest.iv.name=ブラックホールクアンタムチ�
 ## Quantum tanks
 gregtech.machine.quantum_tank.tooltip=1ブロックでとてつもない液体を保存できる。
 gregtech.machine.quantum_tank.capacity=液体容量 : %,d mb
+gregtech.machine.quantum_tank.tooltip.name=液体貯蔵量 : §b%s
+gregtech.machine.quantum_tank.tooltip.count=液体容量 : §e%,d mb
 
 gregtech.machine.quantum_tank.mv.name=基本型クアンタムタンク
 gregtech.machine.quantum_tank.hv.name=発展型クアンタムタンク
@@ -2967,6 +2971,12 @@ gregtech.multiblock.preview.zoom=Shift+RMB ズーム
 gregtech.multiblock.preview.pan=LMB+ドラッグ 回転
 gregtech.multiblock.preview.move=RMB+ドラッグ カメラ移動
 gregtech.multiblock.preview.reset=マウスホイールをスクロールするとリセット
+gregtech.multiblock.preview.any_hatch=任意のティアで構成可能
+gregtech.multiblock.preview.limit=最小ティア: %d
+gregtech.multiblock.preview.limit_per_layer=最低 %d 以上のティア
+gregtech.multiblock.preview.only=%s のみ
+gregtech.multiblock.preview.only_location=%s のみ
+gregtech.multiblock.preview.location.b_c=下層の中央
 
 gregtech.multiblock.blast_furnace.max_temperature=最高温度: %sK
 gregtech.multiblock.multi_furnace.heating_coil_level=コイルレベル: %s
@@ -3011,3 +3021,5 @@ gregtech.command.util.hand.tool_stats=Tool Stats Class: %s
 gregtech.command.util.hand.meta_item=Meta Item Name: %s
 gregtech.command.util.hand.not_a_player=This command is only usable by a player.
 gregtech.command.util.hand.no_item=You must hold something in mainhand before executing this command.
+
+gregtech.universal.clear_nbt_recipe.tooltip=§cThis will destroy all contents!
