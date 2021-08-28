@@ -1690,7 +1690,7 @@ gtadditions.machine.miner.advance.name=大型採掘機 Mark 3
 gtadditions.machine.miner.multi.description=%dx%dチャンクの鉱石を採掘する。幸運%sのハンマーで採掘(粉砕された状態)するか、シルクタッチかを選択できます。
 gtadditions.machine.miner.description=現在のチャンクの鉱石を採掘する。
 gtadditions.machine.miner.steam.description=現在のチャンクの鉱石を採掘する。スチームを16 mb/t消費する
-gtadditions.machine.miner.fluid_usage=%sを%d mb/t 消費する
+gtadditions.machine.miner.fluid_usage=%d mb/t 消費する(%s)
 
 gtadditions.machine.rotor_holder.ulv.name=ホットクーラントローターホルダー (ULV)
 gtadditions.machine.rotor_holder.lv.name=ホットクーラントローターホルダー (LV)
@@ -2846,7 +2846,7 @@ gtadditions.multiblock.large_rocket_engine.tooltip.1=大型ロケットエンジ
 gtadditions.multiblock.large_rocket_engine.tooltip.2=ロケット燃料は供給できるとすぐに消費されます。
 gtadditions.multiblock.large_rocket_engine.tooltip.3=毎秒 37500mB の空気と 10mB の二酸化炭素を消費します。
 gtadditions.multiblock.large_rocket_engine.tooltip.4=液体水素を使用すると、生産電力が3倍になります。 1B燃料あたり 4mB/秒を使用します。
-gtadditions.multiblock.large_rocket_engine.tooltip.5=デフォルトの効率 60%%.
+gtadditions.multiblock.large_rocket_engine.tooltip.5=デフォルトの効率 60%%
 gtadditions.multiblock.large_rocket_engine.tooltip.6=Above LuV is 40%%
 gtadditions.multiblock.large_rocket_engine.tooltip.7=Above ZPM is 20%%
 gtadditions.multiblock.large_rocket_engine.tooltip.8=Above UV is 10%%
