@@ -766,7 +766,7 @@ cover.machine_controller.inverted.description=§eノーマル§r - このモー�
 cover.machine_controller.redstone=最小のレッドストーン信号: %,d
 cover.machine_controller.mode.machine=コントロールマシーン
 cover.machine_controller.mode.cover_up=コントロールカバー (上面)
-cover.machine_controller.mode.cover_down=コントロールカバー (仮面)
+cover.machine_controller.mode.cover_down=コントロールカバー (下面)
 cover.machine_controller.mode.cover_south=コントロールカバー (南)
 cover.machine_controller.mode.cover_north=コントロールカバー (北)
 cover.machine_controller.mode.cover_east=コントロールカバー (東)
@@ -1764,7 +1764,7 @@ tile.turbine_casing.tungstensteel_turbine_casing.name=タングステンスチ�
 
 ## Multiblock casing blocks
 tile.multiblock_casing.engine_intake.name=エンジン吸気外装
-tile.multiblock_casing.grate.name=Grateマシン外装
+tile.multiblock_casing.grate.name=グレイトマシン外装
 tile.multiblock_casing.assembler.name=アセンブラーマシン外装
 tile.multiblock_casing.fusion.name=フージョンマシン外装
 tile.multiblock_casing.fusion_mk2.name=フージョンマシン外装 MK II
@@ -1898,22 +1898,22 @@ gregtech.machine.steam_alloy_smelter_steel.name=高圧スチーム合金かま�
 ## Generators
 gregtech.machine.diesel_generator.tooltip=可燃性液体が必要です
 
-gregtech.machine.diesel_generator.lv.name=基本型ディーゼル発電機
-gregtech.machine.diesel_generator.mv.name=発展型ディーゼル発電機
-gregtech.machine.diesel_generator.hv.name=ターボディーゼル発電機
-gregtech.machine.diesel_generator.ev.name=ターボディーゼル発電機 II
+gregtech.machine.diesel_generator.lv.name=ディーゼル発電機 (Tier LV)
+gregtech.machine.diesel_generator.mv.name=ディーゼル発電機 (Tier MV)
+gregtech.machine.diesel_generator.hv.name=ディーゼル発電機 (Tier HV)
+gregtech.machine.diesel_generator.ev.name=ディーゼル発電機 (Tier EV)
 
-gregtech.machine.steam_turbine.lv.name=基本型スチームタービン
-gregtech.machine.steam_turbine.mv.name=発展型スチームタービン
-gregtech.machine.steam_turbine.hv.name=ターボスチームタービン
-gregtech.machine.steam_turbine.ev.name=ターボスチームタービン II
+gregtech.machine.steam_turbine.lv.name=スチームタービン (Tier LV)
+gregtech.machine.steam_turbine.mv.name=スチームタービン (Tier MV)
+gregtech.machine.steam_turbine.hv.name=スチームタービン (Tier HV)
+gregtech.machine.steam_turbine.ev.name=スチームタービン (Tier EV)
 
 gregtech.machine.gas_turbine.tooltip=可燃性ガスが必要です
 
-gregtech.machine.gas_turbine.lv.name=基本型ガスタービン
-gregtech.machine.gas_turbine.mv.name=発展型ガスタービン
-gregtech.machine.gas_turbine.hv.name=ターボガスタービン
-gregtech.machine.gas_turbine.ev.name=ターボガスタービン II
+gregtech.machine.gas_turbine.lv.name=ガスタービン (Tier LV)
+gregtech.machine.gas_turbine.mv.name=ガスタービン (Tier MV)
+gregtech.machine.gas_turbine.hv.name=ガスタービン (Tier HV)
+gregtech.machine.gas_turbine.ev.name=ガスタービン (Tier EV)
 
 gregtech.machine.magic_energy_absorber.name=マジックエネルギーアブソーバー
 gregtech.machine.magic_energy_absorber.tooltip=最大電圧: §a2048 §7(§aEV§7)/n周囲64ブロック以内あるエンドクリスタルからエネルギーを集める/n各エンドクリスタルは32EU/t出力します/nドラゴンの卵を上に置くと128 EU/tずつに増幅されます。/n※自分で作成したエンドクリスタルでは発電できません
@@ -1921,248 +1921,248 @@ gregtech.machine.magic_energy_converter.name=マジックエネルギーコン�
 gregtech.machine.magic_energy_converter.tooltip=電圧: §a128 §7(§aMV§7)/n周囲16ブロック以内あるコンテナの中のエッセンシアからエネルギーを集める/n毎秒20 Potentia(Thaumcraftの相)を消費します
 
 ## Machines
-gregtech.machine.block_breaker.lv.name=基本型ブロックブレイカー
-gregtech.machine.block_breaker.mv.name=発展型ブロックブレイカー
-gregtech.machine.block_breaker.hv.name=発展型ブロックブレイカー II
-gregtech.machine.block_breaker.ev.name=発展型ブロックブレイカー III
+gregtech.machine.block_breaker.lv.name=ブロックブレイカー (Tier LV)
+gregtech.machine.block_breaker.mv.name=ブロックブレイカー (Tier MV)
+gregtech.machine.block_breaker.hv.name=ブロックブレイカー (Tier HV)
+gregtech.machine.block_breaker.ev.name=ブロックブレイカー (Tier EV)
 gregtech.machine.block_breaker.tooltip=正面のブロックを採掘し、そのドロップを回収する
 gregtech.machine.block_breaker.consumption=1回の操作につき §e%,d EU§7 消費する
 gregtech.machine.block_breaker.speed_bonus=速度ボーナス: §e%,d%%
 
-gregtech.machine.electric_furnace.lv.name=基本型電気かまど
-gregtech.machine.electric_furnace.mv.name=発展型電気かまど
-gregtech.machine.electric_furnace.hv.name=発展型電気かまど II
-gregtech.machine.electric_furnace.ev.name=発展型電気かまど III
+gregtech.machine.electric_furnace.lv.name=電気かまど (Tier LV)
+gregtech.machine.electric_furnace.mv.name=電気かまど (Tier MV)
+gregtech.machine.electric_furnace.hv.name=電気かまど (Tier HV)
+gregtech.machine.electric_furnace.ev.name=電気かまど (Tier EV)
 
-gregtech.machine.macerator.lv.name=基本型粉砕機
-gregtech.machine.macerator.mv.name=発展型粉砕機
-gregtech.machine.macerator.hv.name=万能型粉砕機 (HV)
-gregtech.machine.macerator.ev.name=万能型粉砕機 (EV)
+gregtech.machine.macerator.lv.name=粉砕機 (Tier LV)
+gregtech.machine.macerator.mv.name=粉砕機 (Tier MV)
+gregtech.machine.macerator.hv.name=万能型粉砕機 (Tier HV)
+gregtech.machine.macerator.ev.name=万能型粉砕機 (Tier EV)
 
-gregtech.machine.alloy_smelter.lv.name=基本型合金かまど
-gregtech.machine.alloy_smelter.mv.name=発展型合金かまど
-gregtech.machine.alloy_smelter.hv.name=発展型合金かまど II
-gregtech.machine.alloy_smelter.ev.name=発展型合金かまど III
+gregtech.machine.alloy_smelter.lv.name=合金かまど (Tier LV)
+gregtech.machine.alloy_smelter.mv.name=合金かまど (Tier MV)
+gregtech.machine.alloy_smelter.hv.name=合金かまど (Tier HV)
+gregtech.machine.alloy_smelter.ev.name=合金かまど (Tier EV)
 
-gregtech.machine.amplifab.lv.name=基本型マター増幅装置
-gregtech.machine.amplifab.mv.name=発展型マター増幅装置
-gregtech.machine.amplifab.hv.name=発展型マター増幅装置 II
-gregtech.machine.amplifab.ev.name=発展型マター増幅装置 III
+gregtech.machine.amplifab.lv.name=マター増幅装置 (Tier LV)
+gregtech.machine.amplifab.mv.name=マター増幅装置 (Tier MV)
+gregtech.machine.amplifab.hv.name=マター増幅装置 (Tier HV)
+gregtech.machine.amplifab.ev.name=マター増幅装置 (Tier EV)
 
-gregtech.machine.arc_furnace.lv.name=基本型アーク炉
-gregtech.machine.arc_furnace.mv.name=発展型アーク炉
-gregtech.machine.arc_furnace.hv.name=発展型アーク炉 II
-gregtech.machine.arc_furnace.ev.name=発展型アーク炉 III
+gregtech.machine.arc_furnace.lv.name=アーク炉 (Tier LV)
+gregtech.machine.arc_furnace.mv.name=アーク炉 (Tier MV)
+gregtech.machine.arc_furnace.hv.name=アーク炉 (Tier HV)
+gregtech.machine.arc_furnace.ev.name=アーク炉 (Tier EV)
 
-gregtech.machine.assembler.lv.name=基本型組立機
-gregtech.machine.assembler.mv.name=発展型組立機
-gregtech.machine.assembler.hv.name=発展型組立機 II
-gregtech.machine.assembler.ev.name=発展型組立機 III
-gregtech.machine.assembler.iv.name=発展型組立機 IV
+gregtech.machine.assembler.lv.name=組立機 (Tier LV)
+gregtech.machine.assembler.mv.name=組立機 (Tier MV)
+gregtech.machine.assembler.hv.name=組立機 (Tier HV)
+gregtech.machine.assembler.ev.name=組立機 (Tier EV)
+gregtech.machine.assembler.iv.name=組立機 (Tier IV)
 
 gregtech.machine.autoclave.tooltip=宝石系の粉の結晶化
 
-gregtech.machine.autoclave.lv.name=基本型オートクレーブ
-gregtech.machine.autoclave.mv.name=発展型オートクレーブ
-gregtech.machine.autoclave.hv.name=発展型オートクレーブ II
-gregtech.machine.autoclave.ev.name=発展型オートクレーブ III
-gregtech.machine.autoclave.iv.name=発展型オートクレーブ IV
+gregtech.machine.autoclave.lv.name=オートクレーブ (Tier LV)
+gregtech.machine.autoclave.mv.name=オートクレーブ (Tier MV)
+gregtech.machine.autoclave.hv.name=オートクレーブ (Tier HV)
+gregtech.machine.autoclave.ev.name=オートクレーブ (Tier EV)
+gregtech.machine.autoclave.iv.name=オートクレーブ (Tier IV)
 
 gregtech.machine.bender.tooltip=プレートをより効率的に生産します
 
-gregtech.machine.bender.lv.name=基本型金属曲げ機
-gregtech.machine.bender.mv.name=発展型金属曲げ機
-gregtech.machine.bender.hv.name=発展型金属曲げ機 II
-gregtech.machine.bender.ev.name=発展型金属曲げ機 III
+gregtech.machine.bender.lv.name=金属曲げ機 (Tier LV)
+gregtech.machine.bender.mv.name=金属曲げ機 (Tier MV)
+gregtech.machine.bender.hv.name=金属曲げ機 (Tier HV)
+gregtech.machine.bender.ev.name=金属曲げ機 (Tier EV)
 
 gregtech.machine.brewery.tooltip=コンパクトで効率的なポーション醸造
 
-gregtech.machine.brewery.lv.name=基本型醸造機
-gregtech.machine.brewery.mv.name=発展型醸造機
-gregtech.machine.brewery.hv.name=発展型醸造機 II
-gregtech.machine.brewery.ev.name=発展型醸造機 III
+gregtech.machine.brewery.lv.name=醸造機 (Tier LV)
+gregtech.machine.brewery.mv.name=醸造機 (Tier MV)
+gregtech.machine.brewery.hv.name=醸造機 (Tier HV)
+gregtech.machine.brewery.ev.name=醸造機 (Tier EV)
 
-gregtech.machine.canner.lv.name=基本型缶詰め機
-gregtech.machine.canner.mv.name=発展型缶詰め機
-gregtech.machine.canner.hv.name=発展型缶詰め機 II
-gregtech.machine.canner.ev.name=発展型缶詰め機 III
+gregtech.machine.canner.lv.name=缶詰め機 (Tier LV)
+gregtech.machine.canner.mv.name=缶詰め機 (Tier MV)
+gregtech.machine.canner.hv.name=缶詰め機 (Tier HV)
+gregtech.machine.canner.ev.name=缶詰め機 (Tier EV)
 
-gregtech.machine.centrifuge.lv.name=基本型遠心分離機
-gregtech.machine.centrifuge.mv.name=発展型遠心分離機
-gregtech.machine.centrifuge.hv.name=ターボ遠心分離機
-gregtech.machine.centrifuge.ev.name=ターボ遠心分離機 II
+gregtech.machine.centrifuge.lv.name=遠心分離機 (Tier LV)
+gregtech.machine.centrifuge.mv.name=遠心分離機 (Tier MV)
+gregtech.machine.centrifuge.hv.name=遠心分離機 (Tier HV)
+gregtech.machine.centrifuge.ev.name=遠心分離機 (Tier EV)
 
 gregtech.machine.chemical_bath.tooltip=鉱石を化学薬品に漬けて分離する
 
-gregtech.machine.chemical_bath.lv.name=基本型化学槽
-gregtech.machine.chemical_bath.mv.name=発展型化学槽
-gregtech.machine.chemical_bath.hv.name=発展型化学槽 II
-gregtech.machine.chemical_bath.ev.name=発展型化学槽 III
+gregtech.machine.chemical_bath.lv.name=化学槽 (Tier LV)
+gregtech.machine.chemical_bath.mv.name=化学槽 (Tier MV)
+gregtech.machine.chemical_bath.hv.name=化学槽 (Tier HV)
+gregtech.machine.chemical_bath.ev.name=化学槽 (Tier EV)
 
 gregtech.machine.chemical_reactor.tooltip=化学物質を互いに反応させる 
 
-gregtech.machine.chemical_reactor.lv.name=基本型化学反応機
-gregtech.machine.chemical_reactor.mv.name=発展型化学反応機
-gregtech.machine.chemical_reactor.hv.name=発展型化学反応機 II
-gregtech.machine.chemical_reactor.ev.name=発展型化学反応機 III
+gregtech.machine.chemical_reactor.lv.name=化学反応機 (Tier LV)
+gregtech.machine.chemical_reactor.mv.name=化学反応機 (Tier MV)
+gregtech.machine.chemical_reactor.hv.name=化学反応機 (Tier HV)
+gregtech.machine.chemical_reactor.ev.name=化学反応機 (Tier EV)
 
-gregtech.machine.compressor.lv.name=基本型圧縮機
-gregtech.machine.compressor.mv.name=発展型圧縮機
-gregtech.machine.compressor.hv.name=発展型圧縮機 II
-gregtech.machine.compressor.ev.name=シンギュラリティ圧縮機
+gregtech.machine.compressor.lv.name=圧縮機 (Tier LV)
+gregtech.machine.compressor.mv.name=圧縮機 (Tier MV)
+gregtech.machine.compressor.hv.name=圧縮機 (Tier HV)
+gregtech.machine.compressor.ev.name=圧縮機 (Tier EV)
 
-gregtech.machine.cutter.lv.name=基本型切削加工機
-gregtech.machine.cutter.mv.name=発展型切削加工機
-gregtech.machine.cutter.hv.name=発展型切削加工機 II
-gregtech.machine.cutter.ev.name=発展型切削加工機 III
+gregtech.machine.cutter.lv.name=切削加工機 (Tier LV)
+gregtech.machine.cutter.mv.name=切削加工機 (Tier MV)
+gregtech.machine.cutter.hv.name=切削加工機 (Tier HV)
+gregtech.machine.cutter.ev.name=切削加工機 (Tier EV)
 
 gregtech.machine.distillery.tooltip=液体の重要な成分を抽出する
 
-gregtech.machine.distillery.lv.name=基本型蒸留機
-gregtech.machine.distillery.mv.name=発展型蒸留機
-gregtech.machine.distillery.hv.name=発展型蒸留機 II
-gregtech.machine.distillery.ev.name=発展型蒸留機 III
+gregtech.machine.distillery.lv.name=蒸留機 (Tier LV)
+gregtech.machine.distillery.mv.name=蒸留機 (Tier MV)
+gregtech.machine.distillery.hv.name=蒸留機 (Tier HV)
+gregtech.machine.distillery.ev.name=蒸留機 (Tier EV)
 
-gregtech.machine.electrolyzer.lv.name=基本型電解槽
-gregtech.machine.electrolyzer.mv.name=発展型電解槽
-gregtech.machine.electrolyzer.hv.name=発展型電解槽 II
-gregtech.machine.electrolyzer.ev.name=モレキュラーディシネーター E-4908
+gregtech.machine.electrolyzer.lv.name=電解槽 (Tier LV)
+gregtech.machine.electrolyzer.mv.name=電解槽 (Tier MV)
+gregtech.machine.electrolyzer.hv.name=電解槽 (Tier HV)
+gregtech.machine.electrolyzer.ev.name=電解槽 (Tier EV)
 
 gregtech.machine.electromagnetic_separator.tooltip=磁気を使って鉱石を分離する
 
-gregtech.machine.electromagnetic_separator.lv.name=基本型電磁分離機
-gregtech.machine.electromagnetic_separator.mv.name=発展型電磁分離機
-gregtech.machine.electromagnetic_separator.hv.name=発展型電磁分離機 II
-gregtech.machine.electromagnetic_separator.ev.name=発展型電磁分離機 III
+gregtech.machine.electromagnetic_separator.lv.name=電磁分離機 (Tier LV)
+gregtech.machine.electromagnetic_separator.mv.name=電磁分離機 (Tier MV)
+gregtech.machine.electromagnetic_separator.hv.name=電磁分離機 (Tier HV)
+gregtech.machine.electromagnetic_separator.ev.name=電磁分離機 (Tier EV)
 
-gregtech.machine.extractor.lv.name=基本型抽出機
-gregtech.machine.extractor.mv.name=発展型抽出機
-gregtech.machine.extractor.hv.name=発展型抽出機 II
-gregtech.machine.extractor.ev.name=バキューム抽出機
+gregtech.machine.extractor.lv.name=抽出機 (Tier LV)
+gregtech.machine.extractor.mv.name=抽出機 (Tier MV)
+gregtech.machine.extractor.hv.name=抽出機 (Tier HV)
+gregtech.machine.extractor.ev.name=抽出機 (Tier EV)
 
 gregtech.machine.extruder.tooltip=金属を様々な形に加工できる
 
-gregtech.machine.extruder.lv.name=基本型押出機
-gregtech.machine.extruder.mv.name=発展型押出機
-gregtech.machine.extruder.hv.name=発展型押出機 II
-gregtech.machine.extruder.ev.name=発展型押出機 III
+gregtech.machine.extruder.lv.name=押出機 (Tier LV)
+gregtech.machine.extruder.mv.name=押出機 (Tier MV)
+gregtech.machine.extruder.hv.name=押出機 (Tier HV)
+gregtech.machine.extruder.ev.name=押出機 (Tier EV)
 
 gregtech.machine.fermenter.tooltip=液体を発酵させる
 
-gregtech.machine.fermenter.lv.name=基本型醗酵槽
-gregtech.machine.fermenter.mv.name=発展型醗酵槽
-gregtech.machine.fermenter.hv.name=発展型醗酵槽 II
-gregtech.machine.fermenter.ev.name=発展型醗酵槽 III
+gregtech.machine.fermenter.lv.name=醗酵槽 (Tier LV)
+gregtech.machine.fermenter.mv.name=醗酵槽 (Tier MV)
+gregtech.machine.fermenter.hv.name=醗酵槽 (Tier HV)
+gregtech.machine.fermenter.ev.name=醗酵槽 (Tier EV)
 
 gregtech.machine.fluid_canner.tooltip=液体を容器に出し入れします 
 gregtech.machine.fluid_canner.jei_description=液体缶詰め機はあらゆる液体容器(セルなど)を充填/空にすることができます
 
-gregtech.machine.fluid_canner.lv.name=基本型液体缶詰め機
-gregtech.machine.fluid_canner.mv.name=発展型液体缶詰め機
-gregtech.machine.fluid_canner.hv.name=Quick液体缶詰め機
-gregtech.machine.fluid_canner.ev.name=Turbo液体缶詰め機
+gregtech.machine.fluid_canner.lv.name=液体缶詰め機 (Tier LV)
+gregtech.machine.fluid_canner.mv.name=液体缶詰め機 (Tier MV)
+gregtech.machine.fluid_canner.hv.name=液体缶詰め機 (Tier HV)
+gregtech.machine.fluid_canner.ev.name=液体缶詰め機 (Tier EV)
 
 gregtech.machine.fluid_extractor.tooltip=金属などを溶かします
 
-gregtech.machine.fluid_extractor.lv.name=基本型融解機
-gregtech.machine.fluid_extractor.mv.name=発展型融解機
-gregtech.machine.fluid_extractor.hv.name=発展型融解機 II
-gregtech.machine.fluid_extractor.ev.name=発展型融解機 III
+gregtech.machine.fluid_extractor.lv.name=融解機 (Tier LV)
+gregtech.machine.fluid_extractor.mv.name=融解機 (Tier MV)
+gregtech.machine.fluid_extractor.hv.name=融解機 (Tier HV)
+gregtech.machine.fluid_extractor.ev.name=融解機 (Tier EV)
 
-gregtech.machine.fluid_heater.lv.name=基本型液体ヒーター
-gregtech.machine.fluid_heater.mv.name=発展型液体ヒーター
-gregtech.machine.fluid_heater.hv.name=発展型液体ヒーター II
-gregtech.machine.fluid_heater.ev.name=発展型液体ヒーター III
+gregtech.machine.fluid_heater.lv.name=液体ヒーター (Tier LV)
+gregtech.machine.fluid_heater.mv.name=液体ヒーター (Tier MV)
+gregtech.machine.fluid_heater.hv.name=液体ヒーター (Tier HV)
+gregtech.machine.fluid_heater.ev.name=液体ヒーター (Tier EV)
 
 gregtech.machine.fluid_solidifier.tooltip=流体を冷却して固体に形成します 
 
-gregtech.machine.fluid_solidifier.lv.name=基本型液体成形機
-gregtech.machine.fluid_solidifier.mv.name=発展型液体成形機
-gregtech.machine.fluid_solidifier.hv.name=発展型液体成形機 II
-gregtech.machine.fluid_solidifier.ev.name=発展型液体成形機 III
+gregtech.machine.fluid_solidifier.lv.name=液体成形機 (Tier LV)
+gregtech.machine.fluid_solidifier.mv.name=液体成形機 (Tier MV)
+gregtech.machine.fluid_solidifier.hv.name=液体成形機 (Tier HV)
+gregtech.machine.fluid_solidifier.ev.name=液体成形機 (Tier EV)
 
-gregtech.machine.forge_hammer.lv.name=基本型鍛造機
-gregtech.machine.forge_hammer.mv.name=発展型鍛造機
-gregtech.machine.forge_hammer.hv.name=発展型鍛造機 II
-gregtech.machine.forge_hammer.ev.name=発展型鍛造機 III
+gregtech.machine.forge_hammer.lv.name=鍛造機 (Tier LV)
+gregtech.machine.forge_hammer.mv.name=鍛造機 (Tier MV)
+gregtech.machine.forge_hammer.hv.name=鍛造機 (Tier HV)
+gregtech.machine.forge_hammer.ev.name=鍛造機 (Tier EV)
 
-gregtech.machine.forming_press.lv.name=基本型成形機
-gregtech.machine.forming_press.mv.name=発展型成形機
-gregtech.machine.forming_press.hv.name=発展型成形機 II
-gregtech.machine.forming_press.ev.name=発展型成形機 III
+gregtech.machine.forming_press.lv.name=成形機 (Tier LV)
+gregtech.machine.forming_press.mv.name=成形機 (Tier MV)
+gregtech.machine.forming_press.hv.name=成形機 (Tier HV)
+gregtech.machine.forming_press.ev.name=成形機 (Tier EV)
 
 gregtech.machine.lathe.tooltip=効率的にロッドを生産できる
 
-gregtech.machine.lathe.lv.name=基本型旋盤
-gregtech.machine.lathe.mv.name=発展型旋盤
-gregtech.machine.lathe.hv.name=発展型旋盤 II
-gregtech.machine.lathe.ev.name=発展型旋盤 III
+gregtech.machine.lathe.lv.name=旋盤 (Tier LV)
+gregtech.machine.lathe.mv.name=旋盤 (Tier MV)
+gregtech.machine.lathe.hv.name=旋盤 (Tier HV)
+gregtech.machine.lathe.ev.name=旋盤 (Tier EV)
 
-gregtech.machine.microwave.lv.name=基本型電子レンジ
-gregtech.machine.microwave.mv.name=発展型電子レンジ
-gregtech.machine.microwave.hv.name=発展型電子レンジ II
-gregtech.machine.microwave.ev.name=発展型電子レンジ III
+gregtech.machine.microwave.lv.name=電子レンジ (Tier LV)
+gregtech.machine.microwave.mv.name=電子レンジ (Tier MV)
+gregtech.machine.microwave.hv.name=電子レンジ (Tier HV)
+gregtech.machine.microwave.ev.name=電子レンジ (Tier EV)
 
-gregtech.machine.mixer.lv.name=基本型ミキサー
-gregtech.machine.mixer.mv.name=発展型ミキサー
-gregtech.machine.mixer.hv.name=発展型ミキサー II
-gregtech.machine.mixer.ev.name=発展型ミキサー III
+gregtech.machine.mixer.lv.name=ミキサー (Tier LV)
+gregtech.machine.mixer.mv.name=ミキサー (Tier MV)
+gregtech.machine.mixer.hv.name=ミキサー (Tier HV)
+gregtech.machine.mixer.ev.name=ミキサー (Tier EV)
 
 gregtech.machine.ore_washer.tooltip=鉱石を洗浄して副産物を取得する
 
-gregtech.machine.ore_washer.lv.name=基本型鉱石洗浄機
-gregtech.machine.ore_washer.mv.name=発展型鉱石洗浄機
-gregtech.machine.ore_washer.hv.name=発展型鉱石洗浄機 II
-gregtech.machine.ore_washer.ev.name=発展型鉱石洗浄機 III
+gregtech.machine.ore_washer.lv.name=鉱石洗浄機 (Tier LV)
+gregtech.machine.ore_washer.mv.name=鉱石洗浄機 (Tier MV)
+gregtech.machine.ore_washer.hv.name=鉱石洗浄機 (Tier HV)
+gregtech.machine.ore_washer.ev.name=鉱石洗浄機 (Tier EV)
 
-gregtech.machine.packer.lv.name=基本型包装機
-gregtech.machine.packer.mv.name=発展型包装機
-gregtech.machine.packer.hv.name=発展型包装機 II
-gregtech.machine.packer.ev.name=発展型包装機 III
+gregtech.machine.packer.lv.name=包装機 (Tier LV)
+gregtech.machine.packer.mv.name=包装機 (Tier MV)
+gregtech.machine.packer.hv.name=包装機 (Tier HV)
+gregtech.machine.packer.ev.name=包装機 (Tier EV)
 
-gregtech.machine.unpacker.lv.name=基本型開梱機
-gregtech.machine.unpacker.mv.name=発展型開梱機
-gregtech.machine.unpacker.hv.name=発展型開梱機 II
-gregtech.machine.unpacker.ev.name=発展型開梱機 III
+gregtech.machine.unpacker.lv.name=開梱機 (Tier LV)
+gregtech.machine.unpacker.mv.name=開梱機 (Tier MV)
+gregtech.machine.unpacker.hv.name=開梱機 (Tier HV)
+gregtech.machine.unpacker.ev.name=開梱機 (Tier EV)
 
-gregtech.machine.plasma_arc_furnace.lv.name=基本型プラズマアーク炉
-gregtech.machine.plasma_arc_furnace.mv.name=発展型プラズマアーク炉
-gregtech.machine.plasma_arc_furnace.hv.name=発展型プラズマアーク炉 II
-gregtech.machine.plasma_arc_furnace.ev.name=発展型プラズマアーク炉 III
+gregtech.machine.plasma_arc_furnace.lv.name=プラズマアーク炉 (Tier LV)
+gregtech.machine.plasma_arc_furnace.mv.name=プラズマアーク炉 (Tier MV)
+gregtech.machine.plasma_arc_furnace.hv.name=プラズマアーク炉 (Tier HV)
+gregtech.machine.plasma_arc_furnace.ev.name=プラズマアーク炉 (Tier EV)
 
 gregtech.machine.polarizer.tooltip=強力な電磁石を用いて磁性体を磁石にする機械
 
-gregtech.machine.polarizer.lv.name=基本型偏光機
-gregtech.machine.polarizer.mv.name=発展型偏光機
-gregtech.machine.polarizer.hv.name=発展型偏光機 II
-gregtech.machine.polarizer.ev.name=発展型偏光機 III
+gregtech.machine.polarizer.lv.name=偏光機 (Tier LV)
+gregtech.machine.polarizer.mv.name=偏光機 (Tier MV)
+gregtech.machine.polarizer.hv.name=偏光機 (Tier HV)
+gregtech.machine.polarizer.ev.name=偏光機 (Tier EV)
 
-gregtech.machine.laser_engraver.lv.name=基本型精密レーザー彫刻機
-gregtech.machine.laser_engraver.mv.name=発展型精密レーザー彫刻機
-gregtech.machine.laser_engraver.hv.name=発展型精密レーザー彫刻機 II
-gregtech.machine.laser_engraver.ev.name=発展型精密レーザー彫刻機 III
-gregtech.machine.laser_engraver.iv.name=発展型精密レーザー彫刻機 IV
+gregtech.machine.laser_engraver.lv.name=精密レーザー彫刻機 (Tier LV)
+gregtech.machine.laser_engraver.mv.name=精密レーザー彫刻機 (Tier MV)
+gregtech.machine.laser_engraver.hv.name=精密レーザー彫刻機 (Tier HV)
+gregtech.machine.laser_engraver.ev.name=精密レーザー彫刻機 (Tier EV)
+gregtech.machine.laser_engraver.iv.name=精密レーザー彫刻機 (Tier IV)
 
 gregtech.machine.sifter.tooltip=ふるいにかけて選別する
 
-gregtech.machine.sifter.lv.name=基本型ふるい機
-gregtech.machine.sifter.mv.name=発展型ふるい機
-gregtech.machine.sifter.hv.name=発展型ふるい機 II
-gregtech.machine.sifter.ev.name=発展型ふるい機 III
+gregtech.machine.sifter.lv.name=ふるい機 (Tier LV)
+gregtech.machine.sifter.mv.name=ふるい機 (Tier MV)
+gregtech.machine.sifter.hv.name=ふるい機 (Tier HV)
+gregtech.machine.sifter.ev.name=ふるい機 (Tier EV)
 
 gregtech.machine.thermal_centrifuge.tooltip=より正確に鉱石を分離して副産物を得る
 
-gregtech.machine.thermal_centrifuge.lv.name=基本型熱遠心分離機機
-gregtech.machine.thermal_centrifuge.mv.name=発展型熱遠心分離機機
-gregtech.machine.thermal_centrifuge.hv.name=発展型熱遠心分離機機 II
-gregtech.machine.thermal_centrifuge.ev.name=発展型熱遠心分離機機 III
+gregtech.machine.thermal_centrifuge.lv.name=熱遠心分離機機 (Tier LV)
+gregtech.machine.thermal_centrifuge.mv.name=熱遠心分離機機 (Tier MV)
+gregtech.machine.thermal_centrifuge.hv.name=熱遠心分離機機 (Tier HV)
+gregtech.machine.thermal_centrifuge.ev.name=熱遠心分離機機 (Tier EV)
 
 gregtech.machine.wiremill.tooltip=ワイヤーをより効率的に生産する
 
-gregtech.machine.wiremill.lv.name=基本型ワイヤー作製機
-gregtech.machine.wiremill.mv.name=発展型ワイヤー作製機
-gregtech.machine.wiremill.hv.name=発展型ワイヤー作製機 II
-gregtech.machine.wiremill.ev.name=発展型ワイヤー作製機 III
+gregtech.machine.wiremill.lv.name=ワイヤー作製機 (Tier LV)
+gregtech.machine.wiremill.mv.name=ワイヤー作製機 (Tier MV)
+gregtech.machine.wiremill.hv.name=ワイヤー作製機 (Tier HV)
+gregtech.machine.wiremill.ev.name=ワイヤー作製機 (Tier EV)
 
 ## Machine hulls
 gregtech.machine.hull.tooltip=§fYou just need §5I§dm§4a§cg§ei§an§ba§3t§7i§1o§5n§f to use this
@@ -2262,15 +2262,15 @@ gregtech.machine.charger.max.name=MAX 充電器
 gregtech.machine.pump.tooltip_range=揚水領域: %,dx%,d
 gregtech.machine.pump.tooltip_speed=%,dティックごとに揚水する
 
-gregtech.machine.pump.lv.name=基本型ポンプ
-gregtech.machine.pump.mv.name=発展型ポンプ
-gregtech.machine.pump.hv.name=発展型ポンプ II
-gregtech.machine.pump.ev.name=発展型ポンプ III
+gregtech.machine.pump.lv.name=ポンプ (Tier LV)
+gregtech.machine.pump.mv.name=ポンプ (Tier MV)
+gregtech.machine.pump.hv.name=ポンプ (Tier HV)
+gregtech.machine.pump.ev.name=ポンプ (Tier EV)
 
-gregtech.machine.item_collector.lv.name=基本型アイテムコレクター
-gregtech.machine.item_collector.mv.name=発展型アイテムコレクター
-gregtech.machine.item_collector.hv.name=発展型アイテムコレクター II
-gregtech.machine.item_collector.ev.name=発展型アイテムコレクター III
+gregtech.machine.item_collector.lv.name=アイテムコレクター (Tier LV)
+gregtech.machine.item_collector.mv.name=アイテムコレクター (Tier MV)
+gregtech.machine.item_collector.hv.name=アイテムコレクター (Tier HV)
+gregtech.machine.item_collector.ev.name=アイテムコレクター (Tier EV)
 
 gregtech.machine.item_collector.collect_range=コレクション領域: %,dx%,d
 gregtech.machine.item_collector.gui.collect_range=%sブロックで収集
@@ -2279,39 +2279,43 @@ gregtech.machine.item_collector.gui.collect_range=%sブロックで収集
 gregtech.machine.quantum_chest.tooltip=1種類のアイテムをとてつもない数を保存できる
 gregtech.machine.quantum_chest.capacity=アイテム容量 : %,d 個
 gregtech.machine.quantum_chest.items_stored=アイテム量 :
+gregtech.machine.quantum_chest.tooltip.item=アイテム貯蔵量 : §b%s
+gregtech.machine.quantum_chest.tooltip.count=アイテム量 : §e%,d
 
-gregtech.machine.quantum_chest.mv.name=基本型クアンタムチェスト
-gregtech.machine.quantum_chest.hv.name=発展型クアンタムチェスト
-gregtech.machine.quantum_chest.ev.name=発展型クアンタムチェスト II
-gregtech.machine.quantum_chest.iv.name=ブラックホールクアンタムチェスト III
+gregtech.machine.quantum_chest.mv.name=クアンタムチェスト (Tier MV)
+gregtech.machine.quantum_chest.hv.name=クアンタムチェスト (Tier HV)
+gregtech.machine.quantum_chest.ev.name=クアンタムチェスト (Tier EV)
+gregtech.machine.quantum_chest.iv.name=クアンタムチェスト (Tier IV)
 
 ## Quantum tanks
 gregtech.machine.quantum_tank.tooltip=1ブロックでとてつもない液体を保存できる。
 gregtech.machine.quantum_tank.capacity=液体容量 : %,d mb
+gregtech.machine.quantum_tank.tooltip.name=液体貯蔵量 : §b%s
+gregtech.machine.quantum_tank.tooltip.count=液体容量 : §e%,d mb
 
-gregtech.machine.quantum_tank.mv.name=基本型クアンタムタンク
-gregtech.machine.quantum_tank.hv.name=発展型クアンタムタンク
-gregtech.machine.quantum_tank.ev.name=発展型クアンタムタンク II
-gregtech.machine.quantum_tank.iv.name=ブラックホールクアンタムタンク III
+gregtech.machine.quantum_tank.mv.name=クアンタムタンク (Tier MV)
+gregtech.machine.quantum_tank.hv.name=クアンタムタンク (Tier HV)
+gregtech.machine.quantum_tank.ev.name=クアンタムタンク (Tier EV)
+gregtech.machine.quantum_tank.iv.name=クアンタムタンク (Tier IV)
 
 ## Air Collectors
-gregtech.machine.air_collector.lv.name=基本型エアコレクター
-gregtech.machine.air_collector.mv.name=発展型エアコレクター
-gregtech.machine.air_collector.hv.name=発展型エアコレクター II
-gregtech.machine.air_collector.ev.name=アトモスフィアエアコレクター III
+gregtech.machine.air_collector.lv.name=エアコレクター (Tier LV)
+gregtech.machine.air_collector.mv.name=エアコレクター (Tier MV)
+gregtech.machine.air_collector.hv.name=エアコレクター (Tier HV)
+gregtech.machine.air_collector.ev.name=エアコレクター (Tier EV)
 gregtech.machine.air_collector.tooltip=隣接するブロックから空気を収集します
 gregtech.machine.air_collector.collection_speed=空気を%,d mb収集(%,dティックごとに)
-gregtech.machine.air_collector.jei_description=エアコレクターは少しEUで空気を収集します
+gregtech.machine.air_collector.jei_description=エアコレクターは低電力のEUで空気を収集します
 
 ## Tesla Coil
 gregtech.machine.tesla_coil.name=テスラコイル
 gregtech.machine.tesla_coil.description=7ブロックの範囲内のすべての生き物にダメージを与えます/n2500EUを消費します /n内部バッファー容量： §e256k EU
 
 ## Fisher
-gregtech.machine.fisher.lv.name=基本型フィッシャー
-gregtech.machine.fisher.mv.name=発展型フィッシャー
-gregtech.machine.fisher.hv.name=発展型フィッシャー II
-gregtech.machine.fisher.ev.name=発展型フィッシャー III
+gregtech.machine.fisher.lv.name=フィッシャー (Tier LV)
+gregtech.machine.fisher.mv.name=フィッシャー (Tier MV)
+gregtech.machine.fisher.hv.name=フィッシャー (Tier HV)
+gregtech.machine.fisher.ev.name=フィッシャー (Tier EV)
 gregtech.machine.fisher.tooltip=釣りに糸を要します。1アイテム1つの糸を消費します。 
 gregtech.machine.fisher.speed=%,d ティックごとに何かを捕らえる
 gregtech.machine.fisher.requirement=真下に%,dブロックのサイズの正方形の水が必要です。
@@ -2933,7 +2937,7 @@ gregtech.gui.item_auto_output.tooltip.disabled=現在アイテムの自動搬出
 
 gregtech.jei.ore_by_product_from_ore=%sに%sを使用
 gregtech.jei.ore_by_product_from_machine=%sを%sで処理して生成
-gregtech.jei.ore_by_product_not_obtainable=手できない副産物
+gregtech.jei.ore_by_product_not_obtainable=入手できない副産物
 
 ore.spawnlocation.name=鉱石埋蔵情報 
 gregtech.jei.ore.surface_rock_1=この物質の岩の近くに鉱脈があります。
@@ -2942,7 +2946,7 @@ gregtech.jei.ore.biome_weighting=%s ウエイト: %d
 gregtech.jei.ore.biome_weighting_no_spawn=%s ウエイト: 見つかりません
 
 gregtech.item_filter.empty_item=空 (アイテムなし)
-gregtech.item_filter.footer=§eClick with item to override
+gregtech.item_filter.footer=§e上書きしたいアイテムをクリックします。
 
 gregtech.cable.voltage=電圧: §a%,d §7(§a%s§7)
 gregtech.cable.amperage=アンペア: §e%,d
@@ -2967,6 +2971,12 @@ gregtech.multiblock.preview.zoom=Shift+RMB ズーム
 gregtech.multiblock.preview.pan=LMB+ドラッグ 回転
 gregtech.multiblock.preview.move=RMB+ドラッグ カメラ移動
 gregtech.multiblock.preview.reset=マウスホイールをスクロールするとリセット
+gregtech.multiblock.preview.any_hatch=任意のティアで構成可能
+gregtech.multiblock.preview.limit=最小ティア: %d
+gregtech.multiblock.preview.limit_per_layer=最低 %d 以上のティア
+gregtech.multiblock.preview.only=%s のみ
+gregtech.multiblock.preview.only_location=%s のみ
+gregtech.multiblock.preview.location.b_c=下層の中央
 
 gregtech.multiblock.blast_furnace.max_temperature=最高温度: %sK
 gregtech.multiblock.multi_furnace.heating_coil_level=コイルレベル: %s
@@ -2996,18 +3006,20 @@ gregtech.multiblock.large_boiler.heat_efficiency.tooltip=ボイラーの温度�
 gregtech.multiblock.large_boiler.throttle.tooltip=スロットルレートが高いほど、燃費は悪くなります。
 gregtech.multiblock.large_boiler.throttle_modify=スロットルの変更:
 
-gregtech.command.usage=Usage: /gregtech <worldgen/util>
-gregtech.command.worldgen.usage=Usage: /gregtech worldgen <reload>
-gregtech.command.worldgen.reload.usage=Usage: /gregtech worldgen reload
-gregtech.command.worldgen.reload.success=Worldgen successfully reloaded from config.
-gregtech.command.worldgen.reload.failed=Worldgen reload failed. Check console for errors.
-gregtech.command.util.usage=Usage: /gregtech util <hand>
-gregtech.command.util.hand.usage=Usage: /gregtech util hand
+gregtech.command.usage=使用方法: /gregtech <worldgen/util>
+gregtech.command.worldgen.usage=使用方法: /gregtech worldgen <reload>
+gregtech.command.worldgen.reload.usage=使用方法: /gregtech worldgen reload
+gregtech.command.worldgen.reload.success=ワールド生成の設定が正常にリロードされました。
+gregtech.command.worldgen.reload.failed=ワールド生成の設定がリロードできませんでした。エラーを確認してください
+gregtech.command.util.usage=使用方法: /gregtech util <hand>
+gregtech.command.util.hand.usage=使用方法: /gregtech util hand
 gregtech.command.util.hand.item_id=Item: %s (Metadata: %d)
-gregtech.command.util.hand.electric=Electric Info: %d / %d EU - Tier: %d; Is Battery: %s
-gregtech.command.util.hand.fluid=Fluid Info: %s %d / %d mb; Can Fill: %s; Can Drain: %s
-gregtech.command.util.hand.material_meta_item=Ore Prefix: %s; Material: %s
-gregtech.command.util.hand.tool_stats=Tool Stats Class: %s
-gregtech.command.util.hand.meta_item=Meta Item Name: %s
-gregtech.command.util.hand.not_a_player=This command is only usable by a player.
-gregtech.command.util.hand.no_item=You must hold something in mainhand before executing this command.
+gregtech.command.util.hand.electric=電力情報: %d / %d EU - Tier: %d; Is Battery: %s
+gregtech.command.util.hand.fluid=液体情報: %s %d / %d mb; Can Fill: %s; Can Drain: %s
+gregtech.command.util.hand.material_meta_item=鉱石の接頭語: %s; 物質: %s
+gregtech.command.util.hand.tool_stats=ツールのクラス: %s
+gregtech.command.util.hand.meta_item=メタデータ名: %s
+gregtech.command.util.hand.not_a_player=このコマンドはプレイヤーのみが使用できます。
+gregtech.command.util.hand.no_item=このコマンドを実行するには、何かを持っている必要があります。
+
+gregtech.universal.clear_nbt_recipe.tooltip=§cThis will destroy all contents!
