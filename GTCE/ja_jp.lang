@@ -36,7 +36,7 @@ gregtech.multiblock.diesel_engine.description=ディーゼルエンジンは、E
 gregtech.multiblock.distillation_tower.description=蒸留塔は、通常の蒸留機と異なり副産物をロスすることなく蒸留できるマルチブロックです。
 gregtech.multiblock.electric_blast_furnace.description=電気高炉は、上位金属の精錬、合金の製錬などに使用されるマルチブロックです。アルミニウム、ステンレス、チタン、ナクアダ合金など
 gregtech.multiblock.multi_smelter.description=マルチ溶鉱炉は大量のアイテムを一度に精錬するためのマルチブロックです。コイルによって速度やエネルギー効率が変わります。
-gregtech.multiblock.large_boiler.description=大型ボイラーは、水から蒸気を生成するマルチブロックです。燃料は、固体燃料と液体が使えます。<注意>思っている以上に燃料消費が激しいです！
+gregtech.multiblock.large_boiler.description=大型ボイラーは、水から蒸気を生成するマルチブロックです。燃料は、固体燃料と液体が使えます。<注意>燃料消費が非常に激しいです！
 gregtech.multiblock.large_turbine.description=大型タービンは、タービンローターを回転させることで電力を生成するマルチブロックです。エネルギー出力は、ローター効率とタービン速度で決まります。
 
 item.invalid.name=無効なアイテム
@@ -1620,7 +1620,7 @@ recipemap.pyro.name=熱分解オーブン
 recipemap.wiremill.name=ワイヤー作製機
 recipemap.metal_bender.name=金属曲げ機
 recipemap.alloy_smelter.name=合金かまど
-recipemap.canner.name=缶詰め機
+recipemap.canner.name=缶詰機
 recipemap.lathe.name=旋盤
 recipemap.cutting_saw.name=切削加工機
 recipemap.slicer.name=スライサー
@@ -1982,10 +1982,10 @@ gregtech.machine.brewery.mv.name=醸造機 (Tier MV)
 gregtech.machine.brewery.hv.name=醸造機 (Tier HV)
 gregtech.machine.brewery.ev.name=醸造機 (Tier EV)
 
-gregtech.machine.canner.lv.name=缶詰め機 (Tier LV)
-gregtech.machine.canner.mv.name=缶詰め機 (Tier MV)
-gregtech.machine.canner.hv.name=缶詰め機 (Tier HV)
-gregtech.machine.canner.ev.name=缶詰め機 (Tier EV)
+gregtech.machine.canner.lv.name=缶詰機 (Tier LV)
+gregtech.machine.canner.mv.name=缶詰機 (Tier MV)
+gregtech.machine.canner.hv.name=缶詰機 (Tier HV)
+gregtech.machine.canner.ev.name=缶詰機 (Tier EV)
 
 gregtech.machine.centrifuge.lv.name=遠心分離機 (Tier LV)
 gregtech.machine.centrifuge.mv.name=遠心分離機 (Tier MV)
@@ -2055,12 +2055,12 @@ gregtech.machine.fermenter.hv.name=醗酵槽 (Tier HV)
 gregtech.machine.fermenter.ev.name=醗酵槽 (Tier EV)
 
 gregtech.machine.fluid_canner.tooltip=液体を容器に出し入れします 
-gregtech.machine.fluid_canner.jei_description=液体缶詰め機はあらゆる液体容器(セルなど)を充填/空にすることができます
+gregtech.machine.fluid_canner.jei_description=液体缶詰機はあらゆる液体容器(セルなど)を充填/空にすることができます
 
-gregtech.machine.fluid_canner.lv.name=液体缶詰め機 (Tier LV)
-gregtech.machine.fluid_canner.mv.name=液体缶詰め機 (Tier MV)
-gregtech.machine.fluid_canner.hv.name=液体缶詰め機 (Tier HV)
-gregtech.machine.fluid_canner.ev.name=液体缶詰め機 (Tier EV)
+gregtech.machine.fluid_canner.lv.name=液体缶詰機 (Tier LV)
+gregtech.machine.fluid_canner.mv.name=液体缶詰機 (Tier MV)
+gregtech.machine.fluid_canner.hv.name=液体缶詰機 (Tier HV)
+gregtech.machine.fluid_canner.ev.name=液体缶詰機 (Tier EV)
 
 gregtech.machine.fluid_extractor.tooltip=金属などを溶かします
 
