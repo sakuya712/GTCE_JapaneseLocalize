@@ -477,7 +477,6 @@ metaitem.fructose.name=フルクトース
 metaitem.glucose.name=グルコース
 metaitem.lead_nitrate_calcium_mixture.name=鉛硝酸カルシウム混合物
 metaitem.strontium_sulfate.name=硫酸ストロンチウム
-metaitem.strontium_oxide.name=酸化ストロンチウム
 
 metaitem.titanium_nitrate.name=硝酸チタン
 metaitem.biphenyl.name=ビフェニル
@@ -723,8 +722,6 @@ metaitem.nd_yag_nanoparticles.name=Nd:YAG Nanoparticles
 metaitem.potassium_permanganate.name=Potassium Permanganate
 metaitem.urea.name=Urea
 metaitem.cesium_bromide.name=Caesium Bromide
-metaitem.apatite_acidic_leach.name=Apatite Acidic Leach
-metaitem.fluoroapatite_acidic_leach.name=Fluoropatite Acidic Leach
 metaitem.apatite_solid_residue.name=Apatite Solid Residue
 metaitem.fluoroapatite_solid_residue.name=Fluoropatite Solid Residue
 metaitem.ammonium_bifluoride.name=Ammonium Bifluoride
@@ -878,7 +875,11 @@ metaitem.hexamethylenetetramine.name=Hexamethylenetetramine
 metaitem.pdc_catalyst.name=Palladium on Carbon
 metaitem.tetraacetyldinitrosohexaazaisowurtzitane.name=Tetraacetyldinitrosohexaazaisowurtzitane
 metaitem.crude_hexanitrohexaaxaisowurtzitane.name=Crude Hexanitrohexaaxaisowurtzitane
-
+metaitem.californiumtrioxide.name=Californium Trioxide
+metaitem.californiumtrichloride.name=Californium Trichloride
+metaitem.iridiumtrioxide.name=Iridium Trioxide
+metaitem.iridium_cyclooctadienyl_chloride_dimer.name=Irium Cyclooctadienyl Chloride Dimer
+metaitem.finely_powdered_rutile.name=Finely Powdered Rutile
 metaitem.unstable.star.name=Unstable Star
 
 metaitem.tool.prospect.mv.name=プロスペクター MV
@@ -1103,7 +1104,7 @@ metaarmor.energy_share.disable=エネルギー供給が無効
 metaarmor.energy_share.tooltip=供給モード: %s
 metaarmor.energy_share.tooltip.guide=Shiftを押しながらクリックすると供給の有効/無効の切り替えができます。
 
-
+gtadditions.machine.removal.universal=§4このマシンは次のアップデートで削除されます!
 
 gtadditions.universal.tooltip.amperage_in=アンペア IN: §a%d §7
 
@@ -1562,40 +1563,84 @@ gtadditions.machine.large_circuit_assembly.name=電子回路用アセンブリ�
 gtadditions.machine.processing_array.name=プロセッシングアレイ
 gtadditions.machine.volcanus.name=ヴォルカヌス
 gtadditions.machine.large_thermal_centrifuge.name=大型熱遠心分離機機
+gtadditions.multiblock.large_thermal_centrifuge.description=Large version of the Thermal Centrifuge
 gtadditions.machine.large_assembler.name=大型組立機
+gtadditions.multiblock.large_assembler.description=Large version of the Assembler.
 gtadditions.machine.large_electrolyzer.name=大型電解槽
+gtadditions.multiblock.large_electrolyzer.description=Larger version of the Electrolyzer.
 gtadditions.machine.large_extruder.name=大型押出機
+gtadditions.multiblock.large_extruder.description=Larger version of the Extruder. Can be extended up to 4 blocks longer to accommodate extra hatches.
 gtadditions.machine.large_centrifuge.name=大型遠心分離機
+gtadditions.multiblock.large_centrifuge.description=The Large Centrifuge is a multiblock version of the Centrifuge. Requires at least 16 primary casings.
 gtadditions.machine.large_chemical_reactor.name=大型化学反応機
+gtadditions.multiblock.large_chemical_reactor.description=The Large Chemical Reactor performs reactions at larger scales with 100%% or greater overclocking efficiency.
 gtadditions.machine.large_cutting.name=大型切削加工機
+gtadditions.multiblock.large_cutting.description=Larger version of the Cutting Machine and Lathe. Can be extended up to 8 blocks longer to accommodate extra hatches.
 gtadditions.machine.large_macerator.name=大型粉砕機
+gtadditions.multiblock.large_macerator.description=Larger version of the Macerator.
 gtadditions.machine.large_mixer.name=大型ミキサー
+gtadditions.multiblock.large_mixer.description=Larger version of the Mixer.
 gtadditions.machine.large_sifter.name=大型ふるい機
+gtadditions.multiblock.large_sifter.description=A large version of the Sifter
 gtadditions.machine.large_bender_and_forming.name=大型金属曲げ機・成形機
+gtadditions.multiblock.large_bender_and_forming.description=Larger version of the Bending Machine, Forming Press, and Cluster Mill. Can be extended up to 10 blocks long to accommodate extra hatches.
 gtadditions.machine.large_packager.name=大型包装機
+gtadditions.multiblock.large_packager.description=Larger version of the Packager and Unpackager.
 gtadditions.machine.large_multi_use.name=大型複合加工機
 gtadditions.machine.large_wiremill.name=大型ワイヤー作製機
+gtadditions.multiblock.large_wiremill.description=Large version of the Wiremill.
 gtadditions.machine.large_washing_plant.name=大型洗浄プラント
+gtadditions.multiblock.large_washing_plant.description=Large version of the Ore Washer, Chemical Bath, Simple Dust Washer, and Autoclave.
 gtadditions.machine.coke_oven.name=[廃止] コークス炉
 gtadditions.machine.cracker_unit.name=[廃止] クラッカーユニット
 gtadditions.machine.large_turbine.hot_coolant.name=Hot Coolant Turbine
+gtadditions.machine.hot_coolant_turbine.description=The Hot Coolant Turbine takes in hot coolant and converts it regular coolant. The rate and power produced from this is based on the rotor holder efficiency and speed.
 gtadditions.machine.large_transformer.name=大型変圧器
 gtadditions.machine.void_miner.name=ボイド鉱石採掘機
+gtadditions.multiblock.void_miner.description=The Void Ore Miner produces massive amounts of ores at very fast rates.
 gtadditions.machine.industrial_primitive_blast_furnace.name=産業用の原始的な高炉
 gtadditions.machine.cryogenic_freezer.name=クライオジェニックフリーザー
 gtadditions.machine.advanced_distillation_tower.name=発展型蒸留塔
 gtadditions.machine.chemical_plant.name=大型化学プラント
 gtadditions.machine.large_rocket_engine.name=大型ロケットエンジン
 gtadditions.machine.alloy_blast_furnace.name=合金高炉
+gtadditions.multiblock.alloy_blast_furnace.description=Faster Than the Electric Blast Furnace at creating molten alloys.
 gtadditions.machine.large_forge_hammer.name=大型鍛造機
 gtadditions.machine.large_naquadah_reactor.name=大型ナクアダリアクター
 gtadditions.machine.battery_tower.name=バッテリータワー
 gtadditions.machine.large_laser_engraver.name=大型精密レーザー彫刻機
+gtadditions.multiblock.large_laser_engraver.description=Large version of the Laser Engraver with added fluid capabilities.
 gtadditions.machine.bio_reactor.name=Bio Reactor
+gtadditions.multiblock.bio_reactor.description=The Bio Reactor performs complex bio reactions.
 gtadditions.machine.plasma_condenser.name=Plasma Condenser
-gtadditions.machine.advanced_fusion_reactor.name=Advanced Fusion Reactorコンピュータ
+gtadditions.multiblock.plasma_condenser.description=Condenses Plasmas into fluids and solids.
+gtadditions.machine.advanced_fusion_reactor.name=Advanced Fusion Reactor Computer
+gtadditions.machine.multiblock.description=The Advanced Fusion Reactor performs high level fusion reactions. It also turns a coolant into a hot version.
 gtadditions.machine.central_monitor.name=Central Monitor
 gtadditions.machine.monitor_screen.name=Monitor Screen
+gtadditions.machine.advanced_chemical_reactor.name=Advanced Chemical Reactor
+gtadditions.multiblock.advanced_chemical_reactor.description=The Advanced Chemical Reactor functions as a parallel Large Chemical Reactor and non-parallel Chemical Plant.
+gtadditions.machine.large_brewery.name=Large Brewery
+gtadditions.multiblock.large_brewery.description=The Large Brewery is a multiblock version of the Brewery, Fermenter, and Chemical Dehydrator.
+gtadditions.machine.large_electromagnet.name=Large Electromagnet
+gtadditions.multiblock.large_electromagnet.description=The Large Electromagnet is a multiblock Polarizer and Electromagnetic Separator.
+gtadditions.machine.large_extractor.name=Large Extractor
+gtadditions.multiblock.large_extractor.description=The Large Extractor is a multiblock Extractor and Fluid Extractor.
+gtadditions.machine.large_arc_furnace.name=Large Arc Furnace
+gtadditions.multiblock.large_arc_furnace.description=The Large Arc Furnace is a large version of the regular and plasma arc furance.
+gtadditions.machine.large_canning_machine.name=Large Canning Machine
+gtadditions.multiblock.large_canning_machine.description=The Large Canning Machine performs Canning, Fluid Canning, and Fluid Solidification. Only one of the steel pipes may be exchanged with an input, output or maintenance hatch. It will only form with at least 8 normal steel casings as well.
+gtadditions.machine.large_mass_fabricator.name=Large Mass Fabricator
+gtadditions.multiblock.large_mass_fabricator.description=Mass Fabrication machine for turning materials into matter.
+gtadditions.machine.large_replicator.name=Large Replicator
+gtadditions.multiblock.large_replicator.description=Replication machine for duplicating materials.
+
+gtadditions.machine.mega_distillation_tower.name=Mega Distillation Tower
+gtadditions.multiblock.mega_distillation_tower.description=Massive Fractional Distillery for separating large quantities of fluids.
+gtadditions.machine.mega_blast_furnace.name=Mega Blast Furnace
+gtadditions.multiblock.mega_blast_furnace.description=Rotary Hearth Furnace for refining large quantities of metals.
+gtadditions.machine.mega_vacuum_freezer.name=Mega Vacuum Freezer
+gtadditions.multiblock.mega_vacuum_freezer.description=Huge Vacuum Chamber for cooling large quantities of material.
 
 gtadditions.machine.naquadah_reactor.mk2.name=ナクアダリアクター MK I
 gtadditions.machine.naquadah_reactor.mk3.name=ナクアダリアクター MK II
@@ -1719,8 +1764,17 @@ gtadditions.machine.fluid_hatch.export_filtered.umv.name=フィルタ付液体�
 gtadditions.machine.fluid_hatch.export_filtered.uxv.name=フィルタ付液体搬出口 (UXV)
 gtadditions.machine.fluid_hatch.export_filtered.max.name=フィルタ付液体搬出口 (MAX)
 
+gtadditions.machine.multi_fluid_input_4x.name=Quadruple Input Hatch
+gtadditions.machine.multi_fluid_input_9x.name=Nonuple Input Hatch
+gtadditions.machine.multi_fluid_output_4x.name=Quadruple Output Hatch
+gtadditions.machine.multi_fluid_output_9x.name=Nonuple Output Hatch
+gtadditions.machine.multi_fluid_hatch_universal.tooltip.1=Capacity: §b16000mB§7 per tank.
+gtadditions.machine.multi_fluid_hatch_universal.tooltip.2=Tank Count: §b%d
+
 gtadditions.machine.gas_centrifuge.name=ガス遠心分離機
+gtadditions.multiblock.gas_centrifuge.description=The Gas Centrifuge primarily separates hexafluoride gases into different isotopes.
 gtadditions.machine.qubit_computer.name=クアンタムコンピュータ
+gtadditions.multiblock.qubit_computer.description=Utilizes circuits to produce qubits for advanced machine recipes.
 gtadditions.machine.stellar_forge.name=Stellar Forge
 gtadditions.machine.void_miner.uhv.name=ボイド鉱石採掘機 MK II
 gtadditions.machine.void_miner.uev.name=ボイド鉱石採掘機 MK III
@@ -1736,9 +1790,16 @@ gtadditions.machine.hull.uev.name=UEV マシン筐体
 gtadditions.machine.hull.uiv.name=UIV マシン筐体
 gtadditions.machine.hull.umv.name=UMV マシン筐体
 gtadditions.machine.hull.uxv.name=UXV マシン筐体
+
+
 gtadditions.machine.drilling_rig.name=掘削リグ
 gtadditions.machine.solar_fluid_sampler.name=ソーラー液体サンプル採取機
+gtadditions.machine.fluid_drilling_plant_mv.name=Fluid Drilling Plant 1
+gtadditions.machine.fluid_drilling_plant_hv.name=Fluid Drilling Plant 2
+gtadditions.machine.fluid_drilling_plant_ev.name=Fluid Drilling Plant 3
+
 gtadditions.machine.cosmic_ray_detector.name=Cosmic Ray Detector
+gtadditions.multiblock.cosmic_ray_detector.description=The Cosmic Ray Detector produced Heavy Lepton Mixture based on its height.
 
 
 
@@ -1746,11 +1807,26 @@ gtadditions.machine.coke_item_bus.name=[廃止] コークス炉のシュート
 gtadditions.machine.coke_fluid_hatch.name=[廃止] コークス炉の搬出入口
 gtadditions.machine.solar_fluid_sampler.missing_solar=ソーラーとデータスティックが必要
 
+gtadditions.machine.maintenance_hatch.name=Maintenance Hatch
+gtadditions.machine.auto_maintenance_hatch.name=Auto-Taping Maintenance Hatch
+gtadditions.machine.fullauto_maintenance_hatch.name=Full-Auto Maintenance Hatch
+gtadditions.machine.muffler_hatch.lv.name=LV Muffler Hatch
+gtadditions.machine.muffler_hatch.mv.name=MV Muffler Hatch
+gtadditions.machine.muffler_hatch.hv.name=HV Muffler Hatch
+gtadditions.machine.muffler_hatch.ev.name=EV Muffler Hatch
+gtadditions.machine.muffler_hatch.iv.name=IV Muffler Hatch
+gtadditions.machine.muffler_hatch.luv.name=LuV Muffler Hatch
+gtadditions.machine.muffler_hatch.zpm.name=ZPM Muffler Hatch
+gtadditions.machine.muffler_hatch.uv.name=UV Muffler Hatch
+gtadditions.muffler.recovery_tooltip=Recovers Items §b%d%%§7 of the time!
+
 
 tile.ga_multiblock_casing.coke_oven_bricks.name=コークス炉のレンガ
-tile.ga_multiblock_casing.tungstensteel_gearbox_casing.name=Assembly Line Casing
-tile.ga_multiblock_casing.chemically_inert_casing.name=Chemically Inert Casing
-tile.ga_multiblock_casing.large_assembler_casing.name=Assembler Casing
+tile.ga_multiblock_casing.tungstensteel_gearbox_casing.name=Tungstensteel Gear Box Casing
+tile.ga_multiblock_casing.assembly_line_casing.name=Assembly Line Casing
+tile.ga_multiblock_casing.chemically_inert_casing.name=Chemically Inert PTFE Casing
+tile.ga_multiblock_casing.ptfe_pipe_casing.name=PTFE Pipe Casing
+tile.ga_multiblock_casing.large_assembler_casing.name=Large-Scale Assembler Casing
 tile.ga_multiblock_casing.tiered_hull_ulv.name=Integral Framework I
 tile.ga_multiblock_casing.tiered_hull_ulv.tooltip=§eMax Voltage ULV
 tile.ga_multiblock_casing.tiered_hull_lv.name=Integral Framework II
@@ -1793,7 +1869,6 @@ tile.ga_quantum_casing.computer.name=Qubitコンピュータ外装
 tile.ga_quantum_casing.generator.name=Qubitジェネレータ外装
 tile.ga_multiblock_casing2.stellar_containment.name=Stellar Containment
 tile.ga_multiblock_casing2.bio_reactor_casing.name=バイオリアクター外装
-tile.ga_multiblock_casing2.laser_reactor_casing.name=レーザー彫刻外装
 tile.ga_reactor_casing.hyper_core.name=Hyper Core I
 tile.ga_reactor_casing.hyper_core_2.name=Hyper Core II
 tile.ga_reactor_casing.hyper_core_3.name=Hyper Core III
@@ -1951,7 +2026,6 @@ tile.ga_fusion_casing.adv_fusion_casing.name=発展型フュージョンコイ�
 tile.ga_fusion_casing.fusion_blanket.name=発展型Fusion Blanket
 tile.ga_fusion_casing.blanket_base.name=発展型Fusion Blanket Base
 tile.ga_fusion_casing.breeding_blanket.name=発展型Breeding Blanket
-tile.ga_multiblock_casing2.laser_engraver_casing.name=Laser Engraver Casing
 tile.ga_simple_block.superheavy_block.name=Superheavy Block
 tile.ga_explosive.taranium_charge.name=Taranium Charge
 tile.ga_explosive.naquadria_charge.name=Naquadria Charge
@@ -1959,7 +2033,59 @@ tile.ga_explosive.leptonic_charge.name=Leptonic Charge
 tile.ga_explosive.qcd_charge.name=クアンタム Chromodynamic Charge
 tile.ga_explosive.industrial_tnt.name=産業TNT
 tile.ga_explosive.powder_barrel.name=パウダーバレル
+tile.ga_multiblock_casing2.laser_engraver_casing.name=Laser-Safe Casing
 
+tile.ga_metal_casing_1.casing_hastelloy_x78.name=Matrix-Stiffened Hastelloy X78 Casing
+tile.ga_metal_casing_1.casing_hastelloy_n.name=Oxidation Resistant Hastelloy N Casing
+tile.ga_metal_casing_1.casing_hastelloy_k243.name=High Stability Hastelloy K243 Casing
+tile.ga_metal_casing_1.casing_incoloy_813.name=Corrosion Proof Incoloy 813 Casing
+tile.ga_metal_casing_1.casing_incoloy_ma956.name=Spacecraft Grade Incoloy MA-956 Casing
+tile.ga_metal_casing_1.casing_maraging_steel_250.name=Long-Lasting Maraging Steel 250 Casing
+tile.ga_metal_casing_1.casing_nitinol_60.name=Superelastic Nitinol 60 Casing
+tile.ga_metal_casing_1.casing_inconel_625.name=High-Stress Inconel 625 Casing
+tile.ga_metal_casing_1.casing_grisium.name=Watertight Grisium Casing
+tile.ga_metal_casing_1.casing_eglin_steel.name=High-Impact Eglin Steel Casing
+tile.ga_metal_casing_1.casing_babbitt_alloy.name=Gall Resistant Babbitt Alloy Casing
+tile.ga_metal_casing_1.casing_hg_1223.name=Toxic HG-1223 Casing
+tile.ga_metal_casing_1.casing_tumbaga.name=Malleable Tumbaga Casing
+tile.ga_metal_casing_1.casing_talonite.name=Low Friction Talonite Casing
+tile.ga_metal_casing_1.casing_zirconium_carbide.name=Ultra Heat Tolerant Zirconium Carbide Casing
+tile.ga_metal_casing_1.casing_potin.name=Vibration Tolerant Potin Casing
+
+tile.ga_metal_casing_2.casing_staballoy.name=Versatile Staballoy Casing
+tile.ga_metal_casing_2.casing_stellite.name=Optimal Stellite Casing
+tile.ga_metal_casing_2.casing_enriched_naquadah_alloy.name=Extremely Dense Enriched Naquadah Alloy Casing
+tile.ga_metal_casing_2.casing_quantum.name=Superheavy Quantum Casing
+tile.ga_metal_casing_2.casing_tritanium.name=Extreme Strength Tritanium Casing
+tile.ga_metal_casing_2.casing_black_steel.name=Rugged Black Steel Casing
+tile.ga_metal_casing_2.casing_red_steel.name=Insulating Red Steel Casing
+tile.ga_metal_casing_2.casing_iron.name=Secure Iron Casing
+tile.ga_metal_casing_2.casing_hss_g.name=Sturdy HSS-G Casing
+tile.ga_metal_casing_2.casing_hss_s.name=Rigid HSS-S Casing
+tile.ga_metal_casing_2.casing_lead.name=Heavy Lead Casing
+tile.ga_metal_casing_2.casing_naquadria.name=Hyperenergetic Naquadria Casing
+
+tile.ga_nuclear_casing.casing_thorium.name=Natural Thorium Casing
+tile.ga_nuclear_casing.casing_protactinium.name=Natural Protactinium Casing
+tile.ga_nuclear_casing.casing_uranium.name=Natural Uranium Casing
+tile.ga_nuclear_casing.casing_neptunium.name=Natural Neptunium Casing
+tile.ga_nuclear_casing.casing_plutonium.name=Natural Plutonium Casing
+tile.ga_nuclear_casing.casing_americium.name=Natural Americium Casing
+tile.ga_nuclear_casing.casing_curium.name=Natural Curium Casing
+tile.ga_nuclear_casing.casing_berkelium.name=Natural Berkelium Casing
+tile.ga_nuclear_casing.casing_californium.name=Natural Californium Casing
+tile.ga_nuclear_casing.casing_einsteinium.name=Natural Einsteinium Casing
+tile.ga_nuclear_casing.casing_fermium.name=Natural Fermium Casing
+tile.ga_nuclear_casing.casing_mendelevium.name=Natural Mendelevium Casing
+
+## GTCE Casings
+tile.metal_casing.bronze_bricks.name=Bronze Plated Brick Casing
+tile.metal_casing.invar_heatproof.name=Heat Proof Invar Casing
+tile.metal_casing.aluminium_frostproof.name=Frost Proof Aluminium Casing
+tile.metal_casing.steel_solid.name=Solid Steel Casing
+tile.metal_casing.stainless_clean.name=Clean Stainless Steel Casing
+tile.metal_casing.titanium_stable.name=Stable Titanium Casing
+tile.metal_casing.tungstensteel_robust.name=Robust Tungstensteel Casing
 
 
 tile.cell_casing.cell_hv.name=HV パワーセル
@@ -2652,9 +2778,6 @@ material.arsenopyrite=Arsenopyrite
 material.gallite=Gallite
 material.bowieite=Bowieite
 material.celestine=Celestine
-material.californiumtrioxide=Californium Trioxide
-material.californiumtrichloride=Californium Trichloride
-material.iridiumtrioxide=Iridium Trioxide
 
 gregtech.fluid.hot=ホット%s
 gregtech.fluid.hexachloride=六塩化%s
@@ -2782,7 +2905,6 @@ item.ga_essence.material.name=%sのエッセンス
 
 gtadditions.multiblock.battery_tower.description=バッテリータワーは4～16層の高さにできます。エネルギー入力/出力はどこにでも置くことができるがティアはパワーセルより高くすることはできません。
 gregtech.multiblock.large_forge_hammer.description=潤滑剤を使用して処理します
-gregtech.multiblock.large_forge_hammer.tooltip=ティアごとに2ずつ1度に処理できるアイテムが増える。そして、1.25x早く、必要な電力90%%EUtになる
 gregtech.multiblock.chemical_plant.description=大型化学プラントは最大電圧層を設定できる5x5のマルチブロックです。 
 gregtech.multiblock.coke_oven.description=コークス炉は、ゲームの初期段階でコークスとクレオソートを入手できるマルチブロックです。燃料を必要とせず、クレオソート用に32Bの内部タンクを備えています。入出力はハッチで自動化できます。
 gregtech.multiblock.assembly_line.description=アセンブリラインは、5～16列で構成される大規模なスライス型のマルチブロックです。 これは高度なコンポーネントを作成するために使用します。
@@ -2813,6 +2935,22 @@ gtadditions.multiblock.universal.distinct=搬入口でレシピを変える:
 gtadditions.multiblock.universal.distinct.yes=§aYes
 gtadditions.multiblock.universal.distinct.no=§cNo
 gtadditions.multiblock.universal.distinct.info=有効にすると、各バスは互いに異なるレシピとして認識します。 押出機の金型、レーザーのレンズなどに使えます 
+gtadditions.multiblock.universal.has_problems=Has Problems!
+gtadditions.multiblock.universal.no_problems=No Problems Found!
+gtadditions.multiblock.universal.problem.wrench=Pipe is loose.
+gtadditions.multiblock.universal.problem.wrench.tooltip=Wrench
+gtadditions.multiblock.universal.problem.screwdriver=Screws are loose.
+gtadditions.multiblock.universal.problem.screwdriver.tooltip=Screwdriver
+gtadditions.multiblock.universal.problem.softhammer=Something is stuck.
+gtadditions.multiblock.universal.problem.softhammer.tooltip=Soft Hammer
+gtadditions.multiblock.universal.problem.hardhammer=Plating is dented.
+gtadditions.multiblock.universal.problem.hardhammer.tooltip=Hard Hammer
+gtadditions.multiblock.universal.problem.wirecutter=Wires burned out.
+gtadditions.multiblock.universal.problem.wirecutter.tooltip=Wire Cutter
+gtadditions.multiblock.universal.problem.crowbar=That doesn't belong there.
+gtadditions.multiblock.universal.problem.crowbar.tooltip=Crowbar
+gtadditions.multiblock.universal.muffler_obstructed=Muffler Hatch is Obstructed!
+gtadditions.multiblock.universal.muffler_obstructed.tooltip= Muffler Hatch must have a block of airspace in front of it.
 gtadditions.multiblock.fusion_reactor.heat=Heat: %d
 gtadditions.multiblock.fusion_reactor.tooltip.1=開始に必要なEU: %s
 gtadditions.multiblock.central_monitor.height=スクリーンの縦幅:
@@ -2831,6 +2969,7 @@ gtadditions.multiblock.void_miner.description.2=毎秒、パイロジウムと�
 gtadditions.multiblock.void_miner.description.3=パイロジウムだけの場合は温度が上昇し、クリオジウムだけの場合は温度が低下します。
 gtadditions.multiblock.void_miner.description.4=最初はパイロジウムのみで温度を上昇させ、適正温度になった後はクリオジウムを加え調整する。
 gtadditions.multiblock.void_miner.description.5=温度が最高温度を超えると、ボイド鉱石採掘機は動作を停止し、ゆっくりと冷却します。 
+gtadditions.multiblock.void_miner.description.6=Consumes Drilling Mud and outputs Used Drilling Mud every second at the same rate as Pyrotheum.
 gtadditions.multiblock.large_transformer.description=大型変圧器は任意のGTEU/AMPSから任意のGTEU/AMPSに変換できます。
 gtadditions.multiblock.industrial_primitive_blast_furnace.description=産業用の原始的な高炉1～64列のスライス型のマルチブロックです。
 gregtech.machine.primitive_blast_furnace.industrial.tooltip.1=原始的な高炉の上位版です。
@@ -2854,15 +2993,20 @@ gtadditions.multiblock.alloy_blast_furnace.tooltip.1=電気高炉より速い
 gtadditions.multiblock.large_naquadah_reactor.tooltip.1=大型ナクアダ原子炉は効率低下がありません。
 gtadditions.multiblock.large_naquadah_reactor.tooltip.2=カリウムプラズマで出力をブーストできます。
 gtadditions.multiblock.large_naquadah_reactor.tooltip.3=中量ナクアダ燃料 => 1UV.
-gtadditions.multiblock.large_naquadah_reactor.tooltip.4=重量ナクアダ燃料 => 2UV.
-gtadditions.multiblock.large_naquadah_reactor.tooltip.5=濃縮中量ナクアダ燃料 => 2UV.
-gtadditions.multiblock.large_naquadah_reactor.tooltip.6=濃縮重量ナクアダ燃料 => 3UV.
+gregtech.multiblock.large_naquadah_reactor.tritium_amount=Tritium: %dmb
+gregtech.multiblock.large_naquadah_reactor.oxygen_amount=Oxygen Plasma: %sL
+gregtech.multiblock.large_naquadah_reactor.oxygen_boosted=Oxygen Plasma boosted.
+gregtech.multiblock.large_naquadah_reactor.supply_tritium_to_boost=Supply Oxygen Plasma to boost.
+gtadditions.multiblock.large_naquadah_reactor.description=Large Version of the Naquadah Reactor generator.
 gtadditions.multiblock.hyper_reactor.tooltip.1=増幅率: %s
 gtadditions.multiblock.hyper_reactor.tooltip.2=最大電圧: %,d
+gtadditions.multiblock.hyper_reactor.description=The Hyper Reactor uses Hyper Fuel to produce large amounts of power. The power output can be boosted with various fluids.
+gtadditions.multiblock.stellar_forge.description=The Stellar Forge produces late game materials using very powerful explosives.
 
 gtadditions.multiblock.battery_tower.tooltip.1=バッテリータワーは、大量のEUを保存できる大型のマルチブロックです。
 gtadditions.multiblock.battery_tower.tooltip.2=タワー内のパワーセルは全て同じティアである必要があり、タワーはティックごとに電圧ティアの %d%% を流します。
 gtadditions.multiblock.battery_tower.tooltip.3=エネルギー入力/出力のティアはパワーセルより高くすることはできません。
+gtadditions.multiblock.battery_tower.tooltip.4=Each maintenance problem increases loss by 5%%.
 
 gtadditions.multiblock.cosmic_ray_detector.tooltip.1=The Cosmic Ray Detector can't see the sky!
 gtadditions.multiblock.cosmic_ray_detector.tooltip.2=Produces Heavy Lepton Mix based on the Y-level it is built at.
@@ -2873,17 +3017,25 @@ gtadditions.multiblock.cosmic_ray_detector.tooltip.6=The top Sensor Block needs 
 
 
 gregtech.multiblock.recipe=スクリュードライバーでレシピを変更可能。現在の設定: %s
+
 gregtech.universal.tooltip.efficiency=効率: %s %%
+
 gregtech.multiblock.universal.energy_used=使用電力: %d EU
 gregtech.multiblock.universal.drilling_fluid_amount=現在の掘削液: %.2fmB
 gregtech.multiblock.universal.overheat=オーバーヒート!
+
 gregtech.machine.world_accelerator.mode.tile=Tile Entity Mode
 gregtech.machine.world_accelerator.mode.entity=Entity Mode
+
 gregtech.multiblock.universal.framework=ティア側の最大電圧 : %d EU/t
 gregtech.multiblock.universal.framework.tooltip=各パーツブロック(ピストンブロックなど)は上位になるほどティアも上がり、最大電圧を増加させます
+
+gregtech.multiblock.universal.component_casing.tooltip=The tier of this casing determines the maximum voltage the multiblock is able to run at. Any tier casing can be used.
+
 gregtech.multiblock.machine.primitive_blast_furnace.industrial.size=現在のサイズ: %d
 gregtech.multiblock.machine.primitive_blast_furnace.industrial.fuelUnitsLeft=Fuel Unit Left: %d Units
 gregtech.multiblock.machine.primitive_blast_furnace.industrial.fuelEfficiency=燃料効率: %d %%
+
 gregtech.multiblock.universal.carbon_dioxide_amount=二酸化炭素: %dmB
 gregtech.multiblock.universal.potassium_plasma_amount=カリウムプラズマ: %dmb
 gregtech.multiblock.universal.oxygen_plasma_amount=酸素プラズマ: %dmb
@@ -2891,17 +3043,22 @@ gregtech.multiblock.universal.helium_plasma_amount=ヘリウムプラズマ: %dm
 gregtech.multiblock.universal.cryotheum_amount=クリオジウム: %dmb
 gregtech.multiblock.universal.liquid_hydrogen_amount=液体水素: %dmB
 gregtech.multiblock.universal.air_amount=空気: %dmB
+
 gregtech.multiblock.large_rocket_engine.hydrogen_need=ブーストを可能にする水素: %dmB
 gregtech.multiblock.large_rocket_engine.boost=ブースト!
 gregtech.multiblock.large_rocket_engine.no_fuel=燃料が入っていない
+
 gregtech.multiblock.advanced_distillation_tower.multiplier=Current Multiplier: %d
+
 gregtech.multiblock.large_miner.chunk=チャンク: %d
 gregtech.multiblock.large_miner.nb_chunk=採掘するチャンク数: %d
 gregtech.multiblock.large_miner.mode=スクリュードライバーでモードを変更可能
 gregtech.multiblock.large_miner.block_per_tick=速度: %d Blocks/tick
 gregtech.multiblock.large_miner.silktouch=シルクタッチモード: %s
 gregtech.multiblock.large_miner.done=完了!
+
 gregtech.multiblock.universal.energy_store=%d EU / %d EU
+
 gregtech.multiblock.nuclear_reactor.coolant_needed=クーラントが必要: %d mb/s
 gregtech.multiblock.nuclear_reactor.coolant_ratio=Coolant Ratio: %d
 gregtech.multiblock.nuclear_reactor.not_enough_coolant=クーラントが足りない!
@@ -2909,23 +3066,48 @@ gregtech.multiblock.nuclear_reactor.base_heat=熱を生み出す能力: %d C/sec
 gregtech.multiblock.nuclear_reactor.additional_temperature=Additional Temperature: %d
 gregtech.multiblock.nuclear_reactor.rod_type=Rod Heat Factor: %d%%
 gregtech.multiblock.nuclear_reactor.produce=Produce Hot Coolant !
+
 gregtech.multiblock.large_transformer.input=入力: %s EU / %s Amps
 gregtech.multiblock.large_transformer.output=出力: %s EU / %s Amps
 gregtech.multiblock.large_transformer.input_average=Amps Input/t: %s
 gregtech.multiblock.large_transformer.output_average=Amps Output/t: %s
+
 gtadditions.multiblock.not_enough_qubit=Not enough Qubits, recipe slowed.
+
 gregicality.multiblock.invalid_configuraion.1=The Advanced Fusion Reactor is setup incorrectly.
 gregicality.multiblock.invalid_configuraion.2=The tier of the Cryostat, Vacuum and/or Divertor casings is lower than the coil tier.
+
 gtadditions.multiblock.drilling_rig.no_fluid=このチャンクには何もない
 gtadditions.multiblock.drilling_rig.fluid_drain=汲み上げ速度: %dmB/sec
+gtadditions.multiblock.drilling_rig.rig_production=Rig Production: %dmB/sec
 gtadditions.multiblock.drilling_rig.chunk_capacity=チャンクの埋蔵量: %dB
 gtadditions.multiblock.drilling_rig.chunk_remaining=チャンクの残り埋蔵量: %dB
 gtadditions.multiblock.drilling_rig.fluid=汲み上げる液体: %s
 gtadditions.multiblock.drilling_rig.replenish=掘削泥の消費量: %dmB/sec
+gtadditions.multiblock.drilling_rig.tooltip.1=Extracts fluids from underground veins. Use a Solar Fluid Sampler or LuV+ prospector to view fluids.
+gtadditions.multiblock.drilling_rig.tooltip.2=Requires §b%s§7 voltage or higher. Overclocks up to §b%s§7.
+gtadditions.multiblock.drilling_rig.tooltip.3=Overclocks significantly increase production and slightly increase depletion.
+gtadditions.multiblock.drilling_rig.tooltip.4=Produces §e%dmB§7 per second at §b%s§7.
+gtadditions.multiblock.drilling_rig.tooltip.5=Depletes veins at §eproduction / %d§7 mB per second.
+
 gtadditions.multiblock.battery_tower.input=EU/t 入力: %s
 gtadditions.multiblock.battery_tower.output=EU/t 出力: %s
 gtadditions.multiblock.battery_tower.passive_drain=Passive EU loss per tick: %s
 
+gtadditions.multiblock.blast_furnace.additional_temperature=Additional Temperature: %dK
+
+gtadditions.multiblock.mega_logic.tooltip.1=Max Parallel: §e256
+gtadditions.multiblock.mega_logic.tooltip.2=EU/t Usage: §eParallel Amount * Recipe EU/t * 0.5
+gtadditions.multiblock.mega_logic.tooltip.3=Duration Multiplier: §e%d
+
+gtadditions.multiblock.mega_blast_logic.tooltip.1=EU/t Usage: §eParallel Amount * Recipe EU/t
+gtadditions.multiblock.mega_blast_logic.tooltip.2=Prioritizes Parallel Recipes over Heating Coil Bonuses.
+
+gtadditions.multiblock.advanced_chemical_reactor.tooltip.1=Does not run in parallel when running chemical plant recipes.
+
+gtadditions.multiblock.preview.left_or_right=Can only be placed in the second layer, on the left or right sides, excluding the front and back faces
+gtadditions.multiblock.preview.rear_output=Can only be placed in the second layer in the center of the back face
+gtadditions.multiblock.preview.location_end=Can only be placed at the very end
 
 item.material.oreprefix.plateCurved=湾曲した%sプレート
 item.material.oreprefix.ingotDouble=2重の%sインゴット
@@ -3531,7 +3713,7 @@ fluid.xenon_trioxide=Xenon Trioxide
 fluid.cesium_fluoride=Caesium Fluoride
 fluid.cesium_xenontrioxide_fluoride=Caesium Xenontrioxide Fluoride
 fluid.radon_trioxide=Radon Trioxide
-fluid.naquadria_cesium_xenon_nonfluoride=Naqudria-Caesium-Xenonnonfluoride
+fluid.naquadria_cesium_xenon_nonfluoride=Naquadria-Caesium-Xenonnonfluoride
 fluid.nitryl_fluoride=Nitryl Fluoride
 fluid.nitrosonium_octafluoroxenate=Nitrosonium Octafluoroxenate
 fluid.naquadria_cesiumfluoride=Naquadria Caesiumfluoride
@@ -4057,6 +4239,75 @@ fluid.benzylamine=Benzylamine
 fluid.tetrahydrofuran=Tetrahydrofuran
 fluid.triethylamine=Triethylamine
 fluid.tetrafluoroboric_acid=Tetrafluoroboric Acid
+fluid.apatite_acidic_leach=Apatite Acidic Leach
+fluid.fluoroapatite_acidic_leach=Fluoropatite Acidic Leach
+fluid.hydroiodic_acid=Hydroiodic Acid
+fluid.chlorodiisopropyl_phosphine=Chlorodiisopropyl Phosphine
+fluid.kanthal_molten=Molten Kanthal
+fluid.nichrome_molten=Molten Nichrome
+fluid.niobium_nitride_molten=Molten Niobium Nitride
+fluid.niobium_titanium_molten=Molten Niobium-Titanium
+fluid.ultimet_molten=Molten Ultimet
+fluid.vanadium_gallium_molten=Molten Vanadium-Gallium
+fluid.yttrium_barium_cuprate_molten=Molten Yttrium Barium Cuprate
+fluid.osmiridium_molten=Molten Osmiridium
+fluid.black_bronze_molten=Molten Black Bronze
+fluid.tungsten_steel_molten=Molten Tungstensteel
+fluid.tungsten_carbide_molten=Molten Tungstencarbide
+fluid.hssg_molten=Molten HSS-G
+fluid.hsse_molten=Molten HSS-E
+fluid.hsss_molten=Molten HSS-S
+fluid.naquadah_alloy_molten=Molten Naquadah Alloy
+fluid.periodicium_molten=Molten Periodicium
+fluid.superheavy_l_alloy_molten=Molten Superheavy-L Alloy
+fluid.superheavy_h_alloy_molten=Molten Superheavy-H Alloy
+fluid.lithium_niobate_molten=Molten Lithium Niobate
+fluid.germanium_tungsten_nitride_molten=Molten Germanium Tungsten Nitride
+fluid.tantalum_hafnium_seaborgium_carbide_molten=Molten Tantalum Hafnium Seaborgium Carbide
+fluid.lithium_titanate_molten=Molten Lithium Titanate
+fluid.trinium_titanium_molten=Molten Trinium Titanium
+fluid.proto_adamantium_molten=Molten Proto Adamantium
+fluid.hdcs_molten=Molten High Durability Compound Steel
+fluid.cinobite_molten=Molten Cinobite
+fluid.uxv_superconductor_base_molten=Molten UXV Superconductor Base
+fluid.umv_superconductor_base_molten=Molten UMV Superconductor Base
+fluid.uiv_superconductor_base_molten=Molten UIV Superconductor Base
+fluid.uev_superconductor_base_molten=Molten UEV Superconductor Base
+fluid.uhv_superconductor_base_molten=Molten UHV Superconductor Base
+fluid.uv_superconductor_base_molten=Molten UV Superconductor Base
+fluid.zpm_superconductor_base_molten=Molten ZPM Superconductor Base
+fluid.luv_superconductor_base_molten=Molten LuV Superconductor Base
+fluid.iv_superconductor_base_molten=Molten IV Superconductor Base
+fluid.ev_superconductor_base_molten=Molten EV Superconductor Base
+fluid.hv_superconductor_base_molten=Molten HV Superconductor Base
+fluid.hastelloy_k243_molten=Molten Hastelloy K243
+fluid.hastelloy_x78_molten=Molten Hastelloy X78
+fluid.enriched_naquadah_alloy_molten=Molten Enriched Naquadah Alloy
+fluid.incoloy813_molten=Molten Incoloy 813
+fluid.abyssal_alloy_molten=Molten Abyssal Alloy
+fluid.naquadriatic_taranium_molten=Molten Naquadriatic Taranium
+fluid.zeron_molten=Molten Zeron
+fluid.lafium_molten=Molten Lafium
+fluid.pikyonium_molten=Molten Pikyonium
+fluid.inconel_b_molten=Molten Inconel 792
+fluid.titan_steel_molten=Molten Titan Steel
+fluid.tungsten_titanium_carbide_molten=Molten Tungsten Titanium Carbide
+fluid.black_titanium_molten=Molten Black Titanium
+fluid.quantum_molten=Molten Quantum
+fluid.ruridit_molten=Molten Ruridit
+fluid.rhodium_plated_palladium_molten=Molten Rhodium Plated Palladium
+fluid.incoloy_ma_molten=Molten Incoloy MA-956
+fluid.hg_alloy_molten=Molten HG-1223
+fluid.nitinol_a_molten=Molten Nitinol 60
+fluid.enderium_molten=Molten Enderium
+fluid.talonite_molten=Molten Talonite
+fluid.stellite_molten=Molten Stellite
+fluid.hastelloy_n_molten=Molten Hastelloy N
+fluid.staballoy_molten=Molten Staballoy
+fluid.maraging_steel_a_molten=Molten Maraging Steel 250
+fluid.inconel_a_molten=Molten Inconel 625
+fluid.grisium_molten=Molten Grisium
+
 
 gtadditions.machine.buffer.lv.name=Basic Buffer
 gtadditions.machine.buffer.mv.name=Advanced Buffer
@@ -4313,3 +4564,17 @@ metaitem.shape.extruder.gear.small.name=金型 (小さいギア)
 metaitem.shape.extruder.gear.small.tooltip=小さなギアを作るための金型
 metaitem.shape.extruder.rotor.name=金型 (ローター)
 metaitem.shape.extruder.rotor.tooltip=ローターを作るための金型
+
+gtadditions.multiblock.large_chemical_reactor.tooltip.1=This multiblock perfectly overclocks, meaning that for each tier, the energy usage per recipe remains the same.
+gtadditions.multiblock.large_chemical_reactor.tooltip.2=The coil also reduces the EU/t for each recipe by a certain amount, depending on the tier.
+gtadditions.multiblock.large_chemical_reactor.tooltip.3=Coils above §e2700K§7 provide a §c5%%§7 reduction in EU/t.
+gtadditions.multiblock.large_chemical_reactor.tooltip.4=Coils above §e3600K§7 provide a §c10%%§7 reduction in EU/t.
+gtadditions.multiblock.large_chemical_reactor.tooltip.5=Coils above §e5400K§7 provide a §c20%%§7 reduction in EU/t.
+
+gtadditions.multiblock.pyrolyse_oven.tooltip.1=For every tier higher of coil used, this multiblock will process one more recipe at a time.
+gtadditions.multiblock.pyrolyse_oven.tooltip.2=The coil's energy discount also applies to this multiblock as well.
+
+gtadditions.multiblock.electric_blast_furnace.tooltip.1=For every §a900K§7 above the recipe temperature, a multiplicative §a95%%§7 energy multiplier is applied pre-overclocking.
+gtadditions.multiblock.electric_blast_furnace.tooltip.2=For every §a1800K§7 above the recipe temperature, one overclock becomes §a100%%§7 efficient.
+gtadditions.multiblock.electric_blast_furnace.tooltip.3=For every voltage tier above §aMV§7, temperature is increased by §a100K§7.
+
